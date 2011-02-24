@@ -1,0 +1,15 @@
+{
+   "browser_action": {
+      "default_icon": "48.png",
+      "popup": "popup.html"
+   },
+   "description": "Live TV around the world.",
+   "icons": {
+      "128": "128.png",
+      "48": "48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDW/U6hpsu4WbKn1shEfJZlDhtMtGyP3dUgXKECmPF0/Mg/6vCldzFh6ZInFFchdrnzOdfD5+dBbIyzJ+47Fe1DrbuqQE0ehD0lxSYgo/idmo7W5iTSgYudzY5YVEZq9OjSFUtKpxC2u7MLVVhNbMMs8z2YkV5/yMaOtSMUCbyGSQIDAQAB",
+   "name": "Chrome TV",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.5"
+}

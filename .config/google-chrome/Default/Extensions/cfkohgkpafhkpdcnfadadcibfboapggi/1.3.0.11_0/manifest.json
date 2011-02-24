@@ -1,0 +1,24 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/browser_action/none.png",
+      "default_title": "__MSG_default_title__",
+      "popup": "popup.html"
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon/128.png",
+      "16": "images/icon/16.png",
+      "256": "images/icon/256.png",
+      "32": "images/icon/32.png",
+      "48": "images/icon/48.png",
+      "64": "images/icon/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCOctfBqLo7/RDDK924C35vIP6E+6+DAEXoU8BtpbZaVwnzz9zUauaa+uEgnBUFcFE1t9Z5Fq6DyLhVffLV5NZN5+h68ncrXIFGIyiN5jbCO5d3RHFZ23FnDfQeLdzTHkwEQIwm5OZOu4aX/w4sn7wfClvFG8+rh92RbdoWNguEQIDAQAB",
+   "name": "__MSG_name__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://mail.google.com/*", "https://mail.google.com/*", "http://www.google.com/reader/*", "https://www.google.com/reader/*", "http://www.google.com/voice/*", "https://www.google.com/voice/*", "http://wave.google.com/*", "https://wave.google.com/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.3.0.11"
+}

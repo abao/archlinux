@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Addons" oor:package="org.openoffice.Office">
+
+    <node oor:name="AddonUI">
+
+        <node oor:name="OfficeMenuBarMerging" oor:node-type="MergeMenuItems">
+            <node oor:name="org.openoffice.extensions.diagrams" oor:op="replace">
+                <node oor:name="S1" oor:op="replace">
+                    <prop oor:name="MergePoint" oor:type="xs:string">
+                        <value>.uno:InsertMenu\.uno:InsertObjectChart</value>
+                    </prop>
+                    <prop oor:name="MergeCommand" oor:type="xs:string">
+                        <value>AddAfter</value>
+                    </prop>
+                    <prop oor:name="MergeFallback" oor:type="xs:string">
+                        <value>AddPath</value>
+                    </prop>
+                    <prop oor:name="MergeContext" oor:type="xs:string">
+                        <value>com.sun.star.drawing.DrawingDocument,com.sun.star.presentation.PresentationDocument</value>
+                    </prop>
+
+                    <node oor:name="MenuItems" oor:node-type="MenuItem">
+                        <node oor:name="m1" oor:op="replace">
+                            <prop oor:name="URL" oor:type="xs:string">
+                                <value>org.openoffice.extensions.diagrams.diagrams:Diagrams</value>
+                            </prop>
+                            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                                <value/>
+                            </prop>
+                            <prop oor:name="Target" oor:type="xs:string">
+                                <value>_self</value>
+                            </prop>
+                            <prop oor:name="Context" oor:type="xs:string">
+                                <value>com.sun.star.drawing.DrawingDocument,com.sun.star.presentation.PresentationDocument</value>
+                            </prop>
+                            <prop oor:name="Title" oor:type="xs:string">
+                                <value xml:lang="en">Diagrams</value>
+                                <value xml:lang="hu">Diagramok</value>
+                            </prop>
+                        </node>
+                    </node>
+                </node>
+            </node>
+        </node>
+
+        <node oor:name="OfficeToolBar">
+            <node oor:name="Diagrams.OfficeToolBar" oor:op="replace">
+                <node oor:name="m1" oor:op="replace">
+                    <prop oor:name="Context" oor:type="xs:string">
+                        <value>com.sun.star.drawing.DrawingDocument,com.sun.star.presentation.PresentationDocument</value>
+                    </prop>
+                    <prop oor:name="URL" oor:type="xs:string">
+                        <value>org.openoffice.extensions.diagrams.diagrams:Diagrams</value>
+                    </prop>
+                    <prop oor:name="ImageIdentifier" oor:type="xs:string">
+                        <value />
+                    </prop>
+                    <prop oor:name="Title" oor:type="xs:string">
+                        <value xml:lang="en">Diagrams</value>
+                        <value xml:lang="hu">Diagramok</value>
+                    </prop>
+                    <prop oor:name="ControlType" oor:type="xs:string">
+                        <value>ImageButton</value>
+                    </prop>
+                    <prop oor:name="Target" oor:type="xs:string">
+                        <value>_self</value>
+                    </prop>
+		</node>
+            </node>
+	</node>
+
+        <node oor:name="Images">
+            <node oor:name="org.openoffice.extensions.diagrams.images" oor:op="replace">
+                <prop oor:name="URL" oor:type="xs:string">
+                    <value>org.openoffice.extensions.diagrams.diagrams:Diagrams</value>
+                </prop>
+                <node oor:name="UserDefinedImages">
+                    <prop oor:name="ImageSmallURL">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/Diagram/registry/data/org/openoffice/Office/../../../../../images/venn_small.png</value>
+                    </prop>
+                    <prop oor:name="ImageBigURL">
+                        <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/Diagram/registry/data/org/openoffice/Office/../../../../../images/venn_big.png</value>
+                    </prop>
+                </node>
+            </node>
+        </node>
+
+    </node>
+
+</oor:component-data>

@@ -1,0 +1,192 @@
+{
+   "accessibility": {
+      "message": "Erreichbarkeit"
+   },
+   "advancedOptions": {
+      "message": "Erweiterte Einstellungen"
+   },
+   "confirmDeleteFolderBookmarks": {
+      "message": "M\u00F6chten Sie wirklich den gesamten $folderName$ Ordner mit $bookmarkCount$ Lesezeichen l\u00F6schen?",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$2"
+         },
+         "folderName": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfolders": {
+      "message": "M\u00F6chten Sie wirklich den gesamten $folderName$ Ordner mit $subFolderCount$ Unterordnern l\u00F6schen?",
+      "placeholders": {
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfoldersBookmarks": {
+      "message": "M\u00F6chten Sie wirklich den gesamten $folderName$ Ordner, $subFolderCount$ Unterordner und $bookmarkCount$ Lesezeichen l\u00F6schen?",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$3"
+         },
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmOpenBookmarks": {
+      "description": "Sie haben alle Lesezeichen ge\u00F6ffnet.",
+      "message": "M\u00F6chten Sie wirklich alle $count$ Lesezeichen \u00F6ffnen?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewIncognitoWindow": {
+      "description": "Sie haben alle Lesezeichen in einem neuen Incognito-Fenster ge\u00F6ffnet.",
+      "message": "M\u00F6chten Sie wirklich alle Lesezeichen in einem neuen Incognito-Fenster \u00F6ffnen?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewWindow": {
+      "description": "Sie haben alle Lesezeichen in einem neuen Fenster ge\u00F6ffnet.",
+      "message": "M\u00F6chten Sie wirklich alle $count$ Lesezeichen in einem neuen Fenster \u00F6ffnen?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete": {
+      "message": "L\u00F6schen"
+   },
+   "deleteEllipsis": {
+      "message": "L\u00F6schen..."
+   },
+   "edit": {
+      "message": "Bearbeiten..."
+   },
+   "editBookmark": {
+      "message": "Lesezeichen bearbeiten"
+   },
+   "editFolder": {
+      "message": "Ordner bearbeiten"
+   },
+   "errorOccured": {
+      "message": "Upps, es ist ein Fehler aufgetreten."
+   },
+   "extDesc": {
+      "description": "Die Beschreibung der Erweiterung.",
+      "message": "Ein Neat Bookmarks Pop-Up."
+   },
+   "extName": {
+      "description": "Der Name der Erweiterung.",
+      "message": "Neat Bookmarks"
+   },
+   "general": {
+      "message": "Generell"
+   },
+   "ignore": {
+      "message": "Ignorieren"
+   },
+   "name": {
+      "description": "Der Name des Lesezeichen oder des Ordners.",
+      "message": "Name"
+   },
+   "noTitle": {
+      "description": "Lesezeichen oder Ordner ohne Namen oder Adresse.",
+      "message": "(kein Name)"
+   },
+   "nope": {
+      "message": "Nein"
+   },
+   "open": {
+      "description": "Aktion um Lesezeichen zu \u00F6ffnen.",
+      "message": "\u00D6ffnen"
+   },
+   "openBookmarks": {
+      "message": "Alle Lesezeichen \u00F6ffnen"
+   },
+   "openBookmarksIncognitoWindow": {
+      "message": "Alle Lesezeichen in einem Incognito-Fenster \u00F6ffnen"
+   },
+   "openBookmarksNewWindow": {
+      "message": "Alle Lesezeichen in einem neuen Fenster \u00F6ffnen"
+   },
+   "openIncognitoWindow": {
+      "message": "Incognito-Fenster \u00F6ffnen"
+   },
+   "openNewTab": {
+      "message": "Einen neuen Tab \u00F6ffnen"
+   },
+   "openNewWindow": {
+      "message": "Ein neues Fenster \u00F6ffnen"
+   },
+   "optionClickNewTab": {
+      "message": "Links-Klick \u00F6ffnet Lesezeichen in einem neuen Tab."
+   },
+   "optionCloseUnusedFolders": {
+      "message": "Schlie\u00DFe nicht genutzte Ordner beim \u00D6ffnen des Ordners."
+   },
+   "optionConfirmOpenFolder": {
+      "message": "Sie \u00F6ffnen nun sehr viele Lesezeichen von diesem Ordner."
+   },
+   "optionOpenNewTab": {
+      "message": "Mitte-Klick oder STRG+Klick \u00F6ffnet das Lesezeichen in einen neuen Hintergrund-Tab (anstatt im Vordergrund)."
+   },
+   "optionPopupStays": {
+      "message": "Das Pop-Up bleibt - beim \u00D6ffnen der Lesezeichen mit einem Links-Klick - ge\u00F6ffnet."
+   },
+   "optionRememberPrevState": {
+      "message": "Behalte vorherigen Status (Scroll-Position und ge\u00F6ffnete Lesezeichen)."
+   },
+   "optionZoom": {
+      "message": "Zoom"
+   },
+   "options": {
+      "message": "Einstellungen"
+   },
+   "optionsFooterText": {
+      "description": "Hier k\u00F6nnen Sie Ihre Einstellungen vornehmen.",
+      "message": "Von zsdr erstellt.",
+      "placeholders": {
+         "authorName": {
+            "content": "$1"
+         }
+      }
+   },
+   "parentFolder": {
+      "description": "Tooltip- Informationen zu den Lesezeichen des \u00FCbergeordneter Ordners.",
+      "message": "\u00DCbergeordneter Ordner: \"$folderName$\"",
+      "placeholders": {
+         "folderName": {
+            "content": "$1",
+            "example": "Lesezeichen-Leiste"
+         }
+      }
+   },
+   "reportError": {
+      "message": "Ein Fehler melden"
+   },
+   "save": {
+      "message": "Speichern"
+   },
+   "searchBookmarks": {
+      "description": "Suchen",
+      "message": "Lesezeichen suchen"
+   },
+   "url": {
+      "message": "URL"
+   }
+}

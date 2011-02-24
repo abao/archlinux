@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data 
+ xmlns:oor="http://openoffice.org/2001/registry"
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ oor:name="Addons"
+ oor:package="org.openoffice.Office">
+	<node oor:name="AddonUI">
+		<node oor:name="OfficeToolBar">
+			<node oor:name="typo.OfficeToolBar" oor:op="replace">
+				<node oor:name="m1" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.sc</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Small caps</value>
+						<value xml:lang="hu">Kiskapitális</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m2" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.oldnum</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Old style numbers</value>
+						<value xml:lang="hu">Ugráló számok</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m3" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.lig</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Ligatures (only f; f and rare; no ligatures)</value>
+						<value xml:lang="hu">Ligatúrák (csak f-; f- és ritka; nincs ligatúra)</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m4" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.umlaut</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">German umlaut variant</value>
+						<value xml:lang="hu">Umlautos nagybetűváltozat</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m5" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.propnum</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value></value>
+						<value xml:lang="en-US">Proportional digits</value>
+						<value xml:lang="hu">Arányosan elhelyezkedő számjegyek</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m6" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.index</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Digits as superiors/inferiors</value>
+						<value xml:lang="hu">Számjegyek felső vagy alsó indexben</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m7" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.thsep</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Thousand separator (from 5 or 4 digits)</value>
+						<value xml:lang="hu">Ezreselválasztó (5 vagy 4 számjegytől)</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m8" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.fraction</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Fraction</value>
+						<value xml:lang="hu">Tört</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m9" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.minus</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Minus sign</value>
+						<value xml:lang="hu">Mínuszjel</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m10" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.capitalize</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Capitalization (types: Fifty-one, FIFTY-ONE, Fifty-One)</value>
+						<value xml:lang="hu">Nagybetűsítés (típusok: Kétezer-egy, KÉTEZER-EGY, Kétezer-Egy</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m11" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.numbertext</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Number name</value>
+						<value xml:lang="hu">Számnév</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m12" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.ordinal</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Ordinal number name</value>
+						<value xml:lang="hu">Sorszámnév</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m13" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.ordabr</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Ordinal abbreviation</value>
+						<value xml:lang="hu">Angol sorszámnév-rövidítés</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m14" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.tex</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">TeX-mode (eg. a^2, H_2O, \alpha, \infty)</value>
+						<value xml:lang="hu">Tex-mód (pl. a^2, H_2O, \alpha, \infty)</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+				<node oor:name="m15" oor:op="replace">
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>macro:///typo.General.hyphenate</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="en-US">Fix missing Graphite hyphenation in OpenOffice.org 3.2 (Warning: resource intensive workaround!)</value>
+						<value xml:lang="hu">A hiányzó Graphite elválasztás javítása OpenOffice.org 3.2-n (Vigyázat: erőforrásigényes megoldás!)</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+				</node>
+			</node>
+		</node>
+	<node oor:name="Images">
+		<node oor:name="image-oldnum" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.oldnum</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/oldnum16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/oldnum.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-propnum" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.propnum</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/propnum16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/propnum.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-sc" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.sc</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/sc16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/sc.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-lig" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.lig</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/lig16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/lig.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-thsep" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.thsep</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/thsep16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/thsep.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-fraction" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.fraction</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/fraction16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/fraction.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-minus" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.minus</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/minus16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/minus.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-index" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.index</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/index16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/index.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-umlaut" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.umlaut</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/umlaut16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/umlaut.png</value>
+				</prop>
+			 </node>
+		</node>
+		<node oor:name="image-hyphenate" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.hyphenate</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/hyphenate16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/hyphenate.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-capitalize" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.capitalize</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/Ab_16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/Ab.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-numbertext" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.numbertext</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/num_16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/num.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-ordinal" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.ordinal</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/numero_16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/numero.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-ordabr" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.ordabr</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/1st_16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/1st.png</value>
+				</prop>
+			</node>
+		</node>
+		<node oor:name="image-tex" oor:op="replace">
+			<prop oor:name="URL" oor:type="xs:string">
+				<value>macro:///typo.General.tex</value>
+			</prop>
+			<node oor:name="UserDefinedImages">
+				<prop oor:name="ImageSmallURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/tex_16.png</value>
+				</prop>
+				<prop oor:name="ImageBigURL">
+					<value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/typo/icons/tex.png</value>
+				</prop>
+			</node>
+		</node>
+	</node>
+	</node>
+</oor:component-data>

@@ -1,0 +1,7 @@
+Solver for Nonlinear Problems;Usage
+
+Usage
+Regardless whether you use DEPS or SCO, you start by going to Tools → Solver and set the Cell to be optimized, the direction to go (minimization, maximization) and the cells to be modified to reach the goal. Then you go to the Options and specify the solver to be used and if necessary adjust the according parameters.
+There is also a list of constraints you can use to restrict the possible range of solutions or to penalize certain conditions. However, in case of the evolutionary solvers DEPS and SCO, these constraints are also used to specify bounds on the variables of the problem. Due to the random nature of the algorithms, it is highly recommended to do so and give upper (and in case "Assume Non-Negative Variables" is turned off also lower) bounds for all variables. They don't have to be near the actual solution (which is probably unknown) but should give a rough indication of the expected size (0 ≤ var ≤ 1 or maybe -1000000 ≤ var ≤ 1000000).
+Bounds are specified by selecting one or more variables (as range) on the left side and entering a numerical value (not a cell or a formula) on the right side. That way you can also choose one or more variables to be Integer or Binary only.
+

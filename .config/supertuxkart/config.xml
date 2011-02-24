@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<stkconfig version="8" >
+
+    <!-- Audio Settings
+             sfx_on : Whether sound effects are enabled or not (true or false)
+             music_on : Whether musics are enabled or not (true or false)
+             sfx_volume : Volume for sound effects, see openal AL_GAIN for interpretation
+             music_volume : Music volume from 0.0 to 1.0 -->
+    <Audio
+        sfx_on="true"
+        music_on="true"
+        sfx_volume="1.000000"
+        music_volume="0.700000"
+        />
+
+    <!-- Race Setup Settings
+             numkarts : Default number of karts. -1 means use all
+             numlaps : Default number of laps.
+             difficulty : Default race difficulty. 0=easy, 1=medium, 2=hard
+             game_mode : Game mode. 0=standard, 1=time trial, 2=follow the leader, 3=3 strikes -->
+    <RaceSetup
+        numkarts="4"
+        numlaps="4"
+        difficulty="0"
+        game_mode="0"
+        />
+
+    <!-- Kart to select by default (the last used kart) -->
+    <kart value="adiumy" />
+
+    <!-- Video Settings
+             width : Screen/window width in pixels
+             height : Screen/window height in pixels
+             prev_width : Previous screen/window width
+             prev_height : Previous screen/window height
+             steering_animations : Display steering animations in race
+             show_fps : Display frame per seconds
+             max_fps : Maximum fps, should be at least 60
+             renderer : Type of the renderer. -->
+    <Video
+        width="800"
+        height="600"
+        fullscreen="false"
+        prev_width="800"
+        prev_height="600"
+        prev_fullscreen="false"
+        gfx="true"
+        steering_animations="true"
+        show_fps="false"
+        max_fps="120"
+        renderer="0"
+        />
+
+    <!-- Information about last server used -->
+    <server_adress value="localhost" />
+
+    <!-- Information about last server used -->
+    <server_port value="2305" />
+
+    <!-- Graphics Quality Settings
+             anisotropic : Whether anisotropic filtering is allowed to be used (true or false)
+             trilinear : Whether trilinear filtering is allowed to be used (true or false) -->
+    <GFX
+        anisotropic="true"
+        trilinear="true"
+        />
+
+    <crashed value="false" />
+
+    <!-- Enable logging of stdout and stderr to logfile -->
+    <log_errors value="true" />
+
+    <!-- If the kart is driving backwards faster than this value,
+switch automatically to reverse camera (set to 0 to disable). -->
+    <reverse_look_threshold value="0" />
+
+    <!-- Name of the .items file to use. -->
+    <item_style value="items" />
+
+    <!-- Last selected kart group -->
+    <kart_group value="standard" />
+
+    <!-- Last selected track group -->
+    <track_group value="standard" />
+
+    <!-- Name of the last track used. -->
+    <last_track value="jungle" />
+
+    <!-- Name of the skin to use -->
+    <skin_file value="Peach.stkskin" />
+
+    <!-- The server used for addon. -->
+    <server_addons value="http://download.tuxfamily.org/stkaddons/0.7/" />
+
+    <!-- Represents one human player -->
+    <Player
+        name="Guest"
+        guest="true"
+        use_frequency="4"
+        />
+
+    <!-- Represents one human player -->
+    <Player
+        name="xie"
+        guest="false"
+        use_frequency="0"
+        />
+
+</stkconfig>

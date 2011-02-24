@@ -1,0 +1,56 @@
+扩展 "Dia Input" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:dia
+  描述:为了导入 Dia 文件, 必须安装 Dia.可以通过 http://www.gnome.org/projects/dia/ 获取Dia.
+
+扩展 "Sketch Input" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:skconvert
+
+扩展 "XFIG Input" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:fig2dev
+
+扩展 "DXF Output" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:pstoedit
+  描述:必须安装运行 pstoedit, 参看 http://www.pstoedit.net/pstoeit
+
+扩展 "EPS Input" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:ps2pdf
+
+扩展 "LaTeX formula" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:latex
+
+扩展 "LaTeX formula" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:dvips
+
+扩展 "LaTeX formula" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:pstoedit
+
+扩展 "PostScript Input" 加载失败依赖项不匹配.
+依赖:
+  类型:executable
+  位置:path
+  字符串:ps2pdf
+

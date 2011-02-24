@@ -1,0 +1,96 @@
+Solver for Nonlinear Problems;Options
+
+General Options
+Size of Swarm
+
+… defines the number of individuals to participate in the learning process. Each individual finds its own solutions and contributes to the overall knowledge.
+
+
+Learning Cycles
+
+… defines the number of iterations, the algorithm should take. In each iteration, all individuals make a guess on the best solution and share their knowledge.
+
+
+Variable Bounds Guessing
+
+If enabled (default), the algorithm tries to find variable bounds by looking at the starting values.
+
+
+Variable Bounds Threshold
+
+When guessing variable bounds, this threshold specifies, how the initial values are shifted to build the bounds. For an example how these values are calculated, please refer to the Manual in the Wiki.
+
+
+Use ACR Comparator
+
+If disabled (default), the BCH Comparator is used. It compares two individuals by first looking at their constraint violations and only if those are equal, it measures their current solution.
+If enabled, the ACR Comparator is used. It compares two individuals dependent on the current iteration and measures their goodness with knowledge about the libraries worst known solutions (in regard to their constraint violations).
+
+
+Use Random Starting Point
+
+If enabled, the library is simply filled up with randomly chosen points.
+If disabled, the currently present values (as given by the user) are inserted in the library as reference point.
+
+
+Stagnation Limit
+
+If this number of individuals found solutions within a close range, the iteration is stopped and the best of these values is chosen as optimal.
+
+
+Stagnation Tolerance
+
+Defines in what range solutions are considered “similar”.
+
+
+Show Enhanced Solver Status
+
+If enabled, an additional dialog is shown during the solving process which gives informations about the current progress, the level of stagnation, the currently best known solution as well as the possibility, to stop or resume the solver.
+
+
+
+DEPS-specific Options
+Agent Switch Rate
+
+Specifies the probability for an individual to choose the Differential Evolution strategy.
+
+
+DE: Crossover Probability
+
+… defines the probability of the individual being combined with the globally best point. If crossover is not used, the point is assembled from the own memory of the individual.
+
+
+DE: Scaling Factor
+
+During crossover, the scaling factor decides about the “speed” of movement.
+
+
+PS: Constriction Coefficient
+
+… defines the speed at which the particles/individuals move towards each other.
+
+
+PS: Cognitive Constant
+
+… sets the importance of the own memory (in particular the best reached point so far).
+
+
+PS: Social Constant
+
+… sets the importance of the global best point between all particles/individuals.
+
+
+PS: Mutation Probability
+
+… defines the probability, that instead of moving a component of the particle towards the best point, it randomly chooses a new value from the valid range for that variable.
+
+
+
+SCO-specific Options
+Size of Library
+
+… defines the amount of informations to store in the public library. Each individual stores knowledge there and asks for informations.
+
+
+
+

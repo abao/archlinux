@@ -1,0 +1,8 @@
+# Defaults file for avconvert, created 2010年 11月 15日 星期一 01:42:06 CST
+destdir=y
+autoloop=y
+zenityfix=y
+quiet=y
+trash=n
+imageext=none
+

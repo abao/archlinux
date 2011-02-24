@@ -1,0 +1,192 @@
+{
+   "accessibility": {
+      "message": "\u8F85\u52A9\u529F\u80FD"
+   },
+   "advancedOptions": {
+      "message": "\u9AD8\u7EA7\u9009\u9879"
+   },
+   "confirmDeleteFolderBookmarks": {
+      "message": "\u60A8\u786E\u5B9A\u8981\u5220\u9664\u6587\u4EF6\u5939[$folderName$]\uFF08\u5305\u542B $bookmarkCount$ \u4E2A\u4E66\u7B7E\uFF09\uFF1F",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$2"
+         },
+         "folderName": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfolders": {
+      "message": "\u60A8\u786E\u5B9A\u8981\u5220\u9664\u6587\u4EF6\u5939[$folderName$]\uFF08\u5305\u542B $subFolderCount$ \u4E2A\u5B50\u76EE\u5F55\uFF09\uFF1F",
+      "placeholders": {
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfoldersBookmarks": {
+      "message": "\u60A8\u786E\u5B9A\u8981\u5220\u9664\u6587\u4EF6\u5939[$folderName$]\uFF08\u5305\u542B $subFolderCount$ \u4E2A\u5B50\u76EE\u5F55\u548C $bookmarkCount$ \u4E2A\u4E66\u7B7E\uFF09\uFF1F",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$3"
+         },
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmOpenBookmarks": {
+      "description": "\u6253\u5F00\u6240\u6709\u4E66\u7B7E\u7684\u786E\u8BA4\u4FE1\u606F",
+      "message": "\u60A8\u786E\u5B9A\u8981\u6253\u5F00 $count$ \u4E2A\u4E66\u7B7E\uFF1F",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewIncognitoWindow": {
+      "description": "\u5728\u9690\u8EAB\u7A97\u53E3\u4E2D\u6253\u5F00\u6240\u6709\u4E66\u7B7E\u7684\u786E\u8BA4\u4FE1\u606F",
+      "message": "\u60A8\u786E\u5B9A\u8981\u5728\u9690\u8EAB\u7A97\u53E3\u4E2D\u6253\u5F00 $count$ \u4E2A\u4E66\u7B7E\uFF1F",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewWindow": {
+      "description": "\u5728\u65B0\u7A97\u53E3\u4E2D\u6253\u5F00\u6240\u6709\u4E66\u7B7E\u7684\u786E\u8BA4\u4FE1\u606F",
+      "message": "\u60A8\u786E\u5B9A\u8981\u5728\u65B0\u7A97\u53E3\u4E2D\u6253\u5F00 $count$ \u4E2A\u4E66\u7B7E\uFF1F",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete": {
+      "message": "\u5220\u9664"
+   },
+   "deleteEllipsis": {
+      "message": "\u5220\u9664 ..."
+   },
+   "edit": {
+      "message": "\u7DE8\u8F2F ..."
+   },
+   "editBookmark": {
+      "message": "\u7F16\u8F91\u4E66\u7B7E"
+   },
+   "editFolder": {
+      "message": "\u7F16\u8F91\u6587\u4EF6\u5939"
+   },
+   "errorOccured": {
+      "message": "\u6709\u9519\u8BEF\u51FA\u73B0"
+   },
+   "extDesc": {
+      "description": "\u6269\u5C55\u63CF\u8FF0",
+      "message": "\u7075\u5DE7\u5B9E\u7528\u7684\u4FA7\u7F6E\u4E66\u7B7E\u6269\u5C55"
+   },
+   "extName": {
+      "description": "\u6269\u5C55\u540D",
+      "message": "Neat Bookmarks"
+   },
+   "general": {
+      "message": "\u5E38\u89C4\u529F\u80FD"
+   },
+   "ignore": {
+      "message": "\u5FFD\u7565"
+   },
+   "name": {
+      "description": "\u4E66\u7B7E\u540D\u6216\u6587\u4EF6\u5939\u540D",
+      "message": "\u540D\u5B57"
+   },
+   "noTitle": {
+      "description": "\u6CA1 http(s) \u5F00\u5934\u7684\u4E66\u7B7E\u6216\u6CA1\u6709\u547D\u540D\u7684\u6587\u4EF6\u5939\u7684\u7EDF\u4E00\u6807\u9898",
+      "message": "\uFF08\u65E0\u6807\u9898\uFF09"
+   },
+   "nope": {
+      "message": "\u53D6\u6D88"
+   },
+   "open": {
+      "description": "\u6253\u5F00\u4E66\u7B7E\u7684\u52A8\u4F5C",
+      "message": "\u6253\u5F00"
+   },
+   "openBookmarks": {
+      "message": "\u6253\u5F00\u6240\u6709\u4E66\u7B7E"
+   },
+   "openBookmarksIncognitoWindow": {
+      "message": "\u5728\u9690\u8EAB\u7A97\u53E3\u4E2D\u6253\u5F00\u6240\u6709\u4E66\u7B7E"
+   },
+   "openBookmarksNewWindow": {
+      "message": "\u5728\u65B0\u7A97\u53E3\u4E2D\u6253\u5F00\u6240\u6709\u4E66\u7B7E"
+   },
+   "openIncognitoWindow": {
+      "message": "\u5728\u9690\u8EAB\u7A97\u53E3\u4E2D\u6253\u5F00"
+   },
+   "openNewTab": {
+      "message": "\u5728\u65B0\u6807\u7B7E\u9875\u4E2D\u6253\u5F00"
+   },
+   "openNewWindow": {
+      "message": "\u5728\u65B0\u7A97\u53E3\u4E2D\u6253\u5F00"
+   },
+   "optionClickNewTab": {
+      "message": "\u5DE6\u51FB\u4E66\u7B7E\u5728\u65B0\u6807\u7B7E\u9875\u4E2D\u6253\u5F00"
+   },
+   "optionCloseUnusedFolders": {
+      "message": "\u5C55\u5F00\u6587\u4EF6\u5939\u65F6\u6298\u53E0\u5176\u4ED6\u6587\u4EF6\u5939"
+   },
+   "optionConfirmOpenFolder": {
+      "message": "\u6253\u5F00\u591A\u4E2A\u4E66\u7B7E\u524D\u9700\u786E\u8BA4"
+   },
+   "optionOpenNewTab": {
+      "message": "\u7528\u9F20\u6807\u4E2D\u952E\u6216\u6309\u4F4F Ctrl \u952E\u5DE6\u51FB\u5728\u540E\u53F0\u6253\u5F00\u4E66\u7B7E"
+   },
+   "optionPopupStays": {
+      "message": "\u6253\u5F00\uFF08\u9F20\u6807\u5DE6\u51FB\uFF09\u4E66\u7B7E\u65F6 Popup \u9875\u9762\u4E0D\u5173\u95ED"
+   },
+   "optionRememberPrevState": {
+      "message": "\u8BB0\u4F4F\u4E0A\u6B21\u72B6\u6001\uFF08\u6EDA\u52A8\u6761\u4F4D\u7F6E\u3001\u6240\u6253\u5F00\u6587\u4EF6\u5939\uFF09"
+   },
+   "optionZoom": {
+      "message": "\u7F29\u653E"
+   },
+   "options": {
+      "message": "\u9009\u9879"
+   },
+   "optionsFooterText": {
+      "description": "\u9009\u9879\u9875\u7684\u9875\u811A\u4FE1\u606F",
+      "message": "\u4F5C\u8005\uFF1A$authorName$",
+      "placeholders": {
+         "authorName": {
+            "content": "$1"
+         }
+      }
+   },
+   "parentFolder": {
+      "description": "\u641C\u7D22\u7ED3\u679C\u5217\u8868\u4E2D\u63D0\u793A\u4E66\u7B7E\u6240\u5728\u76EE\u5F55",
+      "message": "\u6240\u5728\u76EE\u5F55\uFF1A$folderName$",
+      "placeholders": {
+         "folderName": {
+            "content": "$1",
+            "example": "\u4E66\u7B7E\u680F"
+         }
+      }
+   },
+   "reportError": {
+      "message": "\u62A5\u544A\u6B64\u9519\u8BEF"
+   },
+   "save": {
+      "message": "\u4FDD\u5B58"
+   },
+   "searchBookmarks": {
+      "description": "\u641C\u7D22\u6846\u91CC\u7684\u63D0\u793A\u6587\u5B57",
+      "message": "\u4E66\u7B7E\u641C\u7D22"
+   },
+   "url": {
+      "message": "\u7F51\u5740"
+   }
+}

@@ -1,0 +1,288 @@
+body{
+	direction: __MSG_@@bidi_dir__;
+	font: menu;
+	color: #000;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	cursor: default;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	overflow: hidden;
+	text-shadow: 0 1px #fff;
+	width: 320px;
+	height: 530px;
+}
+body.linux{
+	font-size: 12px;
+}
+body.transitional{
+	-webkit-transition-property: height;
+}
+input{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font: menu;
+}
+body.linux input{
+	font-size: 12px;
+}
+#search{
+	height: 30px;
+	padding: 0 2px;
+}
+#search input{
+	width: 100%;
+	margin: 2px 0;
+	padding: 2px;
+}
+#results,
+#tree{
+	position: absolute;
+	left: 0;
+	top: 30px;
+	bottom: 0;
+	background-color: #eee;
+	width: 100%;
+	overflow: auto;
+	outline: 0;
+	padding-top: 3px;
+	-webkit-box-shadow: inset 0 4px 4px -4px rgba(0,0,0,.1);
+}
+#results ul,
+#results ul li,
+#tree ul,
+#tree ul li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+#results ul li a,
+#tree ul li a,
+#tree ul li span{
+	display: block;
+	line-height: 1.67em;
+	padding: 0 4px;
+	text-decoration: none;
+	color: #000;
+	outline: 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+#results ul li a *,
+#tree ul li a *,
+#tree ul li span *{
+	pointer-events: none;
+}
+#tree ul li span .twisty{
+	display: inline-block;
+	position: relative;
+	width: 0;
+	height: 0;
+	border-width: 4.5px 0 4.5px 8px;
+	border-color: transparent transparent transparent #84919f;
+	border-style: solid;
+	margin: 0 4px;
+	-webkit-transition-property: -webkit-transform;
+	-webkit-transition-duration: .15s;
+}
+.chrome-536 #tree ul li span .twisty{ /* Chrome build 536 dev bug */
+	-webkit-transition-duration: 0s;
+}
+.rtl #tree ul li span .twisty{
+	-webkit-transform: scaleX(-1);
+}
+#tree ul li.open>span .twisty{
+	-webkit-transform: rotate(90deg);
+}
+.rtl #tree ul li.open>span .twisty{
+	-webkit-transform: scaleX(-1) rotate(90deg);
+}
+#results ul li a img,
+#results ul li span img,
+#tree ul li a img,
+#tree ul li span img{
+	margin-top: -2px;
+	vertical-align: middle;
+	margin-__MSG_@@bidi_end_edge__: 4px;
+}
+#results ul li i,
+#tree ul li i{
+	font-style: normal;
+}
+#results ul li a:hover i,
+#tree ul li a:hover i{
+	text-decoration: underline;
+}
+#results ul li a:active,
+#results ul li a.active,
+#results ul li a:focus,
+#tree ul li a:active,
+#tree ul li span:active,
+#tree ul li a.active,
+#tree ul li span.active,
+#tree ul li a:focus,
+#tree ul li span:focus,
+.context-menu li:focus{
+	color: #fff;
+	background-color: #4687cb;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6fa6de), to(#1e6cbb));
+	-webkit-box-shadow: 0 -1px #5594d2;
+	text-shadow: 0 0 rgba(255,255,255,.75), 0 1px rgba(0,0,0,.75);
+	outline: 0;
+}
+.searchFocus #results ul>li:first-child a{
+	background-color: rgba(43,93,205,.2);
+}
+#tree ul li span:active .twisty,
+#tree ul li span.active .twisty,
+#tree ul li span:focus .twisty{
+	border-color: transparent transparent transparent #e5eef8;
+}
+#tree ul ul{
+	height: 0;
+	overflow: hidden;
+}
+#tree .open>ul{
+	height: auto;
+}
+@-webkit-keyframes blueFade {
+	0% {
+		background-color: transparent;
+	}
+	10%{
+		background-color: rgba(43,93,205,.2);
+	}
+	100% {
+		background-color: transparent;
+	}
+}
+#tree ul li a.focus,
+#tree ul li span.focus{
+	-webkit-animation-name: blueFade;
+	-webkit-animation-duration: 3s;
+}
+.context-menu{
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: .3s;
+	opacity: 0;
+	margin: 0;
+	padding: 5px 0;
+	list-style: none;
+	position: absolute;
+	left: -999px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,.96);
+	box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,.2);
+	outline: 0;
+}
+.context-menu li{
+	padding: 0 10px;
+	line-height: 20px;
+	text-shadow: none;
+}
+.context-menu li.separator{
+	padding: 0;
+	height: 1px;
+	margin: 2px 0;
+	background-color: #eee;
+	pointer-events: none;
+}
+
+.context-menu.hide-editables li.separator,
+.context-menu.hide-editables li#folder-edit,
+.context-menu.hide-editables li#folder-delete{
+	display: none;
+}
+
+#resizer{
+	position: absolute;
+	width: 4px;
+	height: 100%;
+	__MSG_@@bidi_start_edge__: 0;
+	top: 0;
+	cursor: w-resize;
+}
+
+#cover{
+	position: absolute;
+	top: 0;
+	left: -100%;
+	bottom: 0;
+	width: 100%;
+	opacity: 0;
+	background-color: rgba(255,255,255,.5);
+}
+.transitional #cover{
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: .3s;
+}
+.needConfirm #cover,
+.needEdit #cover{
+	left: 0;
+	opacity: 1;
+}
+
+.dialog{
+	position: absolute;
+	top: -150px;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	background-color: #fff;
+	padding: 1em;
+	border-bottom: 1px solid #e0e0e0;
+	-webkit-box-shadow: 0 0 100px rgba(0,0,0,.1);
+	box-shadow: 0 0 100px rgba(0,0,0,.1);
+}
+.transitional .dialog{
+	-webkit-transition-property: opacity, top;
+	-webkit-transition-duration: .3s;
+}
+.dialog-text{
+	padding: 0;
+	margin: 0 0 1em;
+	line-height: 1.4em;
+	font-size: 110%;
+}
+.dialog .buttons{
+	text-align: __MSG_@@bidi_end_edge__;
+}
+.dialog .buttons button{
+	padding: .3em 1.5em;
+}
+.dialog pre{
+	white-space: pre-line;
+	margin: 0;
+	padding: 5px;
+	line-height: 1.1em;
+	-webkit-user-select: text;
+	cursor: text;
+	background-color: #fafafa;
+	text-shadow: none;
+}
+
+#edit-dialog .dialog-text{
+	margin: 0;
+	font-weight: bold;
+}
+#edit-dialog input{
+	width: 100%;
+	padding: 2px;
+}
+#edit-dialog input:invalid{
+	outline-color: red;
+}
+#edit-dialog .buttons button{
+	font-weight: bold;
+}
+
+.needConfirm #confirm-dialog,
+.needEdit #edit-dialog{
+	top: 0;
+	opacity: 1;
+}

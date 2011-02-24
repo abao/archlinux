@@ -1,0 +1,397 @@
+{
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "bookmark_bar": {
+      "show_on_all_tabs": true
+   },
+   "browser": {
+      "clear_data": {
+         "browsing_history": true,
+         "cache": true,
+         "cookies": false,
+         "download_history": true,
+         "form_data": true,
+         "passwords": false,
+         "time_period": 3
+      },
+      "custom_chrome_frame": false,
+      "show_home_button": true
+   },
+   "content_settings_window": {
+      "last_tab_index": 6
+   },
+   "countryid_at_install": 21843,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "instant_url": "{google:baseURL}webhp?{google:RLZ}sourceid=chrome-instant&ie={inputEncoding}&ion=1{searchTerms}",
+      "keyword": "google.com.hk",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": "",
+      "prompt_for_download": true
+   },
+   "extensions": {
+      "autoupdate": {
+         "last_check": "12942870673250056",
+         "next_check": "12943033934835865"
+      },
+      "blacklistupdate": {
+         "lastpingday": "12943008168197459"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "settings": {
+         "bipcpenphfgpdbpljfgiiafibonehdka": {
+            "granted_permissions": {
+               "full": false,
+               "host": [ "http://*/*", "https://*/*" ]
+            },
+            "incognito": false,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "convert.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               } ],
+               "description": "Remove unnecessary js code of Thunder links to enable it to be recognized by chrome. \u4FEE\u6539\u8FC5\u96F7\u4E0B\u8F7D\u94FE\u63A5\uFF0C\u4F7F\u4E4B\u80FD\u88ABchrome\u8BC6\u522B\u5E76\u542F\u52A8\u8FC5\u96F7\u3002",
+               "icons": {
+                  "128": "thunderprotocol.png",
+                  "16": "thunderprotocol.png",
+                  "48": "thunderprotocol.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjL1/2AITgvyDFQJM4wIW4yc7AfYZlyHi+njUpQVu7Xu1JHD6vMEvAVBbjnR/aEd0WKqKuMLSAVl3zJpFrvWY6hO3BP0KDDqdAIl16it71UKgN4J/Tu90b6+Wb7oIkPdQb3BDxMbRGeSh6gsjXVXfYPMLuVOsZmnHOks12sjWceQIDAQAB",
+               "name": "ThunderProtocol",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.1"
+            },
+            "path": "bipcpenphfgpdbpljfgiiafibonehdka/1.1_0",
+            "state": 1
+         },
+         "cfkohgkpafhkpdcnfadadcibfboapggi": {
+            "app_launcher_index": 23,
+            "granted_permissions": {
+               "api": [ "notifications", "tabs" ],
+               "full": false,
+               "host": [ "http://mail.google.com/*", "http://wave.google.com/*", "http://www.google.com/*", "https://mail.google.com/*", "https://wave.google.com/*", "https://www.google.com/*" ]
+            },
+            "incognito": false,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "browser_action": {
+                  "default_icon": "images/browser_action/logo.png",
+                  "default_popup": "popup.html",
+                  "default_title": "One Number"
+               },
+               "current_locale": "zh_CN",
+               "default_locale": "en",
+               "description": "Check GMail, Google Reader, Google Voice, and Google Wave.  Many sources, one number.",
+               "icons": {
+                  "128": "images/icon/128.png",
+                  "16": "images/icon/16.png",
+                  "256": "images/icon/256.png",
+                  "32": "images/icon/32.png",
+                  "48": "images/icon/48.png",
+                  "64": "images/icon/64.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCOctfBqLo7/RDDK924C35vIP6E+6+DAEXoU8BtpbZaVwnzz9zUauaa+uEgnBUFcFE1t9Z5Fq6DyLhVffLV5NZN5+h68ncrXIFGIyiN5jbCO5d3RHFZ23FnDfQeLdzTHkwEQIwm5OZOu4aX/w4sn7wfClvFG8+rh92RbdoWNguEQIDAQAB",
+               "name": "One Number",
+               "options_page": "options.html",
+               "permissions": [ "tabs", "notifications", "http://mail.google.com/*", "https://mail.google.com/*", "http://www.google.com/reader/*", "https://www.google.com/reader/*", "http://www.google.com/voice/*", "https://www.google.com/voice/*", "http://wave.google.com/*", "https://wave.google.com/*" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.5.2.14"
+            },
+            "path": "cfkohgkpafhkpdcnfadadcibfboapggi/1.5.2.14_0",
+            "state": 1
+         },
+         "gighmmpiobklfepjocnamgkkbiglidom": {
+            "app_launcher_index": 26,
+            "granted_permissions": {
+               "api": [ "contextMenus", "tabs" ],
+               "full": false,
+               "host": [ "http://*/*", "https://*/*" ]
+            },
+            "incognito": false,
+            "install_warning_on_enable": true,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "browser_action": {
+                  "default_icon": "img/icon19.png",
+                  "default_title": "AdBlock \u9009\u9879",
+                  "popup": "button/popup.html"
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "port.js", "jquery/jquery-1.4.4-hacked-up.min.js", "functions.js", "broadcast_channel.js", "filtering/filteroptions.js", "filtering/fifocache.js", "filtering/filtertypes.js", "filtering/filterset.js", "adblock_start.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": true,
+                  "js": [ "blacklisting/overlay.js", "blacklisting/clickwatcher.js", "blacklisting/elementchain.js", "blacklisting/blacklistui.js", "blacklister.js", "whitelister.js", "adblock.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_end"
+               } ],
+               "current_locale": "zh_CN",
+               "default_locale": "en",
+               "description": "\u6700\u53D7\u6B22\u8FCE\u7684Google \u6D4F\u89C8\u5668\u6269\u5145\u529F\u80FD\uFF0C\u62E5\u6709\u8D85\u8FC7150 \u4E07\u4F4D\u4F7F\u7528\u8005\uFF01\u963B\u6321\u7F51\u8DEF\u4E0A\u6240\u6709\u7684\u5E7F\u544A\u3002",
+               "icons": {
+                  "128": "img/icon128.png",
+                  "16": "img/icon16.png",
+                  "48": "img/icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZWWNkerYNFB0SIg87WwcrcniMYkCqxLz4OB3CLNoogUUsHN+Rk9vRB7o3Jjc4shlz2LBvAbtPbrGkU+NK9Hc3ubVydzpnoRDEl1RKz3GhqKFkECvTyAxrsKainXH+4Ni2+K7bg1U0tLoQMPJ9f3ieYLIwXeHh9+lYXQi6soq0pwIDAQAB",
+               "minimum_chrome_version": "6",
+               "name": "AdBlock",
+               "options_page": "options/index.html",
+               "permissions": [ "http://*/*", "https://*/*", "contextMenus", "tabs" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "2.3.3"
+            },
+            "path": "gighmmpiobklfepjocnamgkkbiglidom/2.3.3_0",
+            "state": 1
+         },
+         "jgbalphdbabbndjidpoacmfgjaniipcj": {
+            "granted_permissions": {
+               "api": [ "tabs" ],
+               "full": false
+            },
+            "incognito": false,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "browser_action": {
+                  "default_icon": "logo19.png",
+                  "default_title": "\u70B9\u51FB\u6309\u94AE\u8FDB\u5165\u201C\u4E0B\u8F7D\u5185\u5BB9\u201D\u7A97\u53E3\u3002(Ctrl+J)",
+                  "popup": "popup.html"
+               },
+               "current_locale": "zh_CN",
+               "default_locale": "en",
+               "description": "\u70B9\u51FB\u6309\u94AE\u8FDB\u5165\u201C\u4E0B\u8F7D\u5185\u5BB9\u201D\u7A97\u53E3\u3002(Ctrl+J)",
+               "icons": {
+                  "128": "logo128.png",
+                  "16": "logo16.png",
+                  "32": "logo32.png",
+                  "48": "logo48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwB3HmzWMqpmHv4oa/mePFwmJeH3tPVSIjb9ZxyiHIHDw7qj6Uu2qJBVqtpVZu9du93emveLMyLX1sGuILzByN8K0LyEDoOzM6U5WyNn9LrOoRjobSZYZZ9LD5DuiKxAuSwDWY+Im9WJ/9L1hIZgk4uS25mwuruuknOXcRkJ/+RQIDAQAB",
+               "name": "\u4E0B\u8F7D\u5185\u5BB9",
+               "permissions": [ "tabs" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.0.3"
+            },
+            "path": "jgbalphdbabbndjidpoacmfgjaniipcj/1.0.3_0",
+            "state": 1
+         },
+         "kjdehhkgdgjcekacdccoflccmhbkefce": {
+            "app_launcher_index": 27,
+            "granted_permissions": {
+               "api": [ "notifications", "tabs" ],
+               "full": false
+            },
+            "incognito": true,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "current_locale": "zh_CN",
+               "default_locale": "en",
+               "description": "The fastest way to load the web page through a fast/stable web proxy. You just need click a button to use it. o(\u2229_\u2229)o ",
+               "icons": {
+                  "12": "icon.png",
+                  "128": "icon.png",
+                  "48": "icon.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8bmNZJ4wjNmR+G9Y3GoBgUVuaspyMXvJH3yB1kYrIblvAZ+AVnpUCQpBlnvrmyeZ1ra14k3fbUCxwOCxmfBj4sZbO91C8/KuTqP+5p9rH8+zyU54qdTwwuh9TG7b+PA7j1wbFIIiPTw9XDOHkcb3HggZ1PiOKyOsxz89rltKRSwIDAQAB",
+               "name": "1-Click Web Proxy",
+               "page_action": {
+                  "default_icon": "icon.png",
+                  "default_title": "1-Click Web Proxy"
+               },
+               "permissions": [ "tabs", "notifications" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "1.8.3.6"
+            },
+            "path": "kjdehhkgdgjcekacdccoflccmhbkefce/1.8.3.6_0",
+            "state": 1
+         },
+         "lambangeielkjcnmioccboaphdfcffib": {
+            "app_launcher_index": 29,
+            "granted_permissions": {
+               "full": false
+            },
+            "incognito": false,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "browser_action": {
+                  "default_icon": "48.png",
+                  "popup": "popup.html"
+               },
+               "description": "Live TV around the world.",
+               "icons": {
+                  "128": "128.png",
+                  "48": "48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDW/U6hpsu4WbKn1shEfJZlDhtMtGyP3dUgXKECmPF0/Mg/6vCldzFh6ZInFFchdrnzOdfD5+dBbIyzJ+47Fe1DrbuqQE0ehD0lxSYgo/idmo7W5iTSgYudzY5YVEZq9OjSFUtKpxC2u7MLVVhNbMMs8z2YkV5/yMaOtSMUCbyGSQIDAQAB",
+               "name": "Chrome TV",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "2.0.5"
+            },
+            "path": "lambangeielkjcnmioccboaphdfcffib/2.0.5_0",
+            "state": 1
+         },
+         "nnancliccjabjjmipbpjkfbijifaainp": {
+            "app_launcher_index": 20,
+            "granted_permissions": {
+               "api": [ "bookmarks", "tabs" ],
+               "full": false,
+               "host": [ "chrome://favicon/*", "http://*/*", "https://*/*" ]
+            },
+            "incognito": false,
+            "lastpingday": "12943008167866249",
+            "location": 1,
+            "manifest": {
+               "background_page": "background.html",
+               "browser_action": {
+                  "default_icon": "icon.png",
+                  "popup": "popup.html"
+               },
+               "current_locale": "zh_CN",
+               "default_locale": "en",
+               "description": "\u7075\u5DE7\u5B9E\u7528\u7684\u4FA7\u7F6E\u4E66\u7B7E\u6269\u5C55",
+               "icons": {
+                  "128": "icon128.png",
+                  "16": "icon16.png",
+                  "48": "icon48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMue8bLekXQ30mGQrs4jDdPLZE+aX6oFR4F3tTsoq1h0Fx44npp8E2fodgsE1SQniTJyNK2O1wCEXt59r4Vuk1fLhWLQvnxBXsb5Fsvjmq4ZM0QKym93hS+XSGX3cZ9EUJZEFQJBGF89iK8Qzk5yXgpweFsLrF225ayXxTJBZBFQIDAQAB",
+               "minimum_chrome_version": "7",
+               "name": "Neat Bookmarks",
+               "options_page": "options.html",
+               "permissions": [ "http://*/*", "https://*/*", "chrome://favicon/", "bookmarks", "tabs" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "0.8.3"
+            },
+            "path": "nnancliccjabjjmipbpjkfbijifaainp/0.8.3_0",
+            "state": 1
+         }
+      },
+      "theme": {
+         "id": "",
+         "use_system": true
+      },
+      "toolbar": [ "jgbalphdbabbndjidpoacmfgjaniipcj", "cfkohgkpafhkpdcnfadadcibfboapggi", "nnancliccjabjjmipbpjkfbijifaainp", "lambangeielkjcnmioccboaphdfcffib", "gighmmpiobklfepjocnamgkkbiglidom" ],
+      "toolbarsize": -1
+   },
+   "google": {
+      "services": {
+         "username": "xiebaocheng@gmail.com"
+      }
+   },
+   "homepage": "about:blank",
+   "homepage_is_newtabpage": false,
+   "instant": {
+      "confirm_dialog_shown": true,
+      "enabled": true,
+      "enabled_once": true,
+      "enabled_time": "12941360988274717"
+   },
+   "intl": {
+      "charset_default": "gb18030"
+   },
+   "ntp": {
+      "alt_logo_resource_server": "https://www.google.com/support/chrome/bin/topic/30248/inproduct",
+      "pref_version": 3,
+      "shown_sections": 1,
+      "web_resource_cache_update": "1298391730.477817"
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true,
+      "last_internal_directory": "/usr/lib/chromium",
+      "plugins_list": [ {
+         "enabled": true,
+         "name": "Shockwave Flash",
+         "path": "/usr/lib/mozilla/plugins/libflashplayer.so",
+         "version": ""
+      }, {
+         "enabled": true,
+         "name": "Default Plug-in",
+         "path": "default_plugin",
+         "version": "1"
+      }, {
+         "enabled": true,
+         "name": "Default Plug-in"
+      }, {
+         "enabled": true,
+         "name": "Shockwave Flash"
+      } ]
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": false,
+      "notification_allowed_sites": [ "http://web2.qq.com/" ],
+      "password_manager_enabled": false
+   },
+   "selectfile": {
+      "last_directory": "/home/xie/Downloads"
+   },
+   "session": {
+      "restore_on_startup": 1
+   },
+   "sync": {
+      "apps": true,
+      "autofill": true,
+      "bookmarks": true,
+      "credentials_migrated": true,
+      "extensions": true,
+      "has_setup_completed": true,
+      "keep_everything_synced": true,
+      "last_synced_time": "12943020295573655",
+      "preferences": true,
+      "suppress_start": false,
+      "themes": true
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   },
+   "translate": {
+      "enabled": false
+   },
+   "translate_accepted_count": {
+      "en": 0
+   },
+   "translate_denied_count": {
+      "en": 6
+   },
+   "translate_language_blacklist": [ "en" ],
+   "webkit": {
+      "webprefs": {
+         "default_fixed_font_size": 16,
+         "default_font_size": 17,
+         "fixed_font_family": "\u6587\u6CC9\u9A7F\u5FAE\u7C73\u9ED1",
+         "inspector_settings": {
+            "lastActivePanel": "elements"
+         },
+         "sansserif_font_family": "WenQuanYi Zen Hei",
+         "serif_font_family": "\u6587\u6CC9\u9A7F\u5FAE\u7C73\u9ED1"
+      }
+   }
+}

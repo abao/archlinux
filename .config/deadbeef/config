@@ -1,0 +1,112 @@
+ape.write_apev2 1
+ape.write_id3v2 1
+artwork.cache.period 48
+artwork.cache_reset_time 129199552
+artwork.enable_albumartorg 1
+artwork.enable_embedded 1
+artwork.enable_lastfm 1
+artwork.enable_localfolder 1
+artwork.filemask *cover*.jpg;*front*.jpg
+cli_add_playlist_name Default
+cli_add_to_specific_playlist 1
+close_send_to_tray 0
+eq.band0 1.0000000
+eq.band1 1.0000000
+eq.band10 1.0000000
+eq.band11 1.0000000
+eq.band12 1.0000000
+eq.band13 1.0000000
+eq.band14 1.0000000
+eq.band15 1.0000000
+eq.band16 1.0000000
+eq.band17 1.0000000
+eq.band2 1.0000000
+eq.band3 1.0000000
+eq.band4 1.0000000
+eq.band5 1.0000000
+eq.band6 1.0000000
+eq.band7 1.0000000
+eq.band8 1.0000000
+eq.band9 1.0000000
+eq.preamp 1.0000000
+filechooser.lastdir file:///home/xie/Desktop/%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0
+gtkui.color.tabstrip_base 5138 3318 3318
+gtkui.color.tabstrip_dark 5667 3846 3846
+gtkui.color.tabstrip_mid 3103 69 69
+gtkui.custom_tray_icon deadbeef-tray-icon
+gtkui.delete_files_ask 1
+gtkui.eq.visible 0
+gtkui.headers.visible 1
+gtkui.mmb_delete_playlist 0
+gtkui.override_bar_colors 0
+gtkui.override_listview_colors 0
+gtkui.override_tabstrip_colors 1
+gtkui.statusbar.visible 1
+gtkui.sync 0
+gtkui.tabs.visible 1
+gtkui.tabscroll 0
+gtkui.titlebar_playing %a - %t - DeaDBeeF-%V
+gtkui.titlebar_stopped DeaDBeeF-%V
+gtkui.tray_volume_sensitivity 1
+mainwin.geometry.h 447
+mainwin.geometry.w 715
+mainwin.geometry.x 500
+mainwin.geometry.y 63
+mp3.id3v1_encoding iso8859-1
+mp3.id3v2_version 3
+mp3.write_id3v1 1
+mp3.write_id3v2 1
+network.proxy.port 8080
+network.proxy.type HTTP
+notify.enable 0
+notify.format %a - %t
+output_plugin ALSA output plugin
+playback.loop 0
+playback.order 0
+playback.volume -3.571428
+playlist.column.0 "Playing" "" 1 81 0
+playlist.column.1 "Artist / Album" "%a - %b" -1 385 0
+playlist.column.2 "Title / Track Artist" "%t" -1 150 0
+playlist.column.3 "Duration" "%l" -1 50 0
+playlist.current 0
+playlist.cursor.0 0
+playlist.cursor.1 0
+playlist.cursor.2 3
+playlist.cursor.3 0
+playlist.cursor.4 2
+playlist.cursor.5 0
+playlist.cursor.6 6
+playlist.cursor.7 2
+playlist.cursor.8 12
+playlist.cursor.9 2
+playlist.group_by %a
+playlist.scroll.0 0
+playlist.scroll.1 0
+playlist.scroll.2 0
+playlist.scroll.3 0
+playlist.scroll.4 0
+playlist.scroll.5 0
+playlist.scroll.6 0
+playlist.scroll.7 0
+playlist.scroll.8 280
+playlist.scroll.followplayback 0
+playlist.tab.00 Default
+playlist.tab.01 New Playlist
+playlist.tab.02 新播放列表
+playlist.tab.03 新播放列表(1)
+playlist.tab.04 Tenacious D
+playlist.tab.05 新播放列表(3)
+playlist.tab.06 新播放列表(4)
+playlist.tab.07 sleep
+playlist.tab.08 relax and sleep
+playlist.tab.09 新播放列表(2)
+replaygain_mode 0
+replaygain_scale 1
+resume.paused 0
+resume.playlist 0
+resume.position -1.000000
+resume.track -1
+src_quality 2
+supereq.enable 0
+wv.write_apev2 1
+wv.write_id3v1 1

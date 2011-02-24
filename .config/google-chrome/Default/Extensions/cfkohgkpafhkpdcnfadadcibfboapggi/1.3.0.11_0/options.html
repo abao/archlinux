@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html i18n-values="style:textdirection;">
+  <!-- Some HTML/JS source and images borrowed from Chrome for UI consistancy.
+		-->
+  <head>
+    <title i18n-content="options_title">One Number Options</title>
+    <meta charset="utf-8" /> 
+    <link rel="icon" type="image/png" href="images/pages/favicon.png" />
+		<link rel="stylesheet" href="styles/common.css" type="text/css" />
+    <style type="text/css">
+      input[type="checkbox"] {
+        vertical-align: -15%;
+      }
+      #update input[type=text] {
+        width: 25px;
+      }
+      #buttons {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        
+        text-align: right;
+      }
+      .color {
+        width: 48px;
+        height: 48px;
+        display: inline-block;
+        border: 1px solid #b5c7de;
+        vertical-align: middle;
+      }
+      .colorbox input[type=text] {
+        width: 75px;
+      }
+      .colorbox {
+        margin-bottom: 1em;
+      }
+      .colorbox:last-child {
+        margin-bottom: 0em;
+      }
+      button {
+        width: 75px;
+        height: 23px;
+      }
+      .indent {
+        padding-left: 16px;
+      }
+      p {
+        font-weight: bold;
+        margin-top: 1em;
+        margin-bottom: 0px;
+      }
+      p:first-child {
+        margin-top: 0px;
+      }
+    </style>
+		<script type="text/javascript" src="scripts/pages.js"></script>
+    <script type="text/javascript">
+      function colorArrayToRRGGBBAA(a) {
+        var ret = "";
+        for (var i = 0; i < a.length && i < 4; i++) {
+          var hex = a[i].toString(16).toUpperCase();
+          while (hex.length < 2) {
+            hex = "0" + hex;
+          }
+          ret += hex;
+        }
+        return ret;
+      }
+      
+      function colorRRGGBBAAToArray(s) {
+        var a = [0, 0, 0, 255];
+        for (var i = 0; i < s.length; i += 2) {
+          var hex = s.substr(i, 2);
+          if (hex.length == 1) {
+            hex += "0";
+          }
+          if (hex.length > 0) {
+            a[i / 2] = parseInt(hex, 16);
+          }
+        }
+        
+        return a;
+      }
+      
+      function colorChanged(id) {
+        var textbox = document.getElementById(id);
+        var preview = document.getElementById(id + "preview");
+        var a = colorRRGGBBAAToArray(textbox.value);
+        
+        preview.style.backgroundColor = "rgb(" + a[0] + ", " + a[1] + ", " +
+          a[2] + ")";
+        preview.style.opacity = a[3] / 255;
+        
+        itemChanged();
+      }
+      
+      function colorKey(id) {
+        window.setTimeout(function() { colorChanged(id); }, 100);
+      }
+      
+      function itemChanged() {
+        document.getElementById("ok").disabled = "";
+        document.getElementById("cancel").textContent = chrome.i18n.
+					getMessage("cancel");
+        document.getElementById("apply").disabled = "";
+      }
+
+      function resetSettings() {
+        var bg = chrome.extension.getBackgroundPage();
+        var u = bg.updater;
+        
+        document.getElementById("oneclickopenunread").checked = u.
+          getOneClickOpenUnread();
+        document.getElementById("openhiddenunread").checked = u.
+          getOpenHiddenUnread();
+        document.getElementById("protocol").checked = (u.getProtocol() ==
+          "https");
+        document.getElementById("openinnewwindow").checked = u.
+          getOpenInNewWindow();
+        document.getElementById("reusetabs").checked = u.
+          getReuseTabs();
+        document.getElementById("bepickyaboutreuse").checked = u.
+          getBePickyAboutReuse();
+                
+        document.getElementById("updateint").value = u.getUpdateInterval() /
+          1000;
+        document.getElementById("timeout").value = u.getTimeout() / 1000;
+          
+        document.getElementById("showerror").checked = u.getShowError();
+        document.getElementById("errorcolor").value = colorArrayToRRGGBBAA(u.
+          getErrorColor());
+        colorChanged("errorcolor");
+        document.getElementById("showloggedout").checked = u.getShowLoggedOut();
+        document.getElementById("loggedoutcolor").value = colorArrayToRRGGBBAA(
+          u.getLoggedOutColor());
+        colorChanged("loggedoutcolor");
+        document.getElementById("multicolor").value = colorArrayToRRGGBBAA(u.
+          getMultiColor());
+        colorChanged("multicolor");
+
+        document.getElementById("gmenable").checked = bg.gm.getEnabled();
+        document.getElementById("gmshowonbadge").checked = bg.gm.
+          getShowOnBadge();
+        document.getElementById("gmshowall").checked = bg.gm.getShowAll();
+        
+        var x = localStorage.gmAppsDomain;
+        if (x == null) {
+          x = "";
+        }
+        document.getElementById("gmappsdomain").value = x;
+        
+        document.getElementById("gmcolor").value = colorArrayToRRGGBBAA(
+          chrome.extension.getBackgroundPage().gm.getColor());
+        colorChanged("gmcolor");
+          
+        document.getElementById("grenable").checked = bg.gr.getEnabled();
+        document.getElementById("grshowonbadge").checked = bg.gr.
+          getShowOnBadge();
+        document.getElementById("grcolor").value = colorArrayToRRGGBBAA(bg.gr.
+          getColor());
+        colorChanged("grcolor");
+          
+        document.getElementById("gvenable").checked = bg.gv.getEnabled();
+        document.getElementById("gvshowonbadge").checked = bg.gv.
+          getShowOnBadge();
+        document.getElementById("gvshowall").checked = bg.gv.getShowAll();
+        document.getElementById("gvcolor").value = colorArrayToRRGGBBAA(bg.gv.
+          getColor());
+        colorChanged("gvcolor");
+        
+        document.getElementById("gwenable").checked = bg.gw.getEnabled();
+        document.getElementById("gwshowonbadge").checked = bg.gw.
+          getShowOnBadge();
+        
+        var x = localStorage.gwAppsDomain;
+        if (x == null) {
+          x = "";
+        }
+        document.getElementById("gwappsdomain").value = x;
+
+        x = localStorage.gwMinimizeNav;
+        if (x == null) {
+          x = false;
+        } else if (typeof x == "string") {
+          x = (x == "true");
+        }
+        document.getElementById("gwminnav").checked = x;
+        
+        x = localStorage.gwMinimizeContact;
+        if (x == null) {
+          x = false;
+        } else if (typeof x == "string") {
+          x = (x == "true");
+        }
+        document.getElementById("gwmincontact").checked = x;
+        
+        x = localStorage.gwMinimizeSearch;
+        if (x == null) {
+          x = false;
+        } else if (typeof x == "string") {
+          x = (x == "true");
+        }
+        document.getElementById("gwminsearch").checked = x;
+          
+        document.getElementById("gwcolor").value = colorArrayToRRGGBBAA(bg.gw.
+          getColor());
+        colorChanged("gwcolor");
+        
+        document.getElementById("ok").disabled = "disabled";
+        document.getElementById("cancel").textContent = "Close";
+        document.getElementById("apply").disabled = "disabled";
+      }
+      
+      function applySettings() {
+        var bg = chrome.extension.getBackgroundPage();
+        var u = bg.updater;
+
+        localStorage.oneClickOpenUnread = document.getElementById(
+          "oneclickopenunread").checked;
+        localStorage.openHiddenUnread = document.getElementById(
+          "openhiddenunread").checked;
+        localStorage.protocol = document.getElementById("protocol").checked;
+        localStorage.openInNewWindow = document.getElementById(
+          "openinnewwindow").checked;
+        localStorage.reuseTabs = document.getElementById("reusetabs").checked;
+        localStorage.bePickyAboutReuse = document.getElementById(
+          "bepickyaboutreuse").checked;
+
+        var num = document.getElementById("updateint").value * 1000;
+        if (num <= 0) {
+          alert(chrome.i18n.getMessage("bad_check_interval"));
+        } else {
+          localStorage.updateInterval = num;
+        }
+        
+        num = document.getElementById("timeout").value * 1000;
+        if (num <= 0) {
+          alert(chrome.i18n.getMessage("bad_timeout"));
+        } else {
+          localStorage.timeout = num;
+        }
+        
+        localStorage.showError = document.getElementById("showerror").checked;
+        localStorage.errorBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("errorcolor").value);
+        localStorage.showLoggedOut = document.getElementById("showloggedout").
+          checked;
+        localStorage.loggedOutBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("loggedoutcolor").value);
+        localStorage.multiBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("multicolor").value);
+          
+        localStorage.gmEnabled = document.getElementById("gmenable").checked;
+        localStorage.gmShowOnBadge = document.getElementById("gmshowonbadge").
+          checked;
+        localStorage.gmShowAll = document.getElementById("gmshowall").checked;
+        localStorage.gmAppsDomain = document.getElementById("gmappsdomain").
+          value;
+        localStorage.gmBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("gmcolor").value);
+        
+        localStorage.grEnabled = document.getElementById("grenable").checked;
+        localStorage.grShowOnBadge = document.getElementById("grshowonbadge").
+          checked;
+
+        localStorage.grBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("grcolor").value);
+        
+        localStorage.gvEnabled = document.getElementById("gvenable").checked;
+        localStorage.gvShowOnBadge = document.getElementById("gvshowonbadge").
+          checked;
+        localStorage.gvShowAll = document.getElementById("gvshowall").checked;
+        localStorage.gvBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("gvcolor").value);
+        
+        localStorage.gwEnabled = document.getElementById("gwenable").checked;
+        localStorage.gwShowOnBadge = document.getElementById("gwshowonbadge").
+          checked;
+        localStorage.gwAppsDomain = document.getElementById("gwappsdomain").
+          value;
+        localStorage.gwMinimizeNav = document.getElementById("gwminnav").
+          checked;
+        localStorage.gwMinimizeContact = document.
+          getElementById("gwmincontact").checked;
+        localStorage.gwMinimizeSearch = document.getElementById("gwminsearch").
+          checked;
+        localStorage.gwBadgeColor = colorRRGGBBAAToArray(document.
+          getElementById("gwcolor").value);
+      
+        document.getElementById("ok").disabled = "disabled";
+        document.getElementById("cancel").textContent = chrome.i18n.
+					getMessage("close");
+        document.getElementById("apply").disabled = "disabled";
+        
+        u.optionsChanged();
+      }
+			
+			function promptSave() {
+				if (!document.getElementById("ok").disabled) {				
+					return chrome.i18n.getMessage("leave_prompt");
+				}
+				return null;
+			}
+    </script>
+  </head>
+  <body onload="i18nTemplate.process(document); updateNav(); resetSettings();"
+		onbeforeunload="return promptSave();">
+		<div id="nav">
+			<div id="nav_fade"></div>
+			<span id="nav_noopen" i18n-content="nav_noopen">No unread</span>
+			<a href="javascript:null;" id="nav_open" onclick="return unread();"
+				i18n-content="nav_open">Open unread</a>
+			|
+			<span id="nav_selected" i18n-content="nav_options">Options</span>
+			|
+			<a href="changelog.html" i18n-content="nav_changelog">Changelog</a>
+			|
+			<a href="legal.html" i18n-content="nav_legalinfo">Legal info</a>
+			<span id="nav_log">
+			|
+			<a href="https://www.google.com/accounts/Login" id="nav_login"
+				onclick="return login();" i18n-content="nav_login">Log in</a>
+			<span id="nav_logboth">|</span>
+			<a href="https://www.google.com/accounts/Logout" id="nav_logout"
+				onclick="return logout();" i18n-content="nav_logout">Log out</a>
+			</span>
+		</div>
+    <div id="header">
+      <h1 i18n-content="options_title">One Number Options</h1>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('basic');">
+      <img src="images/pages/collapse.png" id="basicbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="basic_options">Basic Options</span>
+    </a>
+    <div class="section" id="basic">
+      <div>
+        <input type="checkbox" onchange="itemChanged();"
+          id="oneclickopenunread" /><label for="oneclickopenunread"
+					i18n-content="oneclickopenunread">Open all services with unread
+					items immediately when clicking the toolbar button instead of
+					showing the popup.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();"
+          id="openhiddenunread" /><label for="openhiddenunread"
+					i18n-content="openhiddenunread">Even open ones you've hidden from
+					showing on the toolbar button.</label>
+      </div>
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="protocol"
+          /><label for="protocol" i18n-content="protocol">Use HTTPS for all
+					services instead of HTTP (recommmended).</label>
+      </div>
+      <p i8n-content="opening_service">When opening a service:</p>
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="openinnewwindow"
+          /><label for="openinnewwindow" i18n-content="openinnewwindow">Open
+					in a new window instead of a new tab in the current one.</label>
+      </div>
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="reusetabs"
+          /><label for="reusetabs" i18n-content="reusetabs">Reuse a tab that
+					already has the service open.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();"
+          id="bepickyaboutreuse" /><label for="bepickyaboutreuse"
+					i18n-content="bepickyaboutreuse">Only if the tab is viewing the
+					service's inbox.</label>
+      </div>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('update');">
+      <img src="images/pages/expand.png" id="updatebutton" alt="Expand"
+        title="Expand" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="server_queries">Server Queries</span>
+    </a>
+    <div class="section" id="update" style="display: none;">
+      <div>
+        <label for="updateint" i18n-content="before_updateint">Check
+					interval: </label><input type="text" maxlength="3"
+					onchange="itemChanged();" onkeydown="itemChanged()" id="updateint"
+					/><label for="updateint" i18n-content="after_updateint">
+					seconds.</label>
+      </div>
+      <div>
+        <label for="timeout" i18n-content="before_timeout">Timeout:
+					</label><input type="text" maxlength="3" onchange="itemChanged();"
+					onkeydown="itemChanged()" id="timeout" /><label for="timeout"
+					i18n-content="after_timeout"> seconds.</label>
+      </div>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('colors');">
+      <img src="images/pages/collapse.png" id="colorsbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="toolbar_buttons">Toolbar Button</span>
+    </a>
+    <div class="section" id="colors">
+      <p i18n-content="no_unread_messages">When there are no unread
+				messages:</p>
+      <div>
+        <input type="checkbox" onchange="itemChanged();"
+          id="showerror" /><label for="showerror"
+					i18n-content="showerror">Show error state on toolbar button.</label>
+      </div>
+      <label for="errorcolor" i18n-content="errorcolor">Color of button when
+				error occurs:</label>
+      <div class="colorbox">
+        <div class="color" id="errorcolorpreview"></div>
+        <label for="errorcolor">#</label><input type="text"  maxlength="8"
+          onchange="colorChanged('errorcolor');"
+          onkeydown="colorKey('errorcolor');" id="errorcolor" />
+      </div>
+      <div>
+        <input type="checkbox" onchange="itemChanged();"
+          id="showloggedout" /><label for="showloggedout"
+					i18n-content="showloggedout">Show logged out state on toolbar
+					button.</label>
+      </div>
+      <label for="loggedoutcolor" i18n-content="loggedoutcolor">Color of
+				button when you need to log in:</label>
+      <div class="colorbox">
+        <div class="color" id="loggedoutcolorpreview"></div>
+        <label for="loggedoutcolor">#</label><input type="text"
+          maxlength="8" onchange="colorChanged('loggedoutcolor');"
+          onkeydown="colorKey('loggedoutcolor');" id="loggedoutcolor" />
+      </div>
+      <p i18n-content="multiple_unread_messages">When there are multiple
+				services with unread messages:</p>
+      <label for="multicolor" i18n-content="multicolor">Use this color for
+				the button:</label>
+      <div class="colorbox">
+        <div class="color" id="multicolorpreview"></div>
+        <label for="multicolor">#</label><input type="text" maxlength="8"
+          onchange="colorChanged('multicolor');"
+          onkeydown="colorKey('multicolor');" id="multicolor" />
+      </div>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('gm');">
+      <img src="images/pages/collapse.png" id="gmbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="options_gmail">Gmail</span>
+    </a>
+    <div class="section" id="gm">
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="gmenable"
+          /><label for="gmenable" i18n-content="options_gmenable">Check for
+					unread e-mails and show Gmail in the popup.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();" id="gmshowonbadge"
+          /><label for="gmshowonbadge"
+					i18n-content="options_gmshowonbadge">Include the unread count on
+					the toolbar button.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();" id="gmshowall"
+          /><label for="gmshowall" i18n-content="options_gmshowall">Check for
+					any unread messages, not just in the Inbox.</label>
+      </div>
+      <div>
+        <label for="gmappsdomain" i18n-content="options_gmappsdomain">Google
+					Apps domain to check (blank for Gmail): </label><input type="text"
+					onchange="itemChanged();" onkeydown="itemChanged();"
+					id="gmappsdomain" />
+      </div>
+      <label for="gmcolor" i18n-content="options_gmcolor">Toolbar button
+				color when Gmail has unread e-mail:</label>
+      <div class="colorbox">
+        <div class="color" id="gmcolorpreview"></div>
+        <label for="gmcolor">#</label><input type="text" maxlength="8"
+          onchange="colorChanged('gmcolor');"
+          onkeydown="colorKey('gmcolor');" id="gmcolor" />
+      </div>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('gr');">
+      <img src="images/pages/collapse.png" id="grbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="options_googlereader">Google Reader</span>
+    </a>
+    <div class="section" id="gr">
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="grenable"
+          /><label for="grenable" i18n-content="options_grenable">Check for
+					unread feed items and show Google Reader in the popup.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();" id="grshowonbadge"
+          /><label for="grshowonbadge"
+					i18n-content="options_grshowonbadge">Include the unread count on
+					the toolbar button.</label>
+      </div>
+      <label for="grcolor" i18n-content="options_grcolor">Toolbar button
+				color when Google Reader has unread feed items:</label>
+      <div class="colorbox">
+        <div class="color" id="grcolorpreview"></div>
+        <label for="grcolor">#</label><input type="text" maxlength="8"
+          onchange="colorChanged('grcolor');"
+          onkeydown="colorKey('grcolor');" id="grcolor" />
+      </div>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('gv');">
+      <img src="images/pages/collapse.png" id="gvbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="options_googlevoice">Google Voice</span>
+    </a>
+    <div class="section" id="gv">
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="gvenable"
+          /><label for="gvenable" i18n-content="options_gvenable">Check for
+					unread voicemail and show Google Voice in the popup.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();" id="gvshowonbadge"
+          /><label for="gvshowonbadge"
+					i18n-content="options_gvshowonbadge">Include the unread count on
+					the toolbar button.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();" id="gvshowall"
+          /><label for="gvshowall" i18n-content="options_gvshowall">Check for
+					any unread messages, not just in the Inbox.</label>
+      </div>
+      <label for="gvcolor" i18n-content="options_gvcolor">Toolbar button
+				color when Google Voice has unread voicemail:</label>
+      <div class="colorbox">
+        <div class="color" id="gvcolorpreview"></div>
+        <label for="gvcolor">#</label><input type="text" maxlength="8"
+          onchange="colorChanged('gvcolor');"
+          onkeydown="colorKey('gvcolor');" id="gvcolor" />
+      </div>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('gw');">
+      <img src="images/pages/collapse.png" id="gwbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="options_googlewave">Google Wave</span>
+    </a>
+    <div class="section" id="gw">
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="gwenable"
+          /><label for="gwenable" i18n-content="options_gwenable">Check for
+					unread waves and show Google Wave in the popup.</label>
+      </div>
+      <div class="indent">
+        <input type="checkbox" onchange="itemChanged();" id="gwshowonbadge"
+          /><label for="gwshowonbadge"
+					i18n-content="options_gwshowonbadge">Include the unread count on
+					the toolbar button.</label>
+      </div>
+      <div>
+        <label for="gwappsdomain" i18n-content="options_gwappsdomain">Google
+					Apps domain to check (blank for Google Wave): </label><input
+					type="text" onchange="itemChanged();" onkeydown="itemChanged();"
+					id="gwappsdomain" />
+      </div>
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="gwminnav"
+          /><label for="gwminnav" i18n-content="options_gwminnav">Minimize
+					navigation pane when opened from popup.</label>
+      </div>
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="gwmincontact"
+          /><label for="gwmincontact"
+					i18n-content="options_gwmincontact">Minimize contacts pane when
+					opened from popup.</label>
+      </div>
+      <div>
+        <input type="checkbox" onchange="itemChanged();" id="gwminsearch"
+          /><label for="gwminsearch"
+					i18n-content="options_gwminsearch">Minimize search pane when opened
+					from popup.</label>
+      </div>
+      <label for="gwcolor" i18n-content="options_gwcolor">Toolbar button
+				color when Google Wave has unread waves:</label>
+      <div class="colorbox">
+        <div class="color" id="gwcolorpreview"></div>
+        <label for="gwcolor">#</label><input type="text" maxlength="8"
+          onchange="colorChanged('gwcolor');"
+          onkeydown="colorKey('gwcolor');" id="gwcolor" />
+      </div>
+    </div>
+    <div id="buttons">
+      <button id="ok" disabled="disabled"
+        onclick="applySettings(); window.close();"
+				i18n-content="ok">OK</button>
+      <button id="cancel" onclick="window.close();"
+				i18n-content="close">Close</button>
+      <button id="apply" disabled="disabled"
+        onclick="applySettings();" i18n-content="apply">Apply</button>
+    </div>
+  </body>
+</html>

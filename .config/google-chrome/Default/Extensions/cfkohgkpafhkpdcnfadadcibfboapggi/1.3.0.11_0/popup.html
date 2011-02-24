@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html i18n-values="style:textdirection;">
+  <head>
+    <meta charset="utf-8" /> 
+    <!-- Style borrowed from Chrome for UI consistancy -->
+    <style type="text/css">
+      body {
+        font-size: 84%;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 5px;
+        color: black;
+        min-width: 300px;
+        max-width: 550px;
+        overflow: hidden;
+      }
+      a {
+        color: blue;
+        font-size: 100%;
+      }
+      img {
+        border: none;
+        width: 32px;
+        height: 32px;
+        float: left;
+        margin-right: 5px;
+      }
+      .clear {
+        clear: both;
+      }
+      p {
+        margin: 0px;
+      }
+      .preview {
+        color: #BFBFBF;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .name, .title {
+        font-weight: bold;
+      }
+      #links {
+        float: right;
+      }
+      #noopen {
+        color: #BFBFBF;
+      }
+      #gwlogout {
+        float: right;
+      }
+      .compose {
+        display: block;
+        float: right;
+      }
+    </style>
+		<script type="text/javascript" src="scripts/pages.js"></script>
+    <script type="text/javascript">
+      function init() {
+				i18nTemplate.process(document);
+        chrome.extension.getBackgroundPage().updater.popupOpened(this);
+      }
+      
+      function unInit() {
+        chrome.extension.getBackgroundPage().updater.popupClosed();
+      }
+      
+      function openUnread() {
+        chrome.extension.getBackgroundPage().updater.popupOpenUnread(true);
+        window.close();
+      }
+      
+      function refresh() {
+        chrome.extension.getBackgroundPage().updater.start();
+      }
+      
+      function tabopen(index) {
+        chrome.extension.getBackgroundPage().updater.openByUID(index);
+        window.close();
+      }
+      
+      function openOptions() {
+        chrome.extension.getBackgroundPage().updater.openPage("options.html");
+        window.close();
+      }
+      
+      function openLogin() {
+        chrome.extension.getBackgroundPage().updater.openLogin();
+        window.close();
+      }
+
+      function openLogout() {
+        chrome.extension.getBackgroundPage().updater.openLogout();
+        window.close();
+      }
+      
+      function openCompose(index) { 
+        chrome.extension.getBackgroundPage().updater.openCompose(index);
+        window.close();
+      }
+    </script>
+  </head>
+  <body onload="init();" onunload="unInit();">
+    <div id="links">
+      <a href="javscript:null;" onclick="openOptions();"
+				i18n-content="popup_options">Options</a>
+      |
+      <a href="javscript:null;" onclick="refresh();"
+				i18n-content="popup_refresh">Refresh</a>
+      |
+      <span id="noopen" i18n-content="no_unread">No unread</span>
+      <a href="javscript:null;" onclick="openUnread();" id="open"
+				i18n-content="open_unread">Open unread</a>
+    </div>
+    <a href="javascript:null;" onclick="openLogin();" id="login"
+			i18n-content="popup_login">Log in</a>
+    <span id="both">|</span>
+    <a href="javascript:null;" onclick="openLogout();" id="logout"
+			i18n-content="popup_logout">Log out</a>
+    <div class="clear"></div>
+    
+    <div id="dynamiccontent"></div>
+  </body>
+</html>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channels version="Tue, 22 Feb 2011 14:42:30.800 GMT" info_time="Wed, 07 May 2008 03:48:03.1488 GMT" domain="sopserv.com"><group id="1" type="1" en="Sports test channel group" cn="体育频道测试组" description="Description:Sport Channels 体育频道 (Note: Please don't broadcast infringing content) All the channels are from the Internet. SopCast is only a P2P technology provider. Please contact the channel owner for infringing issues.
+Schedule:24*7
+Type:Free to watch, need authorization to broadcast">Sports test channel group [体育频道测试组]<channel id="6001" type="1" btype="0" language="en"><name en="Shanghai GSports" cn="上海体育频道">涓婃捣浣撹偛</name><status>2</status><region en="China" cn="中国">CN</region><class en="Sports" cn="体育类">2</class><user_count>5</user_count><sn>4198</sn><visit_count>0</visit_count><start_from>Tue, 08 Feb 2011 00:49:03 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>96</qc><sop_address><item>sop://60.12.164.67:3912/6001</item></sop_address><description cn="上海体育
+Email:cali@llltv.com
+Web:www.llltv.com
+">Description: GSports
+Email:cali@llltv.com
+Web:www.llltv.com
+</description></channel><channel id="6002" type="1" btype="0" language="en"><name en="CCTV-5" cn="CCTV-5体育频道">CCTV-5</name><status>2</status><region en="China" cn="中国">CN</region><class en="Sports" cn="体育类">2</class><user_count>6</user_count><sn>4218</sn><visit_count>0</visit_count><start_from>Tue, 25 Jan 2011 03:57:43 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>93</qc><sop_address><item>sop://60.12.164.67:3912/6002</item></sop_address><description cn="描述：中央五套
+时间:24×7
+Email:tvall-us@gmail.com
+Web:www.tvall.tv">Description: CCTV5 Sports
+Schedule:24×7
+Email:tvall-us@gmail.com
+Web:www.tvall.tv</description></channel><channel id="18132" type="0" btype="0" language="en"><name en="ATP Tour" cn="">sport</name><status>2</status><region en="Poland" cn="波兰">PL</region><class en="Sports" cn="体育类">2</class><user_count>3</user_count><sn>4148</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:40:38 GMT</start_from><stream_type>wmv</stream_type><kbps>234</kbps><qs>100</qs><qc>86</qc><sop_address><item>sop://60.12.164.67:3912/18132</item></sop_address><description cn="">Description:POLAND
+Sport Live
+Football
+Schedule:24×7</description></channel><channel id="18135" type="0" btype="0" language="en"><name en="FC Kobenhavn - Chelsea" cn="">sport</name><status>2</status><region en="Portugal" cn="葡萄牙">PT</region><class en="Sports" cn="体育类">2</class><user_count>5</user_count><sn>4183</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:41:12 GMT</start_from><stream_type>wmv</stream_type><kbps>234</kbps><qs>100</qs><qc>84</qc><sop_address><item>sop://60.12.164.67:3912/18135</item></sop_address><description cn="">Description:sport live
+Schedule:24×7
+Email:
+sport</description></channel><channel id="27350" type="0" btype="0" language="en"><name en="Sports iTTv™ Group Champions League" cn="突然行動 - Judo @ iTTv™ Group">Sports</name><status>2</status><region en="Poland" cn="波兰">PL</region><class en="Sports" cn="体育类">2</class><user_count>4</user_count><sn>4157</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:30:25 GMT</start_from><stream_type>wmv</stream_type><kbps>315</kbps><qs>97</qs><qc>77</qc><sop_address><item>sop://60.12.164.67:3912/27350</item></sop_address><description cn="">Champions League:
+www.ittv.pl
+wap.ittv.pl
+Email:tv@ittv.pl</description></channel><channel id="31387" type="0" btype="0" language="it"><name en="Rete Sei - Campania" cn="">Rete Sei - Campania</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Sports" cn="体育类">2</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Sat, 19 Feb 2011 20:09:15 GMT</start_from><stream_type>wmv</stream_type><kbps>238</kbps><qs>96</qs><qc>83</qc><sop_address><item>sop://60.12.164.67:3912/31387</item></sop_address><description cn="">Direttore Sig Pallotta
+Pallotta Group
+
+info@mariatv.it</description></channel><channel id="45965" type="0" btype="0" language="en"><name en="Sports iTTv™ Group: Volleyball" cn="">Sports</name><status>2</status><region en="Poland" cn="波兰">PL</region><class en="Sports" cn="体育类">2</class><user_count>2</user_count><sn>4128</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:53:33 GMT</start_from><stream_type>wmv</stream_type><kbps>158</kbps><qs>100</qs><qc>84</qc><sop_address><item>sop://60.12.164.67:3912/45965</item></sop_address><description cn="">Volleyball
+Champions
+Description:
+Schedule:24h
+Email:tv@ittv.pl</description></channel></group><group id="3" type="1" en="News, Documentary, Education" cn="新闻综合教育类" description="Description:News, Documentary, Education  新闻综合教育类Schedule:24*7
+Type:Free to watch, need authorization to broadcast
+Email:email@your.com
+Phone:">News, Documentary, Education [新闻综合教育类]<channel id="6004" type="1" btype="0" language="en"><name en="Phoenix TV" cn="凤凰中文台">凤凰中文</name><status>2</status><region en="Hong Kong SAR" cn="香港特别行政区">HK</region><class en="General" cn="综合类">3</class><user_count>14</user_count><sn>4628</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:12:48 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>92</qc><sop_address><item>sop://211.152.36.38:3912/6004</item></sop_address><description cn="描述：凤凰卫视台">凤凰卫视</description></channel><channel id="6005" type="1" btype="0" language="en"><name en="Phoenix Info" cn="凤凰资讯台">凤凰咨询</name><status>2</status><region en="Hong Kong SAR" cn="香港特别行政区">HK</region><class en="General" cn="综合类">3</class><user_count>17</user_count><sn>4889</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:13:30 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>100</qs><qc>96</qc><sop_address><item>sop://211.152.36.38:3912/6005</item></sop_address><description cn="">凤凰资讯</description></channel><channel id="6010" type="1" btype="0" language="en"><name en="ATV" cn="亚视本港台">本港台</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>13</user_count><sn>4582</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:15:35 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>0</qs><qc>89</qc><sop_address><item>sop://211.152.36.38:3912/6010</item></sop_address><description cn="">ATV Asia HD</description></channel><channel id="6022" type="0" btype="0" language="zh_CN"><name en="HuNan TV" cn="湖南卫视">湖南卫视</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>4</user_count><sn>4159</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:20:22 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>0</qs><qc>85</qc><sop_address><item>sop://211.152.36.38:3912/6022</item></sop_address><description cn="湖南卫视">HuNan TV</description></channel><channel id="6030" type="0" btype="0" language="en"><name en="ShangHai News channel" cn="上海新闻综合">上海新闻综合</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>3</user_count><sn>4140</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:23:46 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>98</qs><qc>90</qc><sop_address><item>sop://211.152.36.38:3912/6030</item></sop_address><description cn="">Description: Dressy
+Schedule:24×7
+</description></channel><channel id="6096" type="0" btype="0" language="en"><name en="Wenzhou New" cn="温州新闻">温州新闻</name><status>2</status><region en="China" cn="中国">CN</region><class en="News" cn="新闻类">6</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:25:15 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>14</qs><qc>78</qc><sop_address><item>sop://211.152.36.38:3912/6096</item></sop_address><description cn="">Description:
+Schedule:24×7
+</description></channel><channel id="6097" type="0" btype="0" language="en"><name en="CBN TV" cn="第一财经">第一财经</name><status>2</status><region en="China" cn="中国">CN</region><class en="Finance &amp; Economics" cn="财经类">7</class><user_count>3</user_count><sn>4149</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:24:13 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>100</qs><qc>93</qc><sop_address><item>sop://211.152.36.38:3912/6097</item></sop_address><description cn="第一财经">CBN TV</description></channel><channel id="6401" type="0" btype="0" language="en"><name en="East TV" cn="东方卫视">东方卫视</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>3</user_count><sn>4142</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:24:33 GMT</start_from><stream_type>wmv</stream_type><kbps>392</kbps><qs>97</qs><qc>92</qc><sop_address><item>sop://211.152.36.38:3912/6401</item></sop_address><description cn="">Description: 
+Schedule:24×7
+</description></channel><channel id="6404" type="0" btype="0" language="en"><name en="ShangHai Documentary Channel" cn="上海纪实">上海纪实</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>3</user_count><sn>4140</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:24:35 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>98</qs><qc>99</qc><sop_address><item>sop://211.152.36.38:3912/6404</item></sop_address><description cn="">Description:Playback</description></channel><channel id="8889" type="0" btype="0" language="en"><name en="QingTian TV" cn="青田电视">青田电视</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4125</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:24:41 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>97</qs><qc>99</qc><sop_address><item>sop://211.152.36.38:3912/8889</item></sop_address><description cn="">青田电视</description></channel><channel id="11265" type="1" btype="0" language="en"><name en="CTi News" cn="中天新聞台">中天新闻</name><status>2</status><region en="China" cn="中国">CN</region><class en="Sports" cn="体育类">2</class><user_count>13</user_count><sn>4597</sn><visit_count>0</visit_count><start_from>Sat, 05 Feb 2011 19:10:04 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>70</qc><sop_address><item>sop://211.152.36.38:3912/11265</item></sop_address><description cn="">频道描述：
+播放时间：24×7
+Email：user@your.com</description></channel><channel id="11266" type="1" btype="0" language="en"><name en="TVBS" cn="TVBS">TVBS</name><status>2</status><region en="Hong Kong SAR" cn="香港特别行政区">HK</region><class en="Sports" cn="体育类">2</class><user_count>24</user_count><sn>5444</sn><visit_count>0</visit_count><start_from>Sat, 05 Feb 2011 19:09:48 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>100</qs><qc>70</qc><sop_address><item>sop://211.152.36.38:3912/11266</item></sop_address><description cn="">频道描述：
+播放时间：24×7
+Email：hk12990@hotmail.com</description></channel><channel id="12921" type="1" btype="0" language="en"><name en="TTV" cn="台視">台視</name><status>2</status><region en="United States" cn="美国">US</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>4</user_count><sn>4151</sn><visit_count>0</visit_count><start_from>Sat, 05 Feb 2011 19:10:18 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>91</qc><sop_address><item>sop://211.152.36.38:3912/12921</item></sop_address><description cn="">Description:
+Schedule:24×7
+Email:movies1970@videocap.com</description></channel><channel id="14297" type="1" btype="0" language="en"><name en="CTV" cn="中視">中視</name><status>2</status><region en="United States" cn="美国">US</region><class en="News" cn="新闻类">6</class><user_count>2</user_count><sn>4129</sn><visit_count>0</visit_count><start_from>Sat, 05 Feb 2011 19:11:40 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://211.152.36.38:3912/14297</item></sop_address><description cn="">Description:
+Schedule:24×7
+Email:user@your.com</description></channel><channel id="15102" type="0" btype="0" language="en"><name en="CCTV-1 " cn="CCTV-1綜合">CCTV-1综合频道</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>5</user_count><sn>4188</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:16:43 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>89</qc><sop_address><item>sop://211.152.36.38:3912/15102</item></sop_address><description cn="">频道描述：cctv 1
+播放时间：24×7
+Email：mychannel@webtv.com</description></channel><channel id="15103" type="0" btype="0" language="en"><name en="CCTV-2" cn="CCTV-2经济频道">CCTV-2</name><status>2</status><region en="China" cn="中国">CN</region><class en="Finance &amp; Economics" cn="财经类">7</class><user_count>6</user_count><sn>4218</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:17:11 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/15103</item></sop_address><description cn="中央2">CCTV-2</description></channel><channel id="15104" type="0" btype="0" language="en"><name en="CCTV-4 International" cn="CCTV-4中文国际频道">CCTV-4国际</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>5</user_count><sn>4198</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:17:58 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>90</qc><sop_address><item>sop://211.152.36.38:3912/15104</item></sop_address><description cn="">CCTV-4 中文国际频道</description></channel><channel id="15105" type="0" btype="0" language="en"><name en="CCTV-10 Science &amp; Education" cn="CCTV-10科教频道">CCTV-10科教频道</name><status>2</status><region en="China" cn="中国">CN</region><class en="Education" cn="教育类">8</class><user_count>5</user_count><sn>4180</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:18:23 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/15105</item></sop_address><description cn="中央10台－科教频道">CCTV-10 Science &amp; Education</description></channel><channel id="15106" type="0" btype="0" language="en"><name en="CCTV -12" cn="CCTV-12法制频道">CCTV-12法制频道</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4131</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 13:49:41 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>93</qc><sop_address><item>sop://211.152.36.38:3912/15106</item></sop_address><description cn="">CCTV-12</description></channel><channel id="16543" type="1" btype="0" language="en"><name en="CtiTV General" cn="中天綜合台">中天綜合台</name><status>2</status><region en="China" cn="中国">CN</region><class en="Movies" cn="电影">9</class><user_count>5</user_count><sn>4174</sn><visit_count>0</visit_count><start_from>Wed, 09 Feb 2011 19:10:14 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>92</qc><sop_address><item>sop://211.152.36.38:3912/16543</item></sop_address><description cn="频道描述：
+播放时间：24×7
+Email：user@your.com">Description:
+Schedule:24×7
+Email:user@your.com</description></channel><channel id="21256" type="0" btype="0" language="it"><name en="Santuario di Vicoforte" cn="">Santuario di Vicoforte</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:23:18 GMT</start_from><stream_type>wmv</stream_type><kbps>271</kbps><qs>100</qs><qc>88</qc><sop_address><item>sop://60.12.164.67:3912/21256</item></sop_address><description cn="">info@mariatv.it
+0171 385175
+347 7632121</description></channel><channel id="23530" type="0" btype="0" language="it"><name en="TeleMaria.it" cn="">B7 169 180m22s 081007 LE PERSECUZIONI</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:01:17 GMT</start_from><stream_type>wmv</stream_type><kbps>261</kbps><qs>94</qs><qc>94</qc><sop_address><item>sop://60.12.164.67:3912/23530</item></sop_address><description cn="">Description: Tele Maria Italy
+www.telemaria.it
+Schedule:24×7
+Email:giorgio.nicolini@poste.it
+</description></channel><channel id="28952" type="0" btype="0" language="it"><name en="Tele Belluno" cn="">Tele Belluno</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Fri, 11 Feb 2011 04:34:06 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>93</qs><qc>96</qc><sop_address><item>sop://60.12.164.67:3912/28952</item></sop_address><description cn="">info@mariatv.it</description></channel><channel id="28953" type="0" btype="0" language="it"><name en="Matris Domini - Bergamo" cn="">Matris Domini - Bergamo</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Sun, 20 Feb 2011 21:57:11 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>82</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/28953</item></sop_address><description cn="">info@matrisdomini.org
+info@mariatv.it</description></channel><channel id="31073" type="0" btype="0" language="it"><name en="VoceMediaTv" cn="">VoceMediaTv</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:58:36 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>96</qs><qc>96</qc><sop_address><item>sop://60.12.164.67:3912/31073</item></sop_address><description cn="">info@mariatv.it</description></channel></group><group id="4" type="1" en="Entertainmnet  &amp; Comedy  Channels" cn="娱乐综艺频道" description="Description:娱乐综艺频道 Entertainmnet  &amp; Comedy  Channels
+Channels
+Schedule:24*7
+Type:Fully Public   
+">Entertainmnet  &amp; Comedy  Channels [娱乐综艺频道]<channel id="6016" type="0" btype="0" language="en"><name en="GDTV ZhuJiang" cn="广东珠江">广东珠江</name><status>2</status><region en="Taiwan" cn="台湾">TW</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>5</user_count><sn>4179</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 04:28:56 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>95</qs><qc>75</qc><sop_address><item>sop://211.152.36.38:3912/6016</item></sop_address><description cn="">ShenZhen</description></channel><channel id="6027" type="0" btype="0" language="en"><name en="ShangHai TV play series" cn="上海电视剧">上海电视剧</name><status>2</status><region en="China" cn="中国">CN</region><class en="TV play series" cn="电视连续剧">14</class><user_count>4</user_count><sn>4171</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:23:34 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>100</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/6027</item></sop_address><description cn="">Description:
+Schedule:24×7
+</description></channel><channel id="6032" type="0" btype="0" language="en"><name en="ShangHai entertainmnet" cn="上海娱乐">上海娱乐</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>3</user_count><sn>4139</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:24:08 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>100</qs><qc>98</qc><sop_address><item>sop://211.152.36.38:3912/6032</item></sop_address><description cn="">Description: 
+Schedule:24×7</description></channel><channel id="8892" type="0" btype="0" language="en"><name en="CCTV New" cn="CCTV 新闻">CCTV 新闻</name><status>2</status><region en="China" cn="中国">CN</region><class en="Education" cn="教育类">8</class><user_count>8</user_count><sn>4276</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:19:17 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>87</qc><sop_address><item>sop://211.152.36.38:3912/8892</item></sop_address><description cn="">DongSen</description></channel><channel id="19047" type="0" btype="0" language="en"><name en="channel young" cn="上海生活时尚">上海星尚</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>2</user_count><sn>4129</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:23:18 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>100</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/19047</item></sop_address><description cn="上海生活时尚">channel young</description></channel><channel id="22685" type="0" btype="0" language="it"><name en="Radio Ciao" cn="">Radio Ciao</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>2</user_count><sn>4131</sn><visit_count>0</visit_count><start_from>Fri, 11 Feb 2011 18:38:27 GMT</start_from><stream_type>wma</stream_type><kbps>40</kbps><qs>100</qs><qc>98</qc><sop_address><item>sop://60.12.164.67:3912/22685</item></sop_address><description cn="">info@mariatv.it
+</description></channel><channel id="25629" type="0" btype="0" language="it"><name en="W l'Italia Channel" cn="">witaliasat</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Sun, 20 Feb 2011 21:55:37 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>98</qs><qc>99</qc><sop_address><item>sop://60.12.164.67:3912/25629</item></sop_address><description cn="">w l'Italia Channel</description></channel><channel id="27561" type="0" btype="0" language="it"><name en="RTB Network 1 - Brescia" cn="">RTB Network 1 - Brescia</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Thu, 17 Feb 2011 05:54:59 GMT</start_from><stream_type>wmv</stream_type><kbps>327</kbps><qs>97</qs><qc>97</qc><sop_address><item>sop://60.12.164.67:3912/27561</item></sop_address><description cn="">Description:
+RTB Network 1 Brescia
+info@rtbnetwork.it
+info@mariatv.it</description></channel><channel id="27562" type="0" btype="0" language="it"><name en="RTB Network 2 - Brescia" cn="">RTB Network 2</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:36:57 GMT</start_from><stream_type>wmv</stream_type><kbps>158</kbps><qs>89</qs><qc>94</qc><sop_address><item>sop://60.12.164.67:3912/27562</item></sop_address><description cn="">Description:
+RTB Network 2 Brescia 
+info@rtbnetwork.it  
+Brescia - Italy
+info@mariatv.it
+</description></channel><channel id="27563" type="0" btype="0" language="it"><name en="RTB Network 3  -  Brescia" cn="">RTB Network 3</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:37:43 GMT</start_from><stream_type>wmv</stream_type><kbps>158</kbps><qs>98</qs><qc>98</qc><sop_address><item>sop://60.12.164.67:3912/27563</item></sop_address><description cn="">Description:
+RTB Network 3 Brescia 
+info@rtbnetwork.it
+Brescia - Italy
+info@mariatv.it</description></channel><channel id="27564" type="1" btype="0" language="it"><name en="RTB Network  4 - Brescia" cn="">RTB Network 4 - Brescia</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Fri, 11 Feb 2011 08:40:47 GMT</start_from><stream_type>wmv</stream_type><kbps>349</kbps><qs>95</qs><qc>95</qc><sop_address><item>sop://60.12.164.67:3912/27564</item></sop_address><description cn="">Description:
+RTB Network 4
+canale tv italiano
+info@rtbnetwork.it
+Brescia - Italy</description></channel></group><group id="5" type="1" en="Movies Group" cn="电影放映区" description="Description:电影放映区 Movies
+Schedule:
+Type:
+Email:email@your.com
+Phone:">Movies Group [电影放映区]<channel id="6011" type="1" btype="0" language="en"><name en="Phoenix Movies" cn="凤凰电影台">凤凰电影</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>8</user_count><sn>4291</sn><visit_count>0</visit_count><start_from>Sun, 20 Feb 2011 17:07:30 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>92</qc><sop_address><item>sop://211.152.36.38:3912/6011</item></sop_address><description cn="频道描述：凤凰电影台
+播放时间：24×7">频道描述：Phoenix Movies
+播放时间：24×7
+</description></channel><channel id="6020" type="1" btype="0" language="en"><name en="Star Movies" cn="星空国际电影">星空国际电影</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>5</user_count><sn>4179</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 04:26:14 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>91</qc><sop_address><item>sop://211.152.36.38:3912/6020</item></sop_address><description cn="星空国际电影">Description: Schedule:24×7 Email:user@your.com</description></channel><channel id="6028" type="0" btype="0" language="en"><name en="CCTV-6 Movie" cn="CCTV-6电影频道">CCTV-6</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>4</user_count><sn>4157</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:20:06 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>94</qs><qc>87</qc><sop_address><item>sop://211.152.36.38:3912/6028</item></sop_address><description cn="">Description:CCTV6 Movie
+Schedule:24×7
+</description></channel><channel id="6033" type="0" btype="0" language="en"><name en="NOW" cn="NOW财经">NOW 财经</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>5</user_count><sn>4185</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:19:50 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>100</qs><qc>97</qc><sop_address><item>sop://211.152.36.38:3912/6033</item></sop_address><description cn="">HKicstv</description></channel></group><group id="7" type="0" en="H264 Channel(SopCast 3.2.4 required)" cn="H264频道（需要SopCast3.2.4)" description="Description:News, entertainment, sports, documentory
+
+
+">H264 Channel(SopCast 3.2.4 required) [H264频道（需要SopCast3.2.4)]<channel id="106110" type="0" btype="0" language="en"><name en="AlJazeera live Re-broadcast - Use External Player - private technology test" cn="">AlJazeera live Re-broadcast</name><status>2</status><region en="Czech Republic" cn="捷克共和国">CZ</region><class en="General" cn="综合类">3</class><user_count>4</user_count><sn>4154</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:34:13 GMT</start_from><stream_type>wmv</stream_type><kbps>564</kbps><qs>97</qs><qc>68</qc><sop_address><item>sop://60.12.164.67:3912/106110</item></sop_address><description cn="">Description: AlJazeera English Schedule: full time
+Type: TV</description></channel><channel id="108273" type="0" btype="0" language="es"><name en="LSCTV(LaSeniaCableTV)" cn="">Certamen2 TV</name><status>2</status><region en="Spain" cn="西班牙">ES</region><class en="Documentary   " cn="纪实类">13</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:52:54 GMT</start_from><stream_type>wmv</stream_type><kbps>1328</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/108273</item></sop_address><description cn="">Description: local channel
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="9" type="0" en="Comic | Game | Music" cn="动漫 |  游戏 | 音乐" description="Comic | Game | Music |  动漫 |  游戏 | 音乐
+">Comic | Game | Music [动漫 |  游戏 | 音乐]<channel id="15108" type="0" btype="0" language="en"><name en="CCTV Children" cn="CCTV少儿频道">CCTV少儿</name><status>2</status><region en="China" cn="中国">CN</region><class en="Education" cn="教育类">8</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Sat, 19 Feb 2011 15:45:07 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>100</qs><qc>92</qc><sop_address><item>sop://211.152.36.38:3912/15108</item></sop_address><description cn="中央少儿频道">CCTV Children Channel</description></channel><channel id="67735" type="0" btype="0" language="en"><name en="KissYa – PHILIPPINE LOVE RADIO" cn="">KissYa - Philippine LOVE Radio</name><status>2</status><region en="Philippines" cn="菲律宾">PH</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 22:53:37 GMT</start_from><stream_type>wma</stream_type><kbps>131</kbps><qs>100</qs><qc>86</qc><sop_address><item>sop://60.12.164.67:3912/67735</item></sop_address><description cn="">Description: All Filipino Favorite Hits of the 70's 80's 90's &amp; Today!
+Schedule: 24/7
+Type: Tagalog Music Radio Station
+Email: jun_mayol@yahoo.com
+Phone:</description></channel><channel id="102814" type="0" btype="0" language="it"><name en="RadioJTJ" cn="">RadioJTJ</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 10:39:30 GMT</start_from><stream_type>wma</stream_type><kbps>67</kbps><qs>100</qs><qc>96</qc><sop_address><item>sop://60.12.164.67:3912/102814</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="105142" type="0" btype="0" language="es"><name en="InteresPublic" cn="">InteresPublic</name><status>2</status><region en="Spain" cn="西班牙">ES</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 21:39:01 GMT</start_from><stream_type>wmv</stream_type><kbps>1811</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/105142</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="109065" type="0" btype="0" language="en"><name en="Nguyen Hoang Ha" cn="">AOE VIET NAM</name><status>2</status><region en="Vietnam" cn="越南">VN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>7</user_count><sn>4257</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:47:02 GMT</start_from><stream_type>wmv</stream_type><kbps>829</kbps><qs>100</qs><qc>77</qc><sop_address><item>sop://60.12.164.67:3912/109065</item></sop_address><description cn="">Description:Thanks for watch!!!
+Schedule:
+Type:Game
+Email:hoangha_dkz@yahoo.com
+Phone:01689941804</description></channel></group><group id="11" type="1" en="TV play series" cn="电视连续剧" description="TV play series
+电视连续剧">TV play series [电视连续剧]<channel id="6027" type="0" btype="0" language="en"><name en="ShangHai TV play series" cn="上海电视剧">上海电视剧</name><status>2</status><region en="China" cn="中国">CN</region><class en="TV play series" cn="电视连续剧">14</class><user_count>4</user_count><sn>4171</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 03:23:34 GMT</start_from><stream_type>wmv</stream_type><kbps>376</kbps><qs>100</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/6027</item></sop_address><description cn="">Description:
+Schedule:24×7
+</description></channel></group><group id="13" type="1" en="CCTV Group" cn="CCTV 中央电视台" description="Description:
+Schedule:
+Type:
+Email:email@your.com
+Phone:">CCTV Group [CCTV 中央电视台]<channel id="6002" type="1" btype="0" language="en"><name en="CCTV-5" cn="CCTV-5体育频道">CCTV-5</name><status>2</status><region en="China" cn="中国">CN</region><class en="Sports" cn="体育类">2</class><user_count>6</user_count><sn>4218</sn><visit_count>0</visit_count><start_from>Tue, 25 Jan 2011 03:57:43 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>93</qc><sop_address><item>sop://60.12.164.67:3912/6002</item></sop_address><description cn="描述：中央五套
+时间:24×7
+Email:tvall-us@gmail.com
+Web:www.tvall.tv">Description: CCTV5 Sports
+Schedule:24×7
+Email:tvall-us@gmail.com
+Web:www.tvall.tv</description></channel><channel id="6028" type="0" btype="0" language="en"><name en="CCTV-6 Movie" cn="CCTV-6电影频道">CCTV-6</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>4</user_count><sn>4157</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:20:06 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>94</qs><qc>87</qc><sop_address><item>sop://211.152.36.38:3912/6028</item></sop_address><description cn="">Description:CCTV6 Movie
+Schedule:24×7
+</description></channel><channel id="15102" type="0" btype="0" language="en"><name en="CCTV-1 " cn="CCTV-1綜合">CCTV-1综合频道</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>5</user_count><sn>4188</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:16:43 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>89</qc><sop_address><item>sop://211.152.36.38:3912/15102</item></sop_address><description cn="">频道描述：cctv 1
+播放时间：24×7
+Email：mychannel@webtv.com</description></channel><channel id="15103" type="0" btype="0" language="en"><name en="CCTV-2" cn="CCTV-2经济频道">CCTV-2</name><status>2</status><region en="China" cn="中国">CN</region><class en="Finance &amp; Economics" cn="财经类">7</class><user_count>6</user_count><sn>4218</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:17:11 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>99</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/15103</item></sop_address><description cn="中央2">CCTV-2</description></channel><channel id="15104" type="0" btype="0" language="en"><name en="CCTV-4 International" cn="CCTV-4中文国际频道">CCTV-4国际</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>5</user_count><sn>4198</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:17:58 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>90</qc><sop_address><item>sop://211.152.36.38:3912/15104</item></sop_address><description cn="">CCTV-4 中文国际频道</description></channel><channel id="15105" type="0" btype="0" language="en"><name en="CCTV-10 Science &amp; Education" cn="CCTV-10科教频道">CCTV-10科教频道</name><status>2</status><region en="China" cn="中国">CN</region><class en="Education" cn="教育类">8</class><user_count>5</user_count><sn>4180</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 02:18:23 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>95</qc><sop_address><item>sop://211.152.36.38:3912/15105</item></sop_address><description cn="中央10台－科教频道">CCTV-10 Science &amp; Education</description></channel><channel id="15106" type="0" btype="0" language="en"><name en="CCTV -12" cn="CCTV-12法制频道">CCTV-12法制频道</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4131</sn><visit_count>0</visit_count><start_from>Sun, 13 Feb 2011 13:49:41 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>93</qc><sop_address><item>sop://211.152.36.38:3912/15106</item></sop_address><description cn="">CCTV-12</description></channel><channel id="15108" type="0" btype="0" language="en"><name en="CCTV Children" cn="CCTV少儿频道">CCTV少儿</name><status>2</status><region en="China" cn="中国">CN</region><class en="Education" cn="教育类">8</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Sat, 19 Feb 2011 15:45:07 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>100</qs><qc>92</qc><sop_address><item>sop://211.152.36.38:3912/15108</item></sop_address><description cn="中央少儿频道">CCTV Children Channel</description></channel></group><group id="14" type="0" en="Test Channel Group" cn="测试播放区" description="Description:Test Group 测试播放区
+Schedule:7*24
+Type:Fully Public   
+Email:email@your.com
+Phone:">Test Channel Group [测试播放区]<channel id="6017" type="0" btype="0" language="en"><name en="Beijing TV" cn="北京卫视">Beijing TV [北京卫视]</name><status>2</status><region en="Hong Kong SAR" cn="香港特别行政区">HK</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Tue, 25 Jan 2011 03:58:06 GMT</start_from><stream_type>wmv</stream_type><kbps>540</kbps><qs>98</qs><qc>89</qc><sop_address><item>sop://60.12.164.67:3912/6017</item></sop_address><description cn="">北京卫视</description></channel><channel id="17869" type="1" btype="0" language="en"><name en="" cn="">www.um.com.my-[malaysia-tv3]</name><status>2</status><region en="Malaysia" cn="马来西亚">MY</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>3</user_count><sn>4134</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 14:02:50 GMT</start_from><stream_type>wmv</stream_type><kbps>103</kbps><qs>99</qs><qc>55</qc><sop_address><item>sop://60.12.164.67:3912/17869</item></sop_address><description cn="">Description:music channel
+Schedule:24×7
+Email:user@your.com</description></channel><channel id="18669" type="0" btype="0" language="it"><name en="Comune di Boves" cn="">Comune di Boves</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:14:25 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>96</qs><qc>96</qc><sop_address><item>sop://60.12.164.67:3912/18669</item></sop_address><description cn="">info@mariatv.it</description></channel><channel id="21256" type="0" btype="0" language="it"><name en="Santuario di Vicoforte" cn="">Santuario di Vicoforte</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4123</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:23:18 GMT</start_from><stream_type>wmv</stream_type><kbps>271</kbps><qs>100</qs><qc>88</qc><sop_address><item>sop://60.12.164.67:3912/21256</item></sop_address><description cn="">info@mariatv.it
+0171 385175
+347 7632121</description></channel><channel id="25138" type="0" btype="0" language="it"><name en="Radio Voce - Brescia" cn="">Radio Voce - Brescia</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Sat, 19 Feb 2011 06:54:24 GMT</start_from><stream_type>wma</stream_type><kbps>32</kbps><qs>78</qs><qc>79</qc><sop_address><item>sop://60.12.164.67:3912/25138</item></sop_address><description cn="">Radio Voce - Brescia 
+redazione@radiovoce.it
+
+info@mariatv.it</description></channel><channel id="25139" type="0" btype="0" language="it"><name en="Voce TV - Brescia" cn="">Voce TV - Brescia</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 01:31:51 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>96</qs><qc>88</qc><sop_address><item>sop://60.12.164.67:3912/25139</item></sop_address><description cn="">Voce TV - Brescia
+redazione@radiovoce.it 
+
+info@mariatv.it
+</description></channel><channel id="26166" type="0" btype="0" language="it"><name en="Tele Radio Padre Pio" cn="">Tele Radio Padre Pio</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:11:48 GMT</start_from><stream_type>wmv</stream_type><kbps>284</kbps><qs>95</qs><qc>95</qc><sop_address><item>sop://60.12.164.67:3912/26166</item></sop_address><description cn="">info@mariatv.it</description></channel><channel id="26167" type="0" btype="0" language="it"><name en="Santuario di Loreto" cn="">ss_messa_11_lun</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:11:41 GMT</start_from><stream_type>wmv</stream_type><kbps>440</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/26167</item></sop_address><description cn="">info@mariatv.it
+</description></channel><channel id="28954" type="0" btype="0" language="it"><name en="Comune di Bra" cn="">Comune di Bra</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:40:49 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>96</qs><qc>88</qc><sop_address><item>sop://60.12.164.67:3912/28954</item></sop_address><description cn="">Info@mariatv.it
+0039 0171 1890062
+0039 0171 385175</description></channel><channel id="32819" type="0" btype="0" language="en"><name en="Radio Piave" cn="">Radio Piave</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Fri, 11 Feb 2011 04:35:02 GMT</start_from><stream_type>wma</stream_type><kbps>40</kbps><qs>93</qs><qc>93</qc><sop_address><item>sop://60.12.164.67:3912/32819</item></sop_address><description cn="">Description:
+</description></channel><channel id="67735" type="0" btype="0" language="en"><name en="KissYa – PHILIPPINE LOVE RADIO" cn="">KissYa - Philippine LOVE Radio</name><status>2</status><region en="Philippines" cn="菲律宾">PH</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 22:53:37 GMT</start_from><stream_type>wma</stream_type><kbps>131</kbps><qs>100</qs><qc>86</qc><sop_address><item>sop://60.12.164.67:3912/67735</item></sop_address><description cn="">Description: All Filipino Favorite Hits of the 70's 80's 90's &amp; Today!
+Schedule: 24/7
+Type: Tagalog Music Radio Station
+Email: jun_mayol@yahoo.com
+Phone:</description></channel><channel id="75018" type="1" btype="0" language="pt_BR"><name en="TV GALO -Trial" cn="">Test</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 10:02:27 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>97</qs><qc>97</qc><sop_address><item>sop://60.12.164.67:3912/75018</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="77598" type="0" btype="0" language="it"><name en="grtv" cn="">grtv</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Education" cn="教育类">8</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Sat, 29 Jan 2011 04:22:28 GMT</start_from><stream_type>wmv</stream_type><kbps>109</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/77598</item></sop_address><description cn="">Description:grtv
+Schedule:
+Type:educational
+Email:grradioonda@hotmail.it
+Phone:08804913518</description></channel><channel id="93289" type="0" btype="0" language="en"><name en="DerbyHD.com " cn="">Derbyhd.com</name><status>2</status><region en="Barbados" cn="巴巴多斯">BB</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4129</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 01:11:40 GMT</start_from><stream_type>wmv</stream_type><kbps>544</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/93289</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="94537" type="0" btype="0" language="zh_TW"><name en="Newez5" cn="Newez5全球網路廣播電台">Newez5</name><status>2</status><region en="Taiwan" cn="台湾">TW</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Sun, 20 Feb 2011 23:41:13 GMT</start_from><stream_type>wmv</stream_type><kbps>149</kbps><qs>51</qs><qc>70</qc><sop_address><item>sop://60.12.164.67:3912/94537</item></sop_address><description cn="Newez5全球網路廣播電台，由新黨之音轉型，走入大眾人文社會，結合視訊影音合一現場即時播出，並與網友透過網路影音訪問對話產生互動，每月定期邀請知名專業人士主持或訪問，節目內容包含「時事評論」、「音樂」、「運動」、「藝文」、「醫學」、「健康」等各個範疇！">描述:Newez5 Global network Broadcasting station
+时间表:24 hours
+类型:News,Talk, Music
+Email:
+电话:</description></channel><channel id="105144" type="0" btype="0" language="en"><name en="Sport123.info 1" cn="">Sport123.info</name><status>2</status><region en="Romania" cn="罗马尼亚">RO</region><class en="Sports" cn="体育类">2</class><user_count>2</user_count><sn>4128</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:22:05 GMT</start_from><stream_type>wmv</stream_type><kbps>705</kbps><qs>100</qs><qc>72</qc><sop_address><item>sop://60.12.164.67:3912/105144</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="106110" type="0" btype="0" language="en"><name en="AlJazeera live Re-broadcast - Use External Player - private technology test" cn="">AlJazeera live Re-broadcast</name><status>2</status><region en="Czech Republic" cn="捷克共和国">CZ</region><class en="General" cn="综合类">3</class><user_count>4</user_count><sn>4154</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:34:13 GMT</start_from><stream_type>wmv</stream_type><kbps>564</kbps><qs>97</qs><qc>68</qc><sop_address><item>sop://60.12.164.67:3912/106110</item></sop_address><description cn="">Description: AlJazeera English Schedule: full time
+Type: TV</description></channel><channel id="106415" type="0" btype="0" language="en"><name en="Discoimperium" cn="">toppop20disco2</name><status>2</status><region en="Netherlands, The" cn="荷兰">NL</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:21:35 GMT</start_from><stream_type>wmv</stream_type><kbps>500</kbps><qs>100</qs><qc>58</qc><sop_address><item>sop://60.12.164.67:3912/106415</item></sop_address><description cn="">Description: Discomusic
+Schedule: 24/7
+Type: Discomusic
+Email:
+Phone:</description></channel><channel id="108273" type="0" btype="0" language="es"><name en="LSCTV(LaSeniaCableTV)" cn="">Certamen2 TV</name><status>2</status><region en="Spain" cn="西班牙">ES</region><class en="Documentary   " cn="纪实类">13</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:52:54 GMT</start_from><stream_type>wmv</stream_type><kbps>1328</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/108273</item></sop_address><description cn="">Description: local channel
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="27" type="0" en="" cn="" description="Description:
+Schedule:
+Type:
+Email:email@your.com
+Phone:">popop<channel id="98250" type="0" btype="0" language="zh_CN"><name en="test1" cn="测试而已1">EDU</name><status>2</status><region en="China" cn="中国">CN</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:39:39 GMT</start_from><stream_type>wmv</stream_type><kbps>514</kbps><qs>95</qs><qc>95</qc><sop_address><item>sop://60.12.164.67:3912/98250</item></sop_address><description cn="只是测试而已。为了孩子们">描述:
+时间表:
+类型:
+Email:
+电话:</description></channel><channel id="108108" type="1" btype="0" language="en"><name en="Tvaleko" cn="">Tvaleko</name><status>2</status><region en="Romania" cn="罗马尼亚">RO</region><class en="Sports" cn="体育类">2</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:42:06 GMT</start_from><stream_type>wmv</stream_type><kbps>896</kbps><qs>0</qs><qc>14</qc><sop_address><item>sop://60.12.164.67:3912/108108</item></sop_address><description cn="">Description:live sport
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="28" type="0" en="private channel" cn="个人频道" description="组描述：
+播放时间：
+播放属性：
+Email：email@your.com
+电话：
+">private channel [个人频道]<channel id="93705" type="0" btype="0" language="de"><name en="PlasticDone" cn="">PlasticDone</name><status>2</status><region en="Ascension Island" cn="阿森松岛">AC</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 06:37:13 GMT</start_from><stream_type>wmv</stream_type><kbps>1276</kbps><qs>82</qs><qc>81</qc><sop_address><item>sop://60.12.164.67:3912/93705</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="106509" type="0" btype="0" language="en"><name en="Ezone Radio" cn="">Ezone Radio 24/7</name><status>2</status><region en="Canada" cn="加拿大">CA</region><class en="Music" cn="音乐类">11</class><user_count>2</user_count><sn>4126</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:35:59 GMT</start_from><stream_type>mp3</stream_type><kbps>128</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/106509</item></sop_address><description cn="">Enjoy a host of personalities bringing you the best in music and comedy 24/7 visit www.meetcam.com on the erogenous zone server to meet us its free to join 100% full privilages never an upgrade needed. Ezone Radio thanks you for listening!!!!!</description></channel><channel id="107159" type="1" btype="0" language="en"><name en="lksdmf" cn="">lksdmf</name><status>2</status><region en="Brunei" cn="文莱">BN</region><class en="Music" cn="音乐类">11</class><user_count>10</user_count><sn>4399</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 16:21:40 GMT</start_from><stream_type>wmv</stream_type><kbps>490</kbps><qs>93</qs><qc>91</qc><sop_address><item>sop://60.12.164.67:3912/107159</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="108531" type="1" btype="0" language="en"><name en="kldks" cn="">kldks</name><status>2</status><region en="Barbados" cn="巴巴多斯">BB</region><class en="Music" cn="音乐类">11</class><user_count>2</user_count><sn>4132</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 16:39:39 GMT</start_from><stream_type>wmv</stream_type><kbps>943</kbps><qs>32</qs><qc>93</qc><sop_address><item>sop://60.12.164.67:3912/108531</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="102" type="0" en="" cn="" description="组描述：
+播放时间：
+播放属性：
+Email：email@your.com
+电话：">tv<channel id="105108" type="1" btype="0" language="en"><name en="Adi TV" cn="">The.Other.Guys.2010</name><status>2</status><region en="Romania" cn="罗马尼亚">RO</region><class en="Movies" cn="电影">9</class><user_count>2</user_count><sn>4126</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:59:40 GMT</start_from><stream_type>wmv</stream_type><kbps>504</kbps><qs>96</qs><qc>94</qc><sop_address><item>sop://60.12.164.67:3912/105108</item></sop_address><description cn="">Description:Best Movies
+Schedule:
+Type:
+Email:adi.tv.live@gmail.com
+Phone:</description></channel><channel id="106110" type="0" btype="0" language="en"><name en="AlJazeera live Re-broadcast - Use External Player - private technology test" cn="">AlJazeera live Re-broadcast</name><status>2</status><region en="Czech Republic" cn="捷克共和国">CZ</region><class en="General" cn="综合类">3</class><user_count>4</user_count><sn>4154</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:34:13 GMT</start_from><stream_type>wmv</stream_type><kbps>564</kbps><qs>97</qs><qc>68</qc><sop_address><item>sop://60.12.164.67:3912/106110</item></sop_address><description cn="">Description: AlJazeera English Schedule: full time
+Type: TV</description></channel></group><group id="111" type="0" en="" cn="" description="test">You're Watching<channel id="103244" type="0" btype="0" language="en"><name en="Halloween--Somebody Goofed In The Hood" cn="">somebody goofed</name><status>2</status><region en="United States" cn="美国">US</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:38:32 GMT</start_from><stream_type>wmv</stream_type><kbps>255</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/103244</item></sop_address><description cn=""> A young urban robber runs into the scare of his life when he discovers there is life after death afterall. His fate is much scarier than what you would find on Halloween.</description></channel></group><group id="113" type="0" en="" cn="" description="Description:ITALIAN web radio tv
+Schedule:24x7
+Type:musica-film-notizie-sport
+Email:italiatop@alice.it
+Phone:393358260335">ITALIAN WEB RADIO TV<channel id="12885" type="0" btype="0" language="it"><name en="Telepace" cn="">Telepace</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 08:04:19 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>98</qs><qc>99</qc><sop_address><item>sop://60.12.164.67:3912/12885</item></sop_address><description cn="">Telepace
+letterealdirettore@telepace.net
+http://www.telepace.it
+info@mariatv.it
+</description></channel><channel id="14228" type="0" btype="0" language="it"><name en="Maria Tv " cn="">MessaLatino_384</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:10:42 GMT</start_from><stream_type>wmv</stream_type><kbps>368</kbps><qs>97</qs><qc>97</qc><sop_address><item>sop://60.12.164.67:3912/14228</item></sop_address><description cn="">MariaTv - Test
+http://www.mariatv.it
+E-mail: info@mariatv.it
+</description></channel><channel id="16121" type="0" btype="0" language="it"><name en="aigipe tv 08 Dotta Trinca 3" cn="">03 balun 2002</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Sports" cn="体育类">2</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:00:39 GMT</start_from><stream_type>wmv</stream_type><kbps>358</kbps><qs>99</qs><qc>99</qc><sop_address><item>sop://60.12.164.67:3912/16121</item></sop_address><description cn="">Description:Pallapugno Sport
+Schedule:Tempo pieno
+Email:giovacto@hotmail.com</description></channel><channel id="17421" type="0" btype="0" language="it"><name en="TeleRadioVita - Caltagirone (CT)" cn="">TeleRadioVita - Caltagirone (CT)</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Sun, 20 Feb 2011 22:03:00 GMT</start_from><stream_type>wmv</stream_type><kbps>180</kbps><qs>91</qs><qc>85</qc><sop_address><item>sop://60.12.164.67:3912/17421</item></sop_address><description cn="">TeleRadioVita - Caltagirone (CT)
+p.mario.messina@tiscali.it
+
+info@mariatv.it</description></channel><channel id="77598" type="0" btype="0" language="it"><name en="grtv" cn="">grtv</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Education" cn="教育类">8</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Sat, 29 Jan 2011 04:22:28 GMT</start_from><stream_type>wmv</stream_type><kbps>109</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/77598</item></sop_address><description cn="">Description:grtv
+Schedule:
+Type:educational
+Email:grradioonda@hotmail.it
+Phone:08804913518</description></channel><channel id="78364" type="0" btype="0" language="en"><name en="Televisione 3" cn="">Televisione 3</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Education" cn="教育类">8</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Sat, 29 Jan 2011 04:28:16 GMT</start_from><stream_type>wmv</stream_type><kbps>109</kbps><qs>100</qs><qc>85</qc><sop_address><item>sop://60.12.164.67:3912/78364</item></sop_address><description cn="">Description:Televisione 3
+Schedule:
+Type:education
+Email:frarusseau@hotmail.it
+Phone:</description></channel><channel id="84628" type="0" btype="0" language="en"><name en="pugliatv" cn="">pugliatv</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Education" cn="教育类">8</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Fri, 18 Feb 2011 07:50:48 GMT</start_from><stream_type>wmv</stream_type><kbps>109</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/84628</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="97384" type="0" btype="0" language="it"><name en="Telecentro1" cn="">Telecentro1</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Thu, 10 Feb 2011 00:44:29 GMT</start_from><stream_type>wmv</stream_type><kbps>211</kbps><qs>96</qs><qc>96</qc><sop_address><item>sop://60.12.164.67:3912/97384</item></sop_address><description cn="">Description: Italian Television
+Schedule:
+Type:
+Email:
+Phone:</description></channel><channel id="97524" type="0" btype="0" language="it"><name en="Telecentro2" cn="">Telecentro2</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Thu, 10 Feb 2011 00:43:54 GMT</start_from><stream_type>wmv</stream_type><kbps>211</kbps><qs>90</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/97524</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="143" type="0" en="" cn="" description="Description: French channel
+Type: all
+e-mail: noos.peer@caramail.com">France<channel id="98492" type="0" btype="0" language="fr"><name en="AnarchyTV" cn="">0061-Guy_Debord-Refutation</name><status>2</status><region en="France" cn="法国">FR</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:36:33 GMT</start_from><stream_type>wmv</stream_type><kbps>368</kbps><qs>97</qs><qc>85</qc><sop_address><item>sop://60.12.164.67:3912/98492</item></sop_address><description cn="">Description: chaine cinéma et politique
+Schedule: Tous les jours
+Type: politique
+Email:anar@anarchytv.net
+Phone:</description></channel></group><group id="145" type="0" en="" cn="" description="Description: chaine FR
+Schedule:
+Type:
+Email:giuliani11@hotmail.com
+Phone:">TV France<channel id="98492" type="0" btype="0" language="fr"><name en="AnarchyTV" cn="">0061-Guy_Debord-Refutation</name><status>2</status><region en="France" cn="法国">FR</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:36:33 GMT</start_from><stream_type>wmv</stream_type><kbps>368</kbps><qs>97</qs><qc>85</qc><sop_address><item>sop://60.12.164.67:3912/98492</item></sop_address><description cn="">Description: chaine cinéma et politique
+Schedule: Tous les jours
+Type: politique
+Email:anar@anarchytv.net
+Phone:</description></channel></group><group id="147" type="0" en="" cn="" description="Description:ITALIAN WEB RADIO TV
+Schedule:24x7
+Type:Musica-Film-Notizie-Sport
+Email:italiatop@alice.it
+Phone:+393358062335">ITALIAN WEB RADIO TV<channel id="78364" type="0" btype="0" language="en"><name en="Televisione 3" cn="">Televisione 3</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Education" cn="教育类">8</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Sat, 29 Jan 2011 04:28:16 GMT</start_from><stream_type>wmv</stream_type><kbps>109</kbps><qs>100</qs><qc>85</qc><sop_address><item>sop://60.12.164.67:3912/78364</item></sop_address><description cn="">Description:Televisione 3
+Schedule:
+Type:education
+Email:frarusseau@hotmail.it
+Phone:</description></channel></group><group id="172" type="0" en="" cn="" description="Description:
+Schedule:
+Type:
+Email:email@your.com
+Phone:">Italian Group Web Radio - Web Tv<channel id="61157" type="0" btype="0" language="it"><name en="Tele Chiara" cn="">Tele Chiara</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 21:44:27 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>0</qs><qc>40</qc><sop_address><item>sop://60.12.164.67:3912/61157</item></sop_address><description cn="">info@mariatv.it</description></channel></group><group id="185" type="0" en="" cn="" description="la chaine qui se déchaine, des films, des séries, des dessins animés, la chaine pour tous!">les chaines qui se déchainent !<channel id="47156" type="0" btype="0" language="zh_TW"><name en="hello abc" cn="">hello abc</name><status>2</status><region en="Portugal" cn="葡萄牙">PT</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:15:59 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>97</qs><qc>88</qc><sop_address><item>sop://60.12.164.67:3912/47156</item></sop_address><description cn="">Description:
+Schedule:24×7
+Email:user@your.com</description></channel></group><group id="242" type="0" en="Brasil and Japao" cn="" description="Description:general channels
+Schedule:full time
+Type:free for child 
+Email:email@your.com
+Phone:">Brasil and Japao<channel id="49611" type="0" btype="0" language="pt_BR"><name en="VARGEM ALEGRE@  **FILMES**" cn="mlfranco2005@hotmail.com">Construindo Um Império - China</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:22:26 GMT</start_from><stream_type>wmv</stream_type><kbps>928</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/49611</item></sop_address><description cn="">GALERA. ESTOU VENDENDO CAMISAS POLO RALPH LAUREN NO SITE MERCADO LIVRE E NO TODA OFERTA, PROCURE PELO MEU APELIDO SHALONADONAIIMPORTS</description></channel><channel id="97556" type="0" btype="0" language="pt_BR"><name en="Tv Adnipo" cn="">Tv Adnipo Isesaki Filme Inabalavel</name><status>2</status><region en="Japan" cn="日本">JP</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:40:43 GMT</start_from><stream_type>wmv</stream_type><kbps>141</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/97556</item></sop_address><description cn="">Description:Canal Adnipo Isesaki
+Schedule:everyday
+Type:
+Email:adnipoisesaki@hotmail.com
+Phone:</description></channel></group><group id="289" type="0" en="" cn="" description="Descrição:
+ Canais em português, ou transmitidas por brasileiros.
+------------
+Description:
+ Portuguese channels, or broadcasted by brazilians.">Brazilians<channel id="23547" type="0" btype="0" language="en"><name en="TV Assembleia" cn="">TV Assembleia</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 05:27:41 GMT</start_from><stream_type>wmv</stream_type><kbps>308</kbps><qs>99</qs><qc>94</qc><sop_address><item>sop://60.12.164.67:3912/23547</item></sop_address><description cn="">Description: Test channel for the State Council of MG/BR - Canal de teste da TVAlmg
+Schedule:24×7
+Email:marcus@almg.gov.br</description></channel><channel id="49611" type="0" btype="0" language="pt_BR"><name en="VARGEM ALEGRE@  **FILMES**" cn="mlfranco2005@hotmail.com">Construindo Um Império - China</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:22:26 GMT</start_from><stream_type>wmv</stream_type><kbps>928</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/49611</item></sop_address><description cn="">GALERA. ESTOU VENDENDO CAMISAS POLO RALPH LAUREN NO SITE MERCADO LIVRE E NO TODA OFERTA, PROCURE PELO MEU APELIDO SHALONADONAIIMPORTS</description></channel></group><group id="302" type="0" en="" cn="" description="For The urban Music">Urban Music<channel id="91013" type="1" btype="0" language="en"><name en="Gospel In The Mix" cn="">10-10-10_1115_P5_ImGivingMyAll</name><status>2</status><region en="United States" cn="美国">US</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:41:52 GMT</start_from><stream_type>wmv</stream_type><kbps>364</kbps><qs>98</qs><qc>98</qc><sop_address><item>sop://60.12.164.67:3912/91013</item></sop_address><description cn="">Listen To A Great Mix Of Gospel Music And Ocassonally An Inspiring Message As Well.</description></channel></group><group id="354" type="0" en="" cn="" description="组描述：
+播放时间：
+播放属性：
+Email：email@your.com
+电话：">娱乐2<channel id="95303" type="0" btype="0" language="zh_CN"><name en="Panyu Radio(www.yamman.net)" cn="番禺电台(www.yamman.net)">Panyu Radio</name><status>2</status><region en="China" cn="中国">CN</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>4</user_count><sn>4152</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 01:30:14 GMT</start_from><stream_type>wma</stream_type><kbps>32</kbps><qs>100</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/95303</item></sop_address><description cn="番禺电台Yamman.net">描述:Panyu Radio
+时间表:All Day
+类型:
+Email:
+电话:</description></channel></group><group id="389" type="0" en="" cn="" description="WebTv Or Music">WebTv &amp; Music<channel id="91013" type="1" btype="0" language="en"><name en="Gospel In The Mix" cn="">10-10-10_1115_P5_ImGivingMyAll</name><status>2</status><region en="United States" cn="美国">US</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:41:52 GMT</start_from><stream_type>wmv</stream_type><kbps>364</kbps><qs>98</qs><qc>98</qc><sop_address><item>sop://60.12.164.67:3912/91013</item></sop_address><description cn="">Listen To A Great Mix Of Gospel Music And Ocassonally An Inspiring Message As Well.</description></channel></group><group id="408" type="0" en="" cn="" description="Description:
+Schedule:
+Type:
+Email:callebe_0@hotmail.com
+Phone:">Entertainmnet<channel id="91013" type="1" btype="0" language="en"><name en="Gospel In The Mix" cn="">10-10-10_1115_P5_ImGivingMyAll</name><status>2</status><region en="United States" cn="美国">US</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:41:52 GMT</start_from><stream_type>wmv</stream_type><kbps>364</kbps><qs>98</qs><qc>98</qc><sop_address><item>sop://60.12.164.67:3912/91013</item></sop_address><description cn="">Listen To A Great Mix Of Gospel Music And Ocassonally An Inspiring Message As Well.</description></channel></group><group id="460" type="0" en="" cn="" description="Description: Groupd for brodcasters from USA
+Schedule:24*7
+Type:Mix
+Email:riojewelry@novelrings.com">USA<channel id="56413" type="0" btype="0" language="en"><name en="Changed By The Word" cn="">5-10-10 Praise 3 Sweet Spirit 830</name><status>2</status><region en="United States" cn="美国">US</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:42:15 GMT</start_from><stream_type>wmv</stream_type><kbps>364</kbps><qs>98</qs><qc>89</qc><sop_address><item>sop://60.12.164.67:3912/56413</item></sop_address><description cn="">Have your life changed by the preaching of the Word Of God By Pastor Rick &amp; Pastor Toby.</description></channel></group><group id="476" type="0" en="" cn="" description="Description: mix broadcasting
+Schedule:24*7
+Email:slacknmad@hotmail.com
+">USA TV<channel id="102598" type="0" btype="0" language="en"><name en="Victory Television Network" cn="">Bonanza - Badge Without Honor</name><status>2</status><region en="United States" cn="美国">US</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:16:09 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/102598</item></sop_address><description cn="">Description: Family friendly with retro style tv shows, children's programming, original shows and Christian content.
+Schedule: TBA
+Type: G rated
+Email: victorytelevisionstudios@yahoo.com
+Website: http://www.victorytelevisionnetwork.com
+Phone: 386-749-0072</description></channel><channel id="103244" type="0" btype="0" language="en"><name en="Halloween--Somebody Goofed In The Hood" cn="">somebody goofed</name><status>2</status><region en="United States" cn="美国">US</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:38:32 GMT</start_from><stream_type>wmv</stream_type><kbps>255</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/103244</item></sop_address><description cn=""> A young urban robber runs into the scare of his life when he discovers there is life after death afterall. His fate is much scarier than what you would find on Halloween.</description></channel></group><group id="500" type="0" en="" cn="" description="Description:
+Schedule:
+Type:
+Email:email@your.com
+Phone:">BRASIL LIVE TV<channel id="23547" type="0" btype="0" language="en"><name en="TV Assembleia" cn="">TV Assembleia</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 05:27:41 GMT</start_from><stream_type>wmv</stream_type><kbps>308</kbps><qs>99</qs><qc>94</qc><sop_address><item>sop://60.12.164.67:3912/23547</item></sop_address><description cn="">Description: Test channel for the State Council of MG/BR - Canal de teste da TVAlmg
+Schedule:24×7
+Email:marcus@almg.gov.br</description></channel></group><group id="625" type="0" en="" cn="" description="Grupo criado exclusivamente para trasnmissao de cultos evangelicos atraves da net. 
+Sob aprovacao do ADM.">GOSPEL TV<channel id="56413" type="0" btype="0" language="en"><name en="Changed By The Word" cn="">5-10-10 Praise 3 Sweet Spirit 830</name><status>2</status><region en="United States" cn="美国">US</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:42:15 GMT</start_from><stream_type>wmv</stream_type><kbps>364</kbps><qs>98</qs><qc>89</qc><sop_address><item>sop://60.12.164.67:3912/56413</item></sop_address><description cn="">Have your life changed by the preaching of the Word Of God By Pastor Rick &amp; Pastor Toby.</description></channel><channel id="103244" type="0" btype="0" language="en"><name en="Halloween--Somebody Goofed In The Hood" cn="">somebody goofed</name><status>2</status><region en="United States" cn="美国">US</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:38:32 GMT</start_from><stream_type>wmv</stream_type><kbps>255</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/103244</item></sop_address><description cn=""> A young urban robber runs into the scare of his life when he discovers there is life after death afterall. His fate is much scarier than what you would find on Halloween.</description></channel></group><group id="671" type="0" en="" cn="" description="Description: A good quality mix of inspirational talk and music
+Schedule:24/7
+Type:Christian
+Email:renrutledge@apostolic.netPhone:860 823 1953">Christian Broadcasting<channel id="10062" type="0" btype="0" language="en"><name en="Global Christian TV With Ren Rutledge" cn="">Ren Rutledge Global TV</name><status>2</status><region en="United States" cn="美国">US</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Thu, 10 Feb 2011 05:25:56 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>92</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/10062</item></sop_address><description cn="">Description:Christian Schedule:24×7Email:renrutledge@hotmail.com</description></channel><channel id="10150" type="0" btype="0" language="en"><name en="Global Christian Radio - Ren Rutledge" cn="">Ren Rutledge Global Broadcasting</name><status>2</status><region en="United States" cn="美国">US</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 17:38:55 GMT</start_from><stream_type>null</stream_type><kbps>61</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/10150</item></sop_address><description cn="">Global Christian Radio With Ren Rutledge</description></channel><channel id="12177" type="0" btype="0" language="nl"><name en="Bright.FM" cn="">Bright.FM</name><status>2</status><region en="Netherlands, The" cn="荷兰">NL</region><class en="Music" cn="音乐类">11</class><user_count>2</user_count><sn>4128</sn><visit_count>0</visit_count><start_from>Thu, 13 Jan 2011 20:51:21 GMT</start_from><stream_type>null</stream_type><kbps>127</kbps><qs>99</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/12177</item></sop_address><description cn="Bright.FM -基督教音樂！">Bright.FM - Christian Music!</description></channel><channel id="56413" type="0" btype="0" language="en"><name en="Changed By The Word" cn="">5-10-10 Praise 3 Sweet Spirit 830</name><status>2</status><region en="United States" cn="美国">US</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:42:15 GMT</start_from><stream_type>wmv</stream_type><kbps>364</kbps><qs>98</qs><qc>89</qc><sop_address><item>sop://60.12.164.67:3912/56413</item></sop_address><description cn="">Have your life changed by the preaching of the Word Of God By Pastor Rick &amp; Pastor Toby.</description></channel></group><group id="898" type="1" en="POLAND" cn="" description="Live Sport">POLAND<channel id="11910" type="0" btype="0" language="en"><name en="Horse Racing Live" cn="">sport</name><status>2</status><region en="Austria" cn="奥地利">AT</region><class en="Sports" cn="体育类">2</class><user_count>2</user_count><sn>4126</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:34:22 GMT</start_from><stream_type>wmv</stream_type><kbps>234</kbps><qs>96</qs><qc>72</qc><sop_address><item>sop://60.12.164.67:3912/11910</item></sop_address><description cn="TV P2P">Description:SPORT
+Schedule:24×7
+Email: office@ssporti.com</description></channel><channel id="18135" type="0" btype="0" language="en"><name en="FC Kobenhavn - Chelsea" cn="">sport</name><status>2</status><region en="Portugal" cn="葡萄牙">PT</region><class en="Sports" cn="体育类">2</class><user_count>5</user_count><sn>4183</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:41:12 GMT</start_from><stream_type>wmv</stream_type><kbps>234</kbps><qs>100</qs><qc>84</qc><sop_address><item>sop://60.12.164.67:3912/18135</item></sop_address><description cn="">Description:sport live
+Schedule:24×7
+Email:
+sport</description></channel></group><group id="909" type="0" en="" cn="" description="Description:News, Entertainment, Fashion, Music, Sports, Movie, Cultur 
+Schedule:full time
+Type:
+Email:ittv@ittv.lublin.pl
+web:www.ittv.pl
+WebCam:www.magiccam.pl/demo
+Phone:+48 0817412322
+">Poland  Internet TV - Polskie Internetowe TV<channel id="27350" type="0" btype="0" language="en"><name en="Sports iTTv™ Group Champions League" cn="突然行動 - Judo @ iTTv™ Group">Sports</name><status>2</status><region en="Poland" cn="波兰">PL</region><class en="Sports" cn="体育类">2</class><user_count>4</user_count><sn>4157</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:30:25 GMT</start_from><stream_type>wmv</stream_type><kbps>315</kbps><qs>97</qs><qc>77</qc><sop_address><item>sop://60.12.164.67:3912/27350</item></sop_address><description cn="">Champions League:
+www.ittv.pl
+wap.ittv.pl
+Email:tv@ittv.pl</description></channel><channel id="45965" type="0" btype="0" language="en"><name en="Sports iTTv™ Group: Volleyball" cn="">Sports</name><status>2</status><region en="Poland" cn="波兰">PL</region><class en="Sports" cn="体育类">2</class><user_count>2</user_count><sn>4128</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:53:33 GMT</start_from><stream_type>wmv</stream_type><kbps>158</kbps><qs>100</qs><qc>84</qc><sop_address><item>sop://60.12.164.67:3912/45965</item></sop_address><description cn="">Volleyball
+Champions
+Description:
+Schedule:24h
+Email:tv@ittv.pl</description></channel></group><group id="948" type="0" en="" cn="" description="Description:
+Schedule:
+Type:
+Email:email@your.com
+Phone:">Sports Channel<channel id="93289" type="0" btype="0" language="en"><name en="DerbyHD.com " cn="">Derbyhd.com</name><status>2</status><region en="Barbados" cn="巴巴多斯">BB</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4129</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 01:11:40 GMT</start_from><stream_type>wmv</stream_type><kbps>544</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/93289</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="1174" type="0" en="" cn="" description="24/7 Worship, Praise and the best CCM.">Christian Music<channel id="12177" type="0" btype="0" language="nl"><name en="Bright.FM" cn="">Bright.FM</name><status>2</status><region en="Netherlands, The" cn="荷兰">NL</region><class en="Music" cn="音乐类">11</class><user_count>2</user_count><sn>4128</sn><visit_count>0</visit_count><start_from>Thu, 13 Jan 2011 20:51:21 GMT</start_from><stream_type>null</stream_type><kbps>127</kbps><qs>99</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/12177</item></sop_address><description cn="Bright.FM -基督教音樂！">Bright.FM - Christian Music!</description></channel></group><group id="1446" type="0" en="" cn="" description="Email:szymekekm@wp.pl
+">Poland Internet TV - Polskie Internetowe TV<channel id="11910" type="0" btype="0" language="en"><name en="Horse Racing Live" cn="">sport</name><status>2</status><region en="Austria" cn="奥地利">AT</region><class en="Sports" cn="体育类">2</class><user_count>2</user_count><sn>4126</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:34:22 GMT</start_from><stream_type>wmv</stream_type><kbps>234</kbps><qs>96</qs><qc>72</qc><sop_address><item>sop://60.12.164.67:3912/11910</item></sop_address><description cn="TV P2P">Description:SPORT
+Schedule:24×7
+Email: office@ssporti.com</description></channel></group><group id="1591" type="0" en="Constructive Channel" cn="" description="[desc]:Constructive TV Channel over the internet
+time:24/7
+attr:public
+Email：jinson@i12.com
+">Constructive Channel<channel id="12848" type="0" btype="0" language="en"><name en="www.SupremeMasterTV.com" cn="">SupremeMastertv.com</name><status>2</status><region en="United States" cn="美国">US</region><class en="Entertainmnet" cn="娱乐类">1</class><user_count>10</user_count><sn>4412</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 14:44:35 GMT</start_from><stream_type>wmv</stream_type><kbps>337</kbps><qs>94</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/12848</item></sop_address><description cn="">Description: A new satellite channel broadcasting 24 hours a day, 7 days a week, with a variety of engaging programs in English with German, French, Italian, Spanish, Persian, Arabic, Russian, Chinese, Korean and Aulacese subtitles Being the ideal television channel airing throughout Europe that brings to your life nobility and spirituality.
+
+Schedule:24×7
+http://suprememastertelevision.com/schedule.php
+
+Email:filip_nguyen@yahoo.com</description></channel><channel id="16499" type="0" btype="0" language="en"><name en="SupremeMasterTV(200k)" cn="无上师电视台">SupremeMastertv.com</name><status>2</status><region en="United Kingdom" cn="英国">UK</region><class en="General" cn="综合类">3</class><user_count>14</user_count><sn>4620</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 13:03:21 GMT</start_from><stream_type>wmv</stream_type><kbps>337</kbps><qs>98</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/16499</item></sop_address><description cn="">Description: 
+SUPREME MASTER TV is a free-to-air satellite channel broadcasting 24 hours a day, 7 days a week, with a variety of engaging programs in English with over 40 languages and subtitles. Being the ideal television channel that brings to your life Nobility and Spirituality. Broadcasting on 14 satellites platforms across the globe.  
+Schedule:24×7
+Email:jinson@i12.com
+you are also welcome to visit our TVants cbannels at http://www.gdcsvc.net/webtv/VHQ/ http://www.gdcsvc.net/webtv/HQ/
+http://www.gdcsvc.net/webtv/SQ/</description></channel></group><group id="1640" type="0" en="" cn="" description="Teleprima
+webmaster@teleprima.it
+">Italy<channel id="28405" type="0" btype="0" language="it"><name en="Granducato TV" cn="">Granducato TV</name><status>2</status><region en="Italy" cn="意大利">IT</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Tue, 08 Feb 2011 07:19:18 GMT</start_from><stream_type>wmv</stream_type><kbps>232</kbps><qs>98</qs><qc>98</qc><sop_address><item>sop://60.12.164.67:3912/28405</item></sop_address><description cn="">Granducato TV, the Star's television</description></channel></group><group id="3399" type="0" en="Preach Gospel2lost" cn="" description="Description:Listen to Gospel talk shows
+Schedule:
+Type:REligious-Christian
+Email:jsptv@yahoo.co.in
+Phone:00918812224428">Preach Gospel2lost<channel id="10150" type="0" btype="0" language="en"><name en="Global Christian Radio - Ren Rutledge" cn="">Ren Rutledge Global Broadcasting</name><status>2</status><region en="United States" cn="美国">US</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 17:38:55 GMT</start_from><stream_type>null</stream_type><kbps>61</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/10150</item></sop_address><description cn="">Global Christian Radio With Ren Rutledge</description></channel></group><group id="4028" type="0" en="Tunisia" cn="" description="Description:broadcast tunisian and international football
+Type:sport
+">Tunisia<channel id="29995" type="0" btype="0" language="ar"><name en="Tunisia-TV (291 kbps) " cn="">Tunisia-TV (291 kbps) </name><status>2</status><region en="Tunisia" cn="突尼斯">TN</region><class en="Sports" cn="体育类">2</class><user_count>21</user_count><sn>5178</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:55:15 GMT</start_from><stream_type>wmv</stream_type><kbps>296</kbps><qs>90</qs><qc>93</qc><sop_address><item>sop://60.12.164.67:3912/29995</item></sop_address><description cn="">Description: Tunisian and International Football
+</description></channel><channel id="92997" type="0" btype="0" language="ar"><name en="Tunisia-TV HD (991kbps) Test Test" cn="">Tunisia-TV HD (991kbps) Test Test</name><status>2</status><region en="Tunisia" cn="突尼斯">TN</region><class en="Sports" cn="体育类">2</class><user_count>22</user_count><sn>5264</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:17:58 GMT</start_from><stream_type>wmv</stream_type><kbps>993</kbps><qs>100</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/92997</item></sop_address><description cn="">Description: Tunisian and International Football
+</description></channel></group><group id="4221" type="0" en="Gospel For All" cn="" description="Description:Education, Evangelism
+Schedule:24/7
+Type:Live
+Email:jc@wgfa.org
+Phone:407 556-4819
+">Gospel For All<channel id="10150" type="0" btype="0" language="en"><name en="Global Christian Radio - Ren Rutledge" cn="">Ren Rutledge Global Broadcasting</name><status>2</status><region en="United States" cn="美国">US</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 17:38:55 GMT</start_from><stream_type>null</stream_type><kbps>61</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/10150</item></sop_address><description cn="">Global Christian Radio With Ren Rutledge</description></channel></group><group id="4532" type="0" en="sinda" cn="" description="Description:
+Schedule:
+Type:
+Email:email@your.com
+Phone:">sinda<channel id="47156" type="0" btype="0" language="zh_TW"><name en="hello abc" cn="">hello abc</name><status>2</status><region en="Portugal" cn="葡萄牙">PT</region><class en="Others" cn="其它">99</class><user_count>1</user_count><sn>4118</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:15:59 GMT</start_from><stream_type>wmv</stream_type><kbps>288</kbps><qs>97</qs><qc>88</qc><sop_address><item>sop://60.12.164.67:3912/47156</item></sop_address><description cn="">Description:
+Schedule:24×7
+Email:user@your.com</description></channel></group><group id="6712" type="0" en="VARGEM ALEGRE ** FILMES **" cn="" description="Esta Tv é dedicada a todos meus conterraneos espalhados pelo mundo afora.
+Qualquer contato meu msn
+lumystica2005@gmail.com
+Schedule:7x7x24
+">VARGEM ALEGRE ** FILMES **<channel id="49611" type="0" btype="0" language="pt_BR"><name en="VARGEM ALEGRE@  **FILMES**" cn="mlfranco2005@hotmail.com">Construindo Um Império - China</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="Movies" cn="电影">9</class><user_count>1</user_count><sn>4117</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:22:26 GMT</start_from><stream_type>wmv</stream_type><kbps>928</kbps><qs>100</qs><qc>100</qc><sop_address><item>sop://60.12.164.67:3912/49611</item></sop_address><description cn="">GALERA. ESTOU VENDENDO CAMISAS POLO RALPH LAUREN NO SITE MERCADO LIVRE E NO TODA OFERTA, PROCURE PELO MEU APELIDO SHALONADONAIIMPORTS</description></channel></group><group id="7569" type="0" en="Brasil - Web Rádio and TV" cn="" description="Description:Rádios and TV from Brasil
+betosilva@conquistafmrio.com.br
+Phone:+55.21.2667-6149">Brasil - Web Rádio and TV<channel id="23547" type="0" btype="0" language="en"><name en="TV Assembleia" cn="">TV Assembleia</name><status>2</status><region en="Brazil" cn="巴西">BR</region><class en="General" cn="综合类">3</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 05:27:41 GMT</start_from><stream_type>wmv</stream_type><kbps>308</kbps><qs>99</qs><qc>94</qc><sop_address><item>sop://60.12.164.67:3912/23547</item></sop_address><description cn="">Description: Test channel for the State Council of MG/BR - Canal de teste da TVAlmg
+Schedule:24×7
+Email:marcus@almg.gov.br</description></channel></group><group id="7988" type="0" en="Romania TV" cn="" description="Description:Good
+Schedule:
+Type:
+Email:chelanul@yahoo.com
+Phone:">Romania TV<channel id="90522" type="1" btype="0" language="en"><name en="Sport4U 2" cn="">Sport4U 2</name><status>2</status><region en="Canada" cn="加拿大">CA</region><class en="Movies" cn="电影">9</class><user_count>3</user_count><sn>4145</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 02:55:56 GMT</start_from><stream_type>wmv</stream_type><kbps>557</kbps><qs>96</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/90522</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="8335" type="0" en="romania" cn="" description="Description:free Romanian soccer games
+Schedule: anytime
+Type:
+Email:email@your.com
+Phone:">romania<channel id="90522" type="1" btype="0" language="en"><name en="Sport4U 2" cn="">Sport4U 2</name><status>2</status><region en="Canada" cn="加拿大">CA</region><class en="Movies" cn="电影">9</class><user_count>3</user_count><sn>4145</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 02:55:56 GMT</start_from><stream_type>wmv</stream_type><kbps>557</kbps><qs>96</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/90522</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="8792" type="0" en=":: :: :: PHILIPPINE TV &amp; RADIO STATIONS :: :: ::" cn="" description="Description: Filipino TV &amp; Radio Station
+Schedule: 24/7
+Type: TV &amp; Radio Stations
+Email: jun_mayol@yahoo.com
+Phone:
+
+
+
+
+
+
+
+">:: :: :: PHILIPPINE TV &amp; RADIO STATIONS :: :: ::<channel id="67735" type="0" btype="0" language="en"><name en="KissYa – PHILIPPINE LOVE RADIO" cn="">KissYa - Philippine LOVE Radio</name><status>2</status><region en="Philippines" cn="菲律宾">PH</region><class en="Music" cn="音乐类">11</class><user_count>1</user_count><sn>4120</sn><visit_count>0</visit_count><start_from>Tue, 22 Feb 2011 22:53:37 GMT</start_from><stream_type>wma</stream_type><kbps>131</kbps><qs>100</qs><qc>86</qc><sop_address><item>sop://60.12.164.67:3912/67735</item></sop_address><description cn="">Description: All Filipino Favorite Hits of the 70's 80's 90's &amp; Today!
+Schedule: 24/7
+Type: Tagalog Music Radio Station
+Email: jun_mayol@yahoo.com
+Phone:</description></channel></group><group id="12641" type="0" en="rotv-network" cn="" description="Description:rotv-network
+Schedule:24/7
+Type:
+Email:
+Phone:">rotv-network<channel id="90522" type="1" btype="0" language="en"><name en="Sport4U 2" cn="">Sport4U 2</name><status>2</status><region en="Canada" cn="加拿大">CA</region><class en="Movies" cn="电影">9</class><user_count>3</user_count><sn>4145</sn><visit_count>0</visit_count><start_from>Mon, 21 Feb 2011 02:55:56 GMT</start_from><stream_type>wmv</stream_type><kbps>557</kbps><qs>96</qs><qc>92</qc><sop_address><item>sop://60.12.164.67:3912/90522</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="12837" type="0" en="DerbyHD" cn="" description="Description:
+Schedule:
+Type:
+Email:
+Phone:
+
+">DerbyHD<channel id="93289" type="0" btype="0" language="en"><name en="DerbyHD.com " cn="">Derbyhd.com</name><status>2</status><region en="Barbados" cn="巴巴多斯">BB</region><class en="General" cn="综合类">3</class><user_count>2</user_count><sn>4129</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 01:11:40 GMT</start_from><stream_type>wmv</stream_type><kbps>544</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/93289</item></sop_address><description cn="">Description:
+Schedule:
+Type:
+Email:
+Phone:</description></channel></group><group id="14338" type="0" en="Chung Hua Cultural Education Centre " cn="中华文化教育" description="描述:弘揚中華優秀傳統文化
+时间表:0:00-24:00
+类型:Education
+Email:z2r@163.com
+电话:
+">Chung Hua Cultural Education Centre  [中华文化教育]<channel id="104988" type="0" btype="0" language="zh_TW"><name en="china cultural " cn="直播測試">happy</name><status>2</status><region en="Malaysia" cn="马来西亚">MY</region><class en="Education" cn="教育类">8</class><user_count>1</user_count><sn>4122</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 03:23:15 GMT</start_from><stream_type>wmv</stream_type><kbps>179</kbps><qs>100</qs><qc>90</qc><sop_address><item>sop://60.12.164.67:3912/104988</item></sop_address><description cn="４５００年前的中國遠祖是如何教育後裔的">描述:
+时间表:
+类型:
+Email:
+电话:</description></channel></group><group id="15480" type="0" en="SHOWSERIES" cn="" description="Description:
+Schedule:
+Type:
+Email:
+Phone:">SHOWSERIES<channel id="106509" type="0" btype="0" language="en"><name en="Ezone Radio" cn="">Ezone Radio 24/7</name><status>2</status><region en="Canada" cn="加拿大">CA</region><class en="Music" cn="音乐类">11</class><user_count>2</user_count><sn>4126</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:35:59 GMT</start_from><stream_type>mp3</stream_type><kbps>128</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/106509</item></sop_address><description cn="">Enjoy a host of personalities bringing you the best in music and comedy 24/7 visit www.meetcam.com on the erogenous zone server to meet us its free to join 100% full privilages never an upgrade needed. Ezone Radio thanks you for listening!!!!!</description></channel></group><group id="15553" type="0" en="MC Entertainment" cn="" description="Description:MC Entertainment
+Schedule:Daily
+Type:Entertainment
+Email:
+
+
+
+">MC Entertainment<channel id="106509" type="0" btype="0" language="en"><name en="Ezone Radio" cn="">Ezone Radio 24/7</name><status>2</status><region en="Canada" cn="加拿大">CA</region><class en="Music" cn="音乐类">11</class><user_count>2</user_count><sn>4126</sn><visit_count>0</visit_count><start_from>Wed, 23 Feb 2011 02:35:59 GMT</start_from><stream_type>mp3</stream_type><kbps>128</kbps><qs>100</qs><qc>82</qc><sop_address><item>sop://60.12.164.67:3912/106509</item></sop_address><description cn="">Enjoy a host of personalities bringing you the best in music and comedy 24/7 visit www.meetcam.com on the erogenous zone server to meet us its free to join 100% full privilages never an upgrade needed. Ezone Radio thanks you for listening!!!!!</description></channel></group></channels>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" oor:name="OptionsDialog" oor:package="org.openoffice.Office">
+  <node oor:name="Nodes">
+    <node oor:name="Internet" oor:op="fuse">
+      <node oor:name="Leaves">
+        <node oor:name="com.sun.star.wiki.options" oor:op="fuse">
+          <prop oor:name="Id">
+            <value>com.sun.wiki-publisher</value>
+          </prop>
+          <prop oor:name="Label">
+            <value xml:lang="en-US">MediaWiki</value>
+          </prop>
+          <prop oor:name="OptionsPage">
+            <value>vnd.sun.star.expand:$BUNDLED_EXTENSIONS/wiki-publisher/WikiEditor/Settings.xdl</value>
+          </prop>
+          <prop oor:name="EventHandlerService">
+            <value>com.sun.star.wiki.WikiOptionsEventHandlerImpl</value>
+          </prop>
+        </node>
+      </node>
+    </node>
+  </node>
+</oor:component-data>

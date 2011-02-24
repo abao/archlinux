@@ -1,0 +1,180 @@
+{
+   "advancedOptions": {
+      "message": "Advanced Options"
+   },
+   "confirmDeleteFolderBookmarks": {
+      "message": "Are you sure you want to delete $folderName$ folder and $bookmarkCount$ bookmark(s) in it?",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$2"
+         },
+         "folderName": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfolders": {
+      "message": "Are you sure you want to delete $folderName$ folder and $subFolderCount$ sub-folder(s) in it?",
+      "placeholders": {
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfoldersBookmarks": {
+      "message": "Are you sure you want to delete $folderName$ folder, $subFolderCount$ sub-folder(s) and $bookmarkCount$ bookmark(s) in it?",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$3"
+         },
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmOpenBookmarks": {
+      "description": "Confirmation message for opening all bookmarks.",
+      "message": "Are you sure you want to open all $count$ bookmarks?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewIncognitoWindow": {
+      "description": "Confirmation message for opening all bookmarks in a new incognito window.",
+      "message": "Are you sure you want to open all $count$ bookmarks in a new incognito window?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewWindow": {
+      "description": "Confirmation message for opening all bookmarks in a new window.",
+      "message": "Are you sure you want to open all $count$ bookmarks in a new window?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete": {
+      "message": "Delete"
+   },
+   "deleteEllipsis": {
+      "message": "Delete..."
+   },
+   "edit": {
+      "message": "Edit..."
+   },
+   "editBookmark": {
+      "message": "Edit bookmark"
+   },
+   "editFolder": {
+      "message": "Edit folder"
+   },
+   "errorOccured": {
+      "message": "Oops, an error occured."
+   },
+   "extDesc": {
+      "description": "The extension description.",
+      "message": "A neat bookmarks tree popup."
+   },
+   "extName": {
+      "description": "The extension name.",
+      "message": "Neat Bookmarks"
+   },
+   "ignore": {
+      "message": "Ignore"
+   },
+   "name": {
+      "description": "Name of bookmark or folder.",
+      "message": "Name"
+   },
+   "noTitle": {
+      "description": "The title for untitled bookmarks with no http(s) URL or untitled folders.",
+      "message": "(no title)"
+   },
+   "nope": {
+      "message": "Nope"
+   },
+   "open": {
+      "description": "Action to open bookmarks.",
+      "message": "Open"
+   },
+   "openBookmarks": {
+      "message": "Open all bookmarks"
+   },
+   "openBookmarksIncognitoWindow": {
+      "message": "Open all bookmarks in incognito window"
+   },
+   "openBookmarksNewWindow": {
+      "message": "Open all bookmarks in new window"
+   },
+   "openIncognitoWindow": {
+      "message": "Open in incognito window"
+   },
+   "openNewTab": {
+      "message": "Open in new tab"
+   },
+   "openNewWindow": {
+      "message": "Open in new window"
+   },
+   "optionCloseUnusedFolders": {
+      "message": "Close unused folders when opening a folder."
+   },
+   "optionConfirmOpenFolder": {
+      "message": "Display confirmation when opening a lot of bookmarks from a folder."
+   },
+   "optionOpenNewTab": {
+      "message": "Middle-click or control-click opens bookmark in new background tab (instead of foreground)."
+   },
+   "optionPopupStays": {
+      "message": "Popup stays open when opening (left-clicking) bookmarks."
+   },
+   "optionRememberPrevState": {
+      "message": "Remember previous state (scroll position and opened folders)."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "optionsFooterText": {
+      "description": "Footer text for the Options page",
+      "message": "Handcrafted by $authorName$.",
+      "placeholders": {
+         "authorName": {
+            "content": "$1"
+         }
+      }
+   },
+   "parentFolder": {
+      "description": "Parent folder information displayed in the tooltip of bookmarks in search results list.",
+      "message": "Parent folder: \"$folderName$\"",
+      "placeholders": {
+         "folderName": {
+            "content": "$1",
+            "example": "Bookmarks bar"
+         }
+      }
+   },
+   "reportError": {
+      "message": "Report this error"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "searchBookmarks": {
+      "description": "Placeholder text for search field.",
+      "message": "Search Bookmarks"
+   },
+   "url": {
+      "message": "URL"
+   }
+}

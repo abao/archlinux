@@ -1,0 +1,527 @@
+{
+   "after_timeout": {
+      "description": "After the Timeout textbox.",
+      "message": " seconds."
+   },
+   "after_updateint": {
+      "description": "After the Check Interval textbox.",
+      "message": " seconds."
+   },
+   "apologies": {
+      "description": "A section header on the Legal Info page.",
+      "message": "Apologies"
+   },
+   "apologies1": {
+      "description": "A paragraph of the apologies.",
+      "message": "Google, authors of the \"Google Mail Checker\" tool, which has far cooler animations, and which I peeked inside to figure out how to access the Gmail Inbox RSS feed."
+   },
+   "apologies2": {
+      "description": "A paragraph of the apologies.",
+      "message": "TPReal, author of TPGoogleReader, which has far cooler features.  Again, I used it on my quest to learn the Google Reader API."
+   },
+   "apologies3": {
+      "description": "A paragraph of the apologies.",
+      "message": "Jeremy Selier, author of Google Wave Checker, which uses a VERY hackish way of checking for unread waves that I had to use as well since there seems to be no API for it!  I like to think that mine is /slightly/ less hackish though."
+   },
+   "apply": {
+      "description": "Caption for Apply button on options page.",
+      "message": "Apply"
+   },
+   "author_info": {
+      "description": "A section header on the Changelog page.",
+      "message": "Extension and Author Info"
+   },
+   "bad_check_interval": {
+      "description": "JavaScript alert if the user set a bad check interval and tries to save it.",
+      "message": "You must enter at least 1 second for the check interval.  Your change has been ignored."
+   },
+   "bad_timeout": {
+      "description": "JavaScript alert if the user set a bad timeout and tries to save it.",
+      "message": "You must enter at least 1 second for the timeout.  Your change has been ignored."
+   },
+   "badge_error": {
+      "description": "Text displayed on the button badge when a service has an error.",
+      "message": "Err"
+   },
+   "badge_login": {
+      "description": "Text displayed on the button badge when a service is logged out.",
+      "message": "?"
+   },
+   "badge_no_unread": {
+      "description": "Text displayed on the button badge everything is ok and read.",
+      "message": ""
+   },
+   "basic_options": {
+      "description": "Header for section on options page.",
+      "message": "Basic Options"
+   },
+   "before_timeout": {
+      "description": "Before the Timeout textbox.",
+      "message": "Timeout: "
+   },
+   "before_updateint": {
+      "description": "Before the Check Interval textbox.",
+      "message": "Check interval: "
+   },
+   "bepickyaboutreuse": {
+      "description": "Checkbox caption.",
+      "message": "Only if the tab is viewing the service's inbox."
+   },
+   "by": {
+      "description": "Author information.",
+      "message": "by $author$",
+      "placeholders": {
+         "author": {
+            "content": "Dan Bugglin"
+         }
+      }
+   },
+   "cancel": {
+      "description": "Caption for Close/Cancel button on options page.",
+      "message": "Cancel"
+   },
+   "changelog_title": {
+      "description": "Title and header on the changelog.html page",
+      "message": "$name$ - Version: $version$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "One Number"
+         },
+         "version": {
+            "content": "$2",
+            "example": "1.3.0.10"
+         }
+      }
+   },
+   "close": {
+      "description": "Caption for Close/Cancel button on options page.",
+      "message": "Close"
+   },
+   "collapse": {
+      "description": "Tooltip for expanders on options page.",
+      "message": "Collapse"
+   },
+   "default_title": {
+      "description": "Initial tooltip for the browser action.",
+      "message": "One Number"
+   },
+   "description": {
+      "description": "The description that appears on the Extensions page.",
+      "message": "Check GMail, Google Reader, Google Voice, and Google Wave.  Four sources, one number."
+   },
+   "disclaimer": {
+      "description": "A section header on the Legal Info page.",
+      "message": "Disclaimer"
+   },
+   "disclaimer1": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "This extension and its author are not affililated with any of the services this extension uses, nor their creators, including Google.  This program accesses public web services using public interfaces and APIs.  The authors of those services, including Google, cannot and are not expected to privde support for this extension.  Please see the extension author for support."
+   },
+   "disclaimer2": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "Google, Gmail, Google Reader, Google Voice, Google Wave, and the logos of these services/entities are all copyrighted and trademarked by Google.  I make no claims of ownership over any of these trademarks or the services they represent."
+   },
+   "disclaimer3": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "A number of existing Google Chrome Extensions were reverse engineered in order to learn how to work with the aforementioned public APIs."
+   },
+   "disclaimer4": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "Various images with \"modify and redistribute\" licenses are packaged as a part of this extension (see below for attribution). If you are the owner of an image or piece of code that I have used and you do not wish for me to use it in this extension, please contact me so we can work something out."
+   },
+   "errorcolor": {
+      "description": "Color picker caption.",
+      "message": "Color of button when error occurs:"
+   },
+   "expand": {
+      "description": "Tooltip for expanders on options page.",
+      "message": "Expand"
+   },
+   "future_plans": {
+      "description": "A section header on the Changelog page.",
+      "message": "Future Plans"
+   },
+   "gmail_compose": {
+      "description": "Popup compose link.",
+      "message": "Compose"
+   },
+   "gmail_displayname": {
+      "description": "Service display name.",
+      "message": "Gmail"
+   },
+   "gmail_loggedoutcue": {
+      "description": "Error text that I look for to see if you're logged out (may need to change depending on Google language selecrtion?).",
+      "message": "Error 401"
+   },
+   "googlereader_displayname": {
+      "description": "Service display name.",
+      "message": "Google Reader"
+   },
+   "googlereader_loggedoutcue": {
+      "description": "Error text that I look for to see if you're logged out (may need to change depending on Google language selecrtion?).",
+      "message": "401 Client Error"
+   },
+   "googlevoice_displayname": {
+      "description": "Service display name.",
+      "message": "Google Voice"
+   },
+   "googlevoice_loggedoutcue": {
+      "description": "Error text that I look for to see if you're logged out (may need to change depending on Google language selecrtion?).",
+      "message": "Google Voice - One phone number, online voicemail, and enhanced call features"
+   },
+   "googlewave_displayname": {
+      "description": "Service display name.",
+      "message": "Google Wave"
+   },
+   "googlewave_loggedoutcue": {
+      "description": "Error text that I look for to see if you're logged out (may need to change depending on Google language selecrtion?).",
+      "message": "Google Wave - Communicate and collaborate in real time"
+   },
+   "googlewave_unreadblips": {
+      "description": "Displays the unread blips count.",
+      "message": "$unreadcount$ unread blips.",
+      "placeholders": {
+         "unreadcount": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "known_bugs": {
+      "description": "A section header on the Changelog page.",
+      "message": "Known Bugs"
+   },
+   "leave_prompt": {
+      "description": "Shown when you make changes to options and try to close the page without saving.",
+      "message": "Your changes have not yet been applied with the \"OK\" or \"Apply\" buttons, are you sure you want to discard them?"
+   },
+   "legal_title": {
+      "description": "Title and header on the legal.html page.",
+      "message": "One Number - Legal Info"
+   },
+   "loggedoutcolor": {
+      "description": "Color picker caption.",
+      "message": "Color of button when you need to log in:"
+   },
+   "multicolor": {
+      "description": "Color picker caption.",
+      "message": "Use this color for the button:"
+   },
+   "multiple_unread_messages": {
+      "description": "Header for group of options.",
+      "message": "When there are multiple services with unread messages:"
+   },
+   "name": {
+      "description": "Name of the extension that appears on the Extensions page.",
+      "message": "One Number"
+   },
+   "nav_changelog": {
+      "description": "Navigation selection in all pages",
+      "message": "Changelog"
+   },
+   "nav_legalinfo": {
+      "description": "Navigation selection in all pages",
+      "message": "Legal info"
+   },
+   "nav_login": {
+      "description": "Navigation selection in all pages",
+      "message": "Log in"
+   },
+   "nav_logout": {
+      "description": "Navigation selection in all pages",
+      "message": "Log out"
+   },
+   "nav_noopen": {
+      "description": "Navigation selection in all pages",
+      "message": "No unread"
+   },
+   "nav_open": {
+      "description": "Navigation selection in all pages",
+      "message": "Open unread"
+   },
+   "nav_options": {
+      "description": "Navigation selection in all pages",
+      "message": "Options"
+   },
+   "no_unread": {
+      "description": "Caption for text when there are no unread messages.",
+      "message": "No unread"
+   },
+   "no_unread_messages": {
+      "description": "Header for group of options.",
+      "message": "When there are no unread messages:"
+   },
+   "ok": {
+      "description": "Caption for OK button on options page.",
+      "message": "OK"
+   },
+   "oneclickopenunread": {
+      "description": "Checkbox caption.",
+      "message": "Open all services with unread items immediately when clicking the toolbar button instead of showing the popup."
+   },
+   "open_unread": {
+      "description": "Caption for the Open Unread link.",
+      "message": "Open unread"
+   },
+   "openhiddenunread": {
+      "description": "Checkbox caption.",
+      "message": "Even open ones you've hidden from showing on the toolbar button."
+   },
+   "opening_service": {
+      "description": "Header for group of options.",
+      "message": "When opening a service:"
+   },
+   "openinnewwindow": {
+      "description": "Checkbox caption.",
+      "message": "Open in a new window instead of a new tab in the current one."
+   },
+   "options_gmail": {
+      "description": "Header for section on options page.",
+      "message": "Gmail"
+   },
+   "options_gmappsdomain": {
+      "description": "Textbox caption.",
+      "message": "Google Apps domain to check (blank for Gmail): "
+   },
+   "options_gmcolor": {
+      "description": "Color picker caption.",
+      "message": "Toolbar button color when Gmail has unread e-mail:"
+   },
+   "options_gmenable": {
+      "description": "Checkbox caption.",
+      "message": "Check for unread e-mails and show Gmail in the popup."
+   },
+   "options_gmshowall": {
+      "description": "Checkbox caption.",
+      "message": "Check for any unread messages, not just in the Inbox."
+   },
+   "options_gmshowonbadge": {
+      "description": "Checkbox caption.",
+      "message": "Include the unread count on the toolbar button."
+   },
+   "options_googlereader": {
+      "description": "Header for section on options page.",
+      "message": "Google Reader"
+   },
+   "options_googlevoice": {
+      "description": "Header for section on options page.",
+      "message": "Google Voice"
+   },
+   "options_googlewave": {
+      "description": "Header for section on options page.",
+      "message": "Google Wave"
+   },
+   "options_grcolor": {
+      "description": "Color picker caption.",
+      "message": "Toolbar button color when Google Reader has unread feed items:"
+   },
+   "options_grenable": {
+      "description": "Checkbox caption.",
+      "message": "Check for unread feed items and show Google Reader in the popup."
+   },
+   "options_grshowonbadge": {
+      "description": "Checkbox caption.",
+      "message": "Include the unread count on the toolbar button."
+   },
+   "options_gvcolor": {
+      "description": "Color picker caption.",
+      "message": "Toolbar button color when Google Voice has unread voicemail:"
+   },
+   "options_gvenable": {
+      "description": "Checkbox caption.",
+      "message": "Check for unread voicemail and show Google Voice in the popup."
+   },
+   "options_gvshowall": {
+      "description": "Checkbox caption.",
+      "message": "Check for any unread messages, not just in the Inbox."
+   },
+   "options_gvshowonbadge": {
+      "description": "Checkbox caption.",
+      "message": "Include the unread count on the toolbar button."
+   },
+   "options_gwappsdomain": {
+      "description": "Textbox caption.",
+      "message": "Google Apps domain to check (blank for Google Wave): "
+   },
+   "options_gwcolor": {
+      "description": "Color picker caption.",
+      "message": "Toolbar button color when Google Wave has unread waves:"
+   },
+   "options_gwenable": {
+      "description": "Checkbox caption.",
+      "message": "Check for unread waves and show Google Wave in the popup."
+   },
+   "options_gwmincontact": {
+      "description": "Checkbox caption.",
+      "message": "Minimize contacts pane when opened from popup."
+   },
+   "options_gwminnav": {
+      "description": "Checkbox caption.",
+      "message": "Minimize navigation pane when opened from popup."
+   },
+   "options_gwminsearch": {
+      "description": "Checkbox caption.",
+      "message": "Minimize search pane when opened from popup."
+   },
+   "options_gwshowonbadge": {
+      "description": "Checkbox caption.",
+      "message": "Include the unread count on the toolbar button."
+   },
+   "options_title": {
+      "description": "Title and header on the options.html page",
+      "message": "One Number Options"
+   },
+   "popup_error": {
+      "description": "Displayed next to the unread count while the service has an error.",
+      "message": " - Unable to check status."
+   },
+   "popup_login": {
+      "description": "Caption for the Log in link.",
+      "message": "Log in"
+   },
+   "popup_logout": {
+      "description": "Caption for the Log out link.",
+      "message": "Log out"
+   },
+   "popup_need_login": {
+      "description": "Displayed next to the unread count while the service seems to be logged out.",
+      "message": " - Not logged in."
+   },
+   "popup_options": {
+      "description": "Caption for the Options link.",
+      "message": "Options"
+   },
+   "popup_refresh": {
+      "description": "Caption for the Refresh link.",
+      "message": "Refresh"
+   },
+   "popup_refreshing": {
+      "description": "Displayed next to the unread count while refreshing a service.",
+      "message": " - Refreshing..."
+   },
+   "preview_login": {
+      "description": "Displayed instead of a service preview when a service response indicates you are logged out.",
+      "message": "Click \u003Ca href=\"javascript:null;\" onclick=\"tabopen('$uid$');\"\u003Ehere\u003C/a\u003E to log in.",
+      "placeholders": {
+         "uid": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "preview_response": {
+      "description": "Displayed instead of a service preview when a service response cannot be parsed.",
+      "message": "Unknown server response. (Visit site?)"
+   },
+   "preview_timeout": {
+      "description": "Displayed instead of a service preview when a refresh times out.",
+      "message": "Connection timed out. (Visit site?)"
+   },
+   "protocol": {
+      "description": "Checkbox caption.",
+      "message": "Use HTTPS for all services instead of HTTP (recommmended)."
+   },
+   "resource1after": {
+      "description": "Description of resource.",
+      "message": "licensed under the GPLv3."
+   },
+   "resource1url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Gmail popup icons"
+   },
+   "resource2after": {
+      "description": "Description of resource.",
+      "message": "by lopagof and licensed under the Creative Commons Attribution-Share Alike 3.0 License."
+   },
+   "resource2url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Google Reader popup icons"
+   },
+   "resource3after": {
+      "description": "Description of resource.",
+      "message": "Unknown origin, artist, and license."
+   },
+   "resource3url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Google Voice popup icons."
+   },
+   "resource4after": {
+      "description": "Description of resource.",
+      "message": "by dolphinsdock and licensed under the Creative Commons Attribution-Share Alike 2.0 Generic License."
+   },
+   "resource4url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Google Wave popup icons"
+   },
+   "resources": {
+      "description": "A section header on the Legal Info page.",
+      "message": "Resource Attribution"
+   },
+   "resourcesdesc": {
+      "description": "Description of the section.",
+      "message": "All resources listed here were modified for use in this extension."
+   },
+   "reusetabs": {
+      "description": "Checkbox caption.",
+      "message": "Reuse a tab that already has the service open."
+   },
+   "server_queries": {
+      "description": "Header for section on options page.",
+      "message": "Server Queries"
+   },
+   "showerror": {
+      "description": "Checkbox caption.",
+      "message": "Show error state on toolbar button."
+   },
+   "showloggedout": {
+      "description": "Checkbox caption.",
+      "message": "Show logged out state on toolbar button."
+   },
+   "textdirection": {
+      "description": "For HTML documents, specifies the value of the HTML tag's style attribute, to set the text direction.",
+      "message": "direction: ltr;"
+   },
+   "toolbar_buttons": {
+      "description": "Header for section on options page.",
+      "message": "Toolbar Buttons"
+   },
+   "tooltip_service": {
+      "description": "Displays a service status in the tooltip.",
+      "message": "$servicename$: $unreadcount$",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "Gmail"
+         },
+         "unreadcount": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   },
+   "tooltip_service_error": {
+      "description": "Displays a service status in the tooltip.",
+      "message": "$servicename$: Error",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "Gmail"
+         }
+      }
+   },
+   "tooltip_service_login": {
+      "description": "Displays a service status in the tooltip.",
+      "message": "$servicename$: Logged out",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "Gmail"
+         }
+      }
+   },
+   "tooltip_service_separator": {
+      "description": "Separates the services in the tooltip of the toolbar button.",
+      "message": ", "
+   }
+}

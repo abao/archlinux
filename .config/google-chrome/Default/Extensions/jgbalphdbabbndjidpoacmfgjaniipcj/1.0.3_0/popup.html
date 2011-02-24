@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+    var prefixUrl = 'chrome://downloads/';
+    var openUrl = 'chrome://downloads/';
+
+    chrome.tabs.getAllInWindow(null, function (tabs) {
+        for (var i = 0; i < tabs.length; i++) {
+            if (tabs[i].url.length >= prefixUrl.length && tabs[i].url.substr(0, prefixUrl.length) == prefixUrl) {
+                chrome.tabs.update(tabs[i].id, { selected: true });
+                window.close();
+                return;
+            }
+        }
+        chrome.tabs.create({ url: openUrl, selected: true });
+        window.close();
+    });
+</script>
+</head>
+<body style="display:none">
+</body>
+</html>

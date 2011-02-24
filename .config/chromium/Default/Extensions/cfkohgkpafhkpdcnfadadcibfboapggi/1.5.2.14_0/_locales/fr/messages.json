@@ -1,0 +1,679 @@
+{
+   "addmore": {
+      "description": "Displayed as a hint in the popup to add more services.",
+      "message": "Ajouter un service"
+   },
+   "after_notifytimeout": {
+      "description": "After the Timeout textbox.",
+      "message": " secondes."
+   },
+   "after_refreshinterval": {
+      "description": "After the Check Interval textbox.",
+      "message": " secondes."
+   },
+   "after_timeout": {
+      "description": "Texte apr\u00E8s la zone de texte pour le d\u00E9lai de connexion.",
+      "message": " secondes."
+   },
+   "after_updateint": {
+      "description": "Texte apr\u00E8s la zone de texte pour l'intervalle de v\u00E9rification.",
+      "message": " secondes."
+   },
+   "alwaysrefresh": {
+      "description": "Checkbox caption.",
+      "message": "R\u00E9actualiser l'onglet s'il est r\u00E9utilis\u00E9."
+   },
+   "apologies": {
+      "description": "A section header on the Legal Info page.",
+      "message": "Thanks and Apologies"
+   },
+   "apologies1": {
+      "description": "A paragraph of the apologies.",
+      "message": "Google, authors of the \"Google Mail Checker\" tool, which has far cooler animations, and which I peeked inside to figure out how to access the Gmail Inbox RSS feed."
+   },
+   "apologies2": {
+      "description": "A paragraph of the apologies.",
+      "message": "TPReal, author of TPGoogleReader, which has far cooler features.  Again, I used it on my quest to learn the Google Reader API."
+   },
+   "apologies3": {
+      "description": "A paragraph of the apologies.",
+      "message": "Jeremy Selier, author of Google Wave Checker, which uses a VERY hackish way of checking for unread waves that I had to use as well since there seems to be no API for it!  I like to think that mine is /slightly/ less hackish though."
+   },
+   "apologies4": {
+      "description": "A paragraph of the apologies.",
+      "message": "Thanks to Joris Van Hecke for translating One Number into French!"
+   },
+   "apply": {
+      "description": "L\u00E9gende du bouton Appliquer sur la page d'options.",
+      "message": "Appliquer"
+   },
+   "author_info": {
+      "description": "En-t\u00EAte de la section sur la page Changelog.",
+      "message": "Informations sur l'extension et son auteur"
+   },
+   "bad_number": {
+      "description": "Message displayed when a bad number is entered in a numeric settings field.",
+      "message": "Vous avez entr\u00E9 une donn\u00E9e erron\u00E9e dans le champ \"$group$ - $before$N$after$\" Ce param\u00E8tre ne sera pas modifi\u00E9.",
+      "placeholders": {
+         "after": {
+            "content": "$3",
+            "example": " seconds."
+         },
+         "before": {
+            "content": "$2",
+            "example": "Check interval: "
+         },
+         "group": {
+            "content": "$1",
+            "example": "Server Queries"
+         }
+      }
+   },
+   "badge_error": {
+      "description": "Texte affich\u00E9 sur le badge quand un service rencontre une erreur.",
+      "message": "err"
+   },
+   "badge_login": {
+      "description": "Texte affich\u00E9 sur le badge quand un service est d\u00E9connect\u00E9.",
+      "message": "login"
+   },
+   "badge_no_unread": {
+      "description": "Texte affich\u00E9 sur le badge quand tout fonctionne correctement.",
+      "message": ""
+   },
+   "basic_options": {
+      "description": "En-t\u00EAte de la section sur la page d'options.",
+      "message": "Options de base"
+   },
+   "before_notifytimeout": {
+      "description": "Before the Timeout textbox.",
+      "message": "Masquer la fen\u00EAtre apr\u00E8s "
+   },
+   "before_refreshinterval": {
+      "description": "Before the Check Interval textbox.",
+      "message": "V\u00E9rifier toutes les: "
+   },
+   "before_timeout": {
+      "description": "Texte avant la zone de texte pour le d\u00E9lai de connexion.",
+      "message": "D\u00E9lai de connexion: "
+   },
+   "before_updateint": {
+      "description": "Texte avant la zone de texte pour l'intervalle de v\u00E9rification.",
+      "message": "V\u00E9rifier toutes les "
+   },
+   "bepickyaboutreuse": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "Uniquement si l'onglet en question est sur la bo\u00EEte de r\u00E9ception du service."
+   },
+   "by": {
+      "description": "Informations sur l'auteur.",
+      "message": "par $author$",
+      "placeholders": {
+         "author": {
+            "content": "Dan Bugglin"
+         }
+      }
+   },
+   "cancel": {
+      "description": "L\u00E9gende du bouton Fermer/Annuler sur la page d'options.",
+      "message": "Annuler"
+   },
+   "changelog_title": {
+      "description": "Titre et en-t\u00EAte de la page changelog.html",
+      "message": "$name$ - Version: $version$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "One Number"
+         },
+         "version": {
+            "content": "$2",
+            "example": "1.3.0.10"
+         }
+      }
+   },
+   "close": {
+      "description": "L\u00E9gende du bouton Fermer/Annuler sur la page d'options.",
+      "message": "Fermer"
+   },
+   "collapse": {
+      "description": "Infobulle des boutons d\u00E9velopper/r\u00E9duire sur la page d'options.",
+      "message": "R\u00E9duire"
+   },
+   "default_title": {
+      "description": "L'infobulle initiale.",
+      "message": "One Number"
+   },
+   "description": {
+      "description": "La description apparaissant sur la page des extensions.",
+      "message": "V\u00E9rifiez rapidement Gmail, Google Reader, Google Voice et Google Wave. Quatre sources, une seule extension."
+   },
+   "disclaimer": {
+      "description": "A section header on the Legal Info page.",
+      "message": "Disclaimer"
+   },
+   "disclaimer1": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "This extension and its author are not affililated with any of the services this extension uses, nor their creators, including Google.  This program accesses public web services using public interfaces and APIs.  The authors of those services, including Google, cannot and are not expected to provide support for this extension.  Please see the extension author for support."
+   },
+   "disclaimer2": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "Google, Gmail, Google Reader, Google Voice, Google Wave, and the logos of these services/entities are all copyrighted and trademarked by Google.  I make no claims of ownership over any of these trademarks or the services they represent."
+   },
+   "disclaimer3": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "A number of existing Google Chrome Extensions were reverse engineered in order to learn how to work with the aforementioned public APIs."
+   },
+   "disclaimer4": {
+      "description": "A paragraph of the disclaimer.",
+      "message": "Various images with \"modify and redistribute\" licenses are packaged as a part of this extension (see below for attribution). If you are the owner of an image or piece of code that I have used and you do not wish for me to use it in this extension, please contact me so we can work something out."
+   },
+   "errorcolor": {
+      "description": "L\u00E9gende du s\u00E9lecteur de couleur.",
+      "message": "Couleur du bouton en cas d'erreur:"
+   },
+   "expand": {
+      "description": "Infobulle des boutons d\u00E9velopper/r\u00E9duire sur la page d'options.",
+      "message": "D\u00E9velopper"
+   },
+   "future_plans": {
+      "description": "A section header on the Changelog page.",
+      "message": "Future Plans"
+   },
+   "gmail_compose": {
+      "description": "Lien pour un nouveau message.",
+      "message": "Nouveau message"
+   },
+   "gmail_displayname": {
+      "description": "Nom du service.",
+      "message": "Gmail"
+   },
+   "googlereader_displayname": {
+      "description": "Nom du service.",
+      "message": "Google Reader"
+   },
+   "googlevoice_displayname": {
+      "description": "Nom du service.",
+      "message": "Google Voice"
+   },
+   "googlewave_displayname": {
+      "description": "Nom du service.",
+      "message": "Google Wave"
+   },
+   "googlewave_unreadblips": {
+      "description": "Affiche le nombre de blips non lus.",
+      "message": "$unreadcount$ blips non lus.",
+      "placeholders": {
+         "unreadcount": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "known_bugs": {
+      "description": "A section header on the Changelog page.",
+      "message": "Known Bugs"
+   },
+   "leave_prompt": {
+      "description": "S'affiche lorsque l'utilisateur a modifi\u00E9 ses options et tente de quitter la page sans les enregistrer.",
+      "message": "Vos modifications n'ont pas \u00E9t\u00E9 enregistr\u00E9es, \u00EAtes vous s\u00FBr de vouloir quitter cette page?"
+   },
+   "legal_title": {
+      "description": "Title and header on the legal.html page.",
+      "message": "One Number - Legal Info"
+   },
+   "loggedoutcolor": {
+      "description": "L\u00E9gende du s\u00E9lecteur de couleur.",
+      "message": "Couleur du bouton si vous n'\u00EAtes pas connect\u00E9:"
+   },
+   "maxactionicons": {
+      "description": "Textbox caption.",
+      "message": "Nombre maximum de services \u00E0 afficher sur le bouton: "
+   },
+   "multicolor": {
+      "description": "L\u00E9gende du s\u00E9lecteur de couleur.",
+      "message": "Utiliser cette couleur pour le bouton:"
+   },
+   "name": {
+      "description": "Nom de l'extension qui apparait sur la page des extensions.",
+      "message": "One Number"
+   },
+   "nav_changelog": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "Changelog"
+   },
+   "nav_legalinfo": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "Informations l\u00E9gales"
+   },
+   "nav_login": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "Connexion"
+   },
+   "nav_logout": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "D\u00E9connexion"
+   },
+   "nav_noopen": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "Pas de messages non lus"
+   },
+   "nav_open": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "Afficher les messages non lus"
+   },
+   "nav_options": {
+      "description": "Barre de navigation dans toutes les pages",
+      "message": "Options"
+   },
+   "no_unread": {
+      "description": "Texte affich\u00E9 lorsqu'il n'y a aucun message non lu.",
+      "message": "Pas de messages non lus"
+   },
+   "no_unread_messages": {
+      "description": "En-t\u00EAte du groupe d'options.",
+      "message": "Quand il n'y a pas de message non lu:"
+   },
+   "ok": {
+      "description": "L\u00E9gende du bouton OK sur la page d'options.",
+      "message": "OK"
+   },
+   "oneclickopenunread": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "Ouvrir les services contenant des messages non lus directement (sans afficher le popup)."
+   },
+   "open_unread": {
+      "description": "L\u00E9gende du lien Afficher les messages non lus.",
+      "message": "Afficher les messages non lus"
+   },
+   "openhiddenunread": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "Ouvrir \u00E9galement les services que vous avez d\u00E9cid\u00E9 de ne pas afficher dans la barre d'outils."
+   },
+   "opening_service": {
+      "description": "En-t\u00EAte du groupe d'options.",
+      "message": "\u00C0 l'ouverture d'un service:"
+   },
+   "openinnewwindow": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "Ouvrir une nouvelle fen\u00EAtre et non un nouvel onglet dans la fen\u00EAtre actuelle."
+   },
+   "options_allservices": {
+      "description": "Header for options page list box.",
+      "message": "Services disponibles:"
+   },
+   "options_audiofile": {
+      "description": "Header for the audio file option.",
+      "message": "Son \u00E0 jouer \u00E0 la r\u00E9ception de nouveaux messages:"
+   },
+   "options_audiofileerr": {
+      "description": "Error box.",
+      "message": "Ne peut lire le fichier audio: $err$",
+      "placeholders": {
+         "err": {
+            "content": "$1",
+            "example": "File not found."
+         }
+      }
+   },
+   "options_audiofileerr_access": {
+      "description": "Error text.",
+      "message": "Le syst\u00E8me d'exploitation ou le navigateur bloque l'acc\u00E8s aux fichiers."
+   },
+   "options_audiofileerr_encoding": {
+      "description": "Error text.",
+      "message": "Ce fichier est trop volumineux pour \u00EAtre encod\u00E9."
+   },
+   "options_audiofileerr_nofile": {
+      "description": "Message displayed when you forget to select a file in an audio file setting.",
+      "message": "Vous n'avez pas s\u00E9lectionn\u00E9 de fichier pour le champ \"$group$ - $header$\". Ce param\u00E8tre ne sera pas modifi\u00E9.",
+      "placeholders": {
+         "group": {
+            "content": "$1",
+            "example": "Notifications"
+         },
+         "header": {
+            "content": "$2",
+            "example": "Sound to play when unread messages are found:"
+         }
+      }
+   },
+   "options_audiofileerr_noshare": {
+      "description": "Error text.",
+      "message": "Ce fichier est peut-\u00EAtre d\u00E9j\u00E0 employ\u00E9 par une autre application."
+   },
+   "options_audiofileerr_notaudio": {
+      "description": "Message displayed when you select a non-audio file for an audio file setting.",
+      "message": "Le fichier s\u00E9lectionn\u00E9 pour le champ \"$group$ - $header$\" n'est pas un fichier audio. Ce param\u00E8tre ne sera pas modifi\u00E9.",
+      "placeholders": {
+         "group": {
+            "content": "$1",
+            "example": "Notifications"
+         },
+         "header": {
+            "content": "$2",
+            "example": "Sound to play when unread messages are found:"
+         }
+      }
+   },
+   "options_audiofileerr_notfound": {
+      "description": "Error text.",
+      "message": "Ce fichier n'existe plus."
+   },
+   "options_audiofilefile": {
+      "description": "Radio button caption.",
+      "message": " Jouer ce fichier: "
+   },
+   "options_audiofilenone": {
+      "description": "Radio button caption.",
+      "message": " Ne rien jouer."
+   },
+   "options_audiofileurl": {
+      "description": "Radio button caption.",
+      "message": " Jouer le fichier \u00E0 cette URL: "
+   },
+   "options_badgecolor": {
+      "description": "Color picker caption.",
+      "message": "Couleur du bouton s'il y a des messages non-lus:"
+   },
+   "options_bigicons": {
+      "description": "Checkbox caption.",
+      "message": "Grandes ic\u00F4nes."
+   },
+   "options_desktopnotifications": {
+      "description": "Checkbox caption.",
+      "message": "Afficher la fen\u00EAtre de notification."
+   },
+   "options_displayname": {
+      "description": "Textbox caption.",
+      "message": "Nom \u00E0 afficher pour ce service:"
+   },
+   "options_enabledservices": {
+      "description": "Header for options page list box.",
+      "message": "Services activ\u00E9s:"
+   },
+   "options_gmaltcredentialshelp": {
+      "description": "Help text for alternate credentials option.",
+      "message": "Inscrire un nom d'utilisateur et un mot de passe pour utiliser ce compte \u00E0 la place de celui auquel vous \u00EAtes connect\u00E9.  Ce dernier sera toujours utilis\u00E9 durant votre navigation ou lorsque vous composerez un message.  Vous n'avez pas besoin de cette option si vous v\u00E9rifiez seulement les messages du compte auquel vous \u00EAtes connect\u00E9.  Remplissez ces champs pour chaque compte que vous utilisez, pour \u00E9viter de confondre Gmail.  ATTENTION: Pour votre s\u00E9curit\u00E9, gardez l'option HTTPS activ\u00E9e si vous utilisez cette option pour \u00E9viter de transmettre vos indentifiants \u00E0 de possibles oreilles indiscr\u00E8tes."
+   },
+   "options_gmappsdomain": {
+      "description": "L\u00E9gende d'une zone de texte.",
+      "message": "Domaine Google Apps \u00E0 v\u00E9rifier (laissez vide pour Gmail): "
+   },
+   "options_gmlabel": {
+      "description": "List header.",
+      "message": "V\u00E9rifier les nouveaux messages dans:"
+   },
+   "options_gmlabel_all": {
+      "description": "List option.",
+      "message": "Tous les messages"
+   },
+   "options_gmlabel_inbox": {
+      "description": "List option.",
+      "message": "Bo\u00EEte de r\u00E9ception"
+   },
+   "options_gmlabel_priorityinbox": {
+      "description": "List option.",
+      "message": "Bo\u00EEte de r\u00E9ception prioritaire"
+   },
+   "options_gmpassword": {
+      "description": "Textbox caption.",
+      "message": "Mot de passe: "
+   },
+   "options_gmshowextra": {
+      "description": "Checkbox caption.",
+      "message": "Afficher le lien \"Nouveau message\" sur le popup."
+   },
+   "options_gmusername": {
+      "description": "Textbox caption.",
+      "message": "Nom d'utilisateur: "
+   },
+   "options_grall": {
+      "description": "For the feed list, caption for selection of all feeds/labels.",
+      "message": " Tout"
+   },
+   "options_grfeedlist": {
+      "description": "Header for the feed list.",
+      "message": "S\u00E9lectionnez les abonnements/dossiers \u00E0 v\u00E9rifier:"
+   },
+   "options_grfeeds": {
+      "description": "For the feed list, header for feed list.",
+      "message": "Abonnements:"
+   },
+   "options_grlabels": {
+      "description": "For the feed list, header for the label list.",
+      "message": "Dossiers:"
+   },
+   "options_grloading": {
+      "description": "For the feed list, before it loads.",
+      "message": "Chargement..."
+   },
+   "options_grwarning": {
+      "description": "Footer for the feed list, if you have labels selected which include a feed multiple times.",
+      "message": "ATTENTION: Votre s\u00E9lection inclut le m\u00EAme abonnement plusieurs fois (parce que vous avez \u00E9galement s\u00E9lectionn\u00E9 un dossier le contenant). Le nombre de messages non-lus sera donc inexact car certains d'entre eux seront compt\u00E9s plusieurs fois."
+   },
+   "options_gvshowall": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "V\u00E9rifier chaque message non lu, et non uniquement la Bo\u00EEte de r\u00E9ception."
+   },
+   "options_gwappsdomain": {
+      "description": "L\u00E9gende d'une zone de texte.",
+      "message": "Domaine Google Apps \u00E0 v\u00E9rifier (laissez vide pour Google Wave): "
+   },
+   "options_gwmincontact": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "R\u00E9duire le panneau Contacts \u00E0 l'ouverture de Google Wave."
+   },
+   "options_gwminnav": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "R\u00E9duire le panneau Navigation \u00E0 l'ouverture de Google Wave."
+   },
+   "options_gwminsearch": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "R\u00E9duire le panneau Search \u00E0 l'ouverture de Google Wave."
+   },
+   "options_help": {
+      "description": "Help message on options page for listbox usage.",
+      "message": "Glissez et d\u00E9posez des services depuis la liste de gauche vers la liste de droite pour les ajouter.  Glissez et d\u00E9posez des services \u00E0 l'int\u00E9rieur de la liste de droite pour les r\u00E9organiser.  Faites glisser des services hors de la liste de droite pour les supprimer.  Enfin, s\u00E9lectionnez des services de la liste de droite pour modifier leurs param\u00E8tres."
+   },
+   "options_notifications": {
+      "description": "Header for section on options page.",
+      "message": "Notifications"
+   },
+   "options_popup": {
+      "description": "Header for section on options page.",
+      "message": "Popup"
+   },
+   "options_services": {
+      "description": "Header for section on options page.",
+      "message": "Services"
+   },
+   "options_servicesettings": {
+      "description": "Header for options page property pane.",
+      "message": "Param\u00E8tres:"
+   },
+   "options_showicons": {
+      "description": "Radio caption.",
+      "message": "Uniquement les ic\u00F4nes."
+   },
+   "options_showiconstext": {
+      "description": "Radio caption.",
+      "message": "Le texte et les ic\u00F4nes."
+   },
+   "options_showiconstextheader": {
+      "description": "Radio selection header.",
+      "message": "Afficher pour chaque service:"
+   },
+   "options_showonbadge": {
+      "description": "Checkbox caption.",
+      "message": "Inclure le nombre de messages non-lus sur le bouton et dans les notifications."
+   },
+   "options_showpreviews": {
+      "description": "Checkbox caption.",
+      "message": "Afficher la pr\u00E9visualisation."
+   },
+   "options_showseparators": {
+      "description": "Checkbox caption.",
+      "message": "Afficher les s\u00E9parateurs."
+   },
+   "options_showtext": {
+      "description": "Radio caption.",
+      "message": "Uniquement le texte."
+   },
+   "options_title": {
+      "description": "Titre et en-t\u00EAte de la page options.html",
+      "message": "One Number: Options"
+   },
+   "options_userefreshinterval": {
+      "description": "Checkbox caption.",
+      "message": "Utiliser un interval de temps particulier."
+   },
+   "popup_error": {
+      "description": "Est affich\u00E9 \u00E0 c\u00F4t\u00E9 du nombre de messages non lus quand le service rencontre une erreur.",
+      "message": " - Impossible de v\u00E9rifier le statut."
+   },
+   "popup_need_login": {
+      "description": "Est affich\u00E9 \u00E0 c\u00F4t\u00E9 du nombre de messages non lus si le service semble \u00EAtre d\u00E9connect\u00E9.",
+      "message": " - D\u00E9connect\u00E9."
+   },
+   "popup_options": {
+      "description": "L\u00E9gende du lien Options.",
+      "message": "Options"
+   },
+   "popup_refresh": {
+      "description": "L\u00E9gende du lien Rafra\u00EEchir.",
+      "message": "Rafra\u00EEchir"
+   },
+   "popup_refreshing": {
+      "description": "Est affich\u00E9 \u00E0 c\u00F4t\u00E9 du nombre de messages non lus lors du rafra\u00EEchissement d'un service.",
+      "message": " - Rafra\u00EEchissement..."
+   },
+   "preview_login": {
+      "description": "Est affich\u00E9 \u00E0 la place de la pr\u00E9visualisation du service quand la r\u00E9ponse indique que vous \u00EAtes d\u00E9connect\u00E9.",
+      "message": "Cliquez \u003Ca href=\"javascript:null;\" onclick=\"tabopen('$uid$');\"\u003Eici\u003C/a\u003E pour vous connecter.",
+      "placeholders": {
+         "uid": {
+            "content": "$1",
+            "example": "0"
+         }
+      }
+   },
+   "preview_response": {
+      "description": "Est affich\u00E9 \u00E0 la place de la pr\u00E9visualisation du service quand celui rencontre une r\u00E9ponse du serveur qui ne peut \u00EAtre analys\u00E9e.",
+      "message": "R\u00E9ponse du serveur inconnue. (Visitez le site?)"
+   },
+   "preview_timeout": {
+      "description": "Est affich\u00E9 \u00E0 la place de la pr\u00E9visualisation du service quand celui rencontre un d\u00E9lai de connexion d\u00E9pass\u00E9.",
+      "message": "D\u00E9lai de connexion d\u00E9pass\u00E9. (Visitez le site?)"
+   },
+   "protocol": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "Utiliser HTTPS pour chaque service \u00E0 la place du protocole HTTP (recommmand\u00E9)."
+   },
+   "resource1after": {
+      "description": "Description of resource.",
+      "message": "licensed under the GPLv3."
+   },
+   "resource1url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Gmail popup icons"
+   },
+   "resource2after": {
+      "description": "Description of resource.",
+      "message": "by lopagof and licensed under the Creative Commons Attribution-Share Alike 3.0 License."
+   },
+   "resource2url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Google Reader popup icons"
+   },
+   "resource3after": {
+      "description": "Description of resource.",
+      "message": "Unknown origin, artist, and license."
+   },
+   "resource3url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Google Voice popup icons."
+   },
+   "resource4after": {
+      "description": "Description of resource.",
+      "message": "by dolphinsdock and licensed under the Creative Commons Attribution-Share Alike 2.0 Generic License."
+   },
+   "resource4url": {
+      "description": "Text of link to the aforementioned image.",
+      "message": "Google Wave popup icons"
+   },
+   "resources": {
+      "description": "A section header on the Legal Info page.",
+      "message": "Resource Attribution"
+   },
+   "resourcesdesc": {
+      "description": "Description of the section.",
+      "message": "All resources listed here were modified for use in this extension."
+   },
+   "reusetabs": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "R\u00E9utiliser un onglet si celui-ci contient d\u00E9j\u00E0 le service \u00E0 ouvrir."
+   },
+   "server_queries": {
+      "description": "En-t\u00EAte de la section sur la page d'options.",
+      "message": "Requ\u00EAtes aux serveurs"
+   },
+   "showerror": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "En cas d'erreur, l'afficher sur le bouton de la barre d'outils."
+   },
+   "showloggedout": {
+      "description": "L\u00E9gende d'une case \u00E0 cocher.",
+      "message": "Si vous n'\u00EAtes pas connect\u00E9, l'afficher sur le bouton de la barre d'outils."
+   },
+   "showmulti": {
+      "description": "Checkbox caption.",
+      "message": "Afficher une seule couleur sur le bouton alors que plusieurs services ont des messages non-lus:"
+   },
+   "textdirection": {
+      "description": "Pour les documents HTML, sp\u00E9cifie la valeur de l'attribut de style de la balise HTML, pour d\u00E9finir la direction du texte.",
+      "message": "direction: ltr;"
+   },
+   "toolbar_buttons": {
+      "description": "En-t\u00EAte de la section sur la page d'options.",
+      "message": "Bouton de la barre d'outils"
+   },
+   "tooltip_service": {
+      "description": "Affiche le statut d'un service dans l'infobulle.",
+      "message": "$servicename$: $unreadcount$",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "Gmail"
+         },
+         "unreadcount": {
+            "content": "$2",
+            "example": "0"
+         }
+      }
+   },
+   "tooltip_service_error": {
+      "description": "Affiche le statut d'un service dans l'infobulle.",
+      "message": "$servicename$: Erreur",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "Gmail"
+         }
+      }
+   },
+   "tooltip_service_login": {
+      "description": "Affiche le statut d'un service dans l'infobulle.",
+      "message": "$servicename$: D\u00E9connect\u00E9",
+      "placeholders": {
+         "servicename": {
+            "content": "$1",
+            "example": "Gmail"
+         }
+      }
+   },
+   "tooltip_service_separator": {
+      "description": "S\u00E9pare les noms des services dans l'infobulle du bouton de la barre d'outils.",
+      "message": ", "
+   }
+}

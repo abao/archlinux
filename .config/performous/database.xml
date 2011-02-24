@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<performous>
+  <players>
+    <player name="" id="1"/>
+  </players>
+  <hiscores>
+    <hiscore playerid="1" songid="1" track="Vocals">1582</hiscore>
+    <hiscore playerid="1" songid="1" track="Vocals">1582</hiscore>
+  </hiscores>
+  <songs>
+    <song id="1" artist="shearer" title="staywithme"/>
+  </songs>
+</performous>

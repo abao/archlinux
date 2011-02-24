@@ -1,0 +1,40 @@
+330m9(Build:1)
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2196; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2539; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2196; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2539; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2196; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2539; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2196; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2539; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2196; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2539; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2196; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2539; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/sfxbasemodel.cxx: :1636; storeAsURL
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1296; Begin
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2721; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/package/source/xstor/xstorage.cxx: :2807; Rethrow
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1498; SaveAs/Export
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1511; Locking
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1565; Storing in own format.
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1615; Save as own format.
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1631; Thumbnail creation.
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :1646; Preserve versions.
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objstor.cxx: :3225; 
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/objmisc.cxx: :286; Resetting Error.
+/build/src/libreoffice-build-3.2.99.2/build/libreoffice-3.2.99.2/sfx2/source/doc/sfxbasemodel.cxx: :2861; Storing failed!

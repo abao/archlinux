@@ -1,0 +1,85 @@
+{
+   "": "",
+   "HostReferralList": [ 2, [ "http://9158code.adpower.cn/", [ "http://9158adp.adpower.cn/", 0.0517565, "http://bm.alimama.cn/", 0.13884749999999998 ] ], [ "http://baike.baidu.com/", [ "http://a.baidu.com/", 0.16999999999999998, "http://baike.bdimg.com/", 0.5099999999999999, "http://c.baidu.com/", 0.16999999999999998, "http://hiphotos.baidu.com/", 0.08499999999999999, "http://img.baidu.com/", 2.7199999999999993, "http://img1.cache.netease.com/", 0.08499999999999999, "http://imgsrc.baidu.com/", 0.9349999999999997, "http://nsclick.baidu.com/", 1.2749999999999997, "http://s2.cr.itc.cn/", 0.08499999999999999 ] ], [ "http://bbs.jumpcn.com/", [ "http://i.imgur.com/", 0.2244, "http://img163.poco.cn/", 0.16999999999999998, "http://img181.poco.cn/", 2.6575079999999995, "http://img208.poco.cn/", 3.746391999999999, "http://img840.imageshack.us/", 0.16999999999999998, "http://is.gd/", 1.2640519999999997, "http://upic.me/", 1.0199999999999998, "http://v2.jiathis.com/", 4.565587999999999, "http://www.qqcn.net/", 0.16999999999999998, "http://zs1.cnzz.com/", 0.5644 ] ], [ "http://bbs.xmlad.com/", [ "http://www.xmlad.com/", 0.5099999999999999 ] ], [ "http://book.sina.com.cn/", [ "http://i1.sinaimg.cn/", 0.08499999999999999 ] ], [ "http://hdad.hudong.com/", [ "http://partner.googleadservices.com/", 0.16999999999999998 ] ], [ "http://hi.baidu.com/", [ "http://hiphotos.baidu.com/", 0.38249999999999995, "http://hitn.bdimg.com/", 0.10624999999999998, "http://img.baidu.com/", 0.7437499999999998, "http://performous.org/", 0.3399999999999999, "http://tx.bdimg.com/", 0.8499999999999998 ] ], [ "http://huodong.hudong.com/", [ "http://stat.hudong.com/", 0.08499999999999999, "http://static.hudong.com/", 0.08499999999999999 ] ], [ "http://i.hudong.com/", [ "http://www.huimg.cn/", 0.16999999999999998 ] ], [ "http://jingwei.li/", [ "http://anyremote.sourceforge.net/", 0.42499999999999993 ] ], [ "http://member.uworld3d.com/", [ "http://hm.baidu.com/", 0.06375, "http://image.uworld3d.com/", 0.46749999999999986 ] ], [ "http://movie.douban.com/", [ "http://img3.douban.com/", 1.1899999999999997, "http://t.douban.com/", 0.16999999999999998, "http://www.google-analytics.com/", 0.16999999999999998 ] ], [ "http://navarro.blogbus.com/", [ "http://app.home.blogbus.com/", 0.08499999999999999, "http://blog.home.blogbus.com/", 0.08499999999999999, "http://counter.blogbus.com/", 0.16999999999999998, "http://files.blogbus.com/", 0.8499999999999998, "http://partner.googleadservices.com/", 0.08499999999999999, "http://public.blogbus.com/", 1.6149999999999995, "http://www.blogbus.com/", 0.16999999999999998, "http://www.google-analytics.com/", 0.16999999999999998 ] ], [ "http://ok.9158.com/", [ "http://9158code.adpower.cn/", 0.10624999999999998, "http://zs2.cnzz.com/", 0.12749999999999997 ] ], [ "http://pfp.sina.com.cn/", [ "http://i1.sinaimg.cn/", 0.08499999999999999, "http://i2.sinaimg.cn/", 0.08499999999999999, "http://tp1.sinaimg.cn/", 0.08499999999999999, "http://tp2.sinaimg.cn/", 0.16999999999999998, "http://tp3.sinaimg.cn/", 0.08499999999999999, "http://tp4.sinaimg.cn/", 0.08499999999999999 ] ], [ "http://pinglun.it168.com/", [ "http://it168.wrating.com/", 0.08499999999999999, "http://publish.it168.com/", 0.16999999999999998, "http://sso.it168.com/", 0.08499999999999999 ] ], [ "http://player.mbox.sogou.com/", [ "http://mp3.sogou.com/", 0.13100624999999996, "http://pb.sogou.com/", 0.21940624999999994 ] ], [ "http://player.youku.com/", [ "http://g1.ykimg.com/", 0.8499999999999999, "http://g2.ykimg.com/", 0.16999999999999998, "http://g4.ykimg.com/", 0.33999999999999997, "http://player.lstat.youku.com/", 0.9547558593749998, "http://stat.youku.com/", 1.8308203124999995, "http://v.youku.com/", 0.7628417968749999, "http://valb.atm.youku.com/", 0.33999999999999997, "http://valc.atm.youku.com/", 0.33999999999999997, "http://valf.atm.youku.com/", 0.33999999999999997, "http://valo.atm.youku.com/", 0.33999999999999997 ] ], [ "http://publish.it168.com/", [ "http://acs86.com/", 0.08499999999999999, "http://count.it168.com/", 0.08499999999999999, "http://elec.it168.com/", 0.255, "http://image.it168.com/", 0.16999999999999998, "http://img.publish.it168.com/", 0.16999999999999998, "http://it168.wrating.com/", 0.16999999999999998, "http://logcount.it168.com/", 0.08499999999999999, "http://pinglun.it168.com/", 0.16999999999999998, "http://static.acs86.com/", 0.42499999999999993, "http://www4.it168.com/", 0.08499999999999999 ] ], [ "http://room.9158.com/", [ "http://roompic.9158.com/", 0.12749999999999997 ] ], [ "http://so.hudong.com/", [ "http://apps.hudong.com/", 0.08499999999999999, "http://pagead2.googlesyndication.com/", 0.08499999999999999, "http://res.adsage.cn/", 0.08499999999999999, "http://stat.hudong.com/", 0.255, "http://trc.adsage.cn/", 0.08499999999999999, "http://ws.adsage.cn/", 0.08499999999999999, "http://www.google-analytics.com/", 0.255, "http://www.hudong.com/", 0.16999999999999998, "http://www.huimg.cn/", 0.5949999999999999 ] ], [ "http://v.youku.com/", [ "http://static.youku.com/", 0.05762180816234286 ] ], [ "http://vip.book.sina.com.cn/", [ "http://218.57.9.149/", 0.08499999999999999, "http://book.sina.com.cn/", 0.08499999999999999, "http://comment4.news.sina.com.cn/", 0.08499999999999999, "http://counter.sina.com.cn/", 0.08499999999999999, "http://i.sso.sina.com.cn/", 0.33999999999999997, "http://i1.sinaimg.cn/", 0.16999999999999998, "http://i3.sinaimg.cn/", 0.08499999999999999, "http://news.sina.com.cn/", 0.33999999999999997, "http://secure-cn.imrworldwide.com/", 0.08499999999999999, "http://www.sinaimg.cn/", 0.8499999999999998 ] ], [ "http://wenwen.soso.com/", [ "http://cache.soso.com/", 0.3399999999999999, "http://pic.wenwen.soso.com/", 0.08499999999999999 ] ], [ "http://www.51testing.com/", [ "http://u.51testing.com/", 0.16999999999999998 ] ], [ "http://www.amazon.cn/", [ "http://ec4.images-amazon.com/", 0.27093749999999994, "http://g-ec4.images-amazon.com/", 0.19656249999999995 ] ], [ "http://www.connect.renren.com/", [ "http://www.hudong.com/", 0.08499999999999999 ] ], [ "http://www.google.com.hk/", [ "http://id.google.com.hk/", 0.130713, "http://video.google.com/", 0.0561 ] ], [ "http://www.hudong.com/", [ "http://huodong.hudong.com/", 0.0561, "http://i.hudong.com/", 0.0561, "http://maps.gstatic.com/", 0.1122, "http://passport.renren.com/", 0.0561, "http://s.xnimg.cn/", 0.1122, "http://stat.hudong.com/", 0.0561, "http://static.connect.renren.com/", 0.08499999999999999, "http://www.connect.renren.com/", 0.1122, "http://www.google-analytics.com/", 0.1411, "http://www.huimg.cn/", 1.2701039999999997 ] ], [ "http://www.in516.com/", [ "http://cb.baidu.com/", 0.08499999999999999, "http://cpro.baidu.com/", 0.14874999999999997, "http://node3.redu.com/", 0.5737499999999999, "http://s0.pic.52kkk.com/", 0.10624999999999998, "http://tj.redu.com/", 0.06375, "http://v.naqigs.com/", 0.06375 ] ], [ "http://www.karaokeparty.com/", [ "http://c.statcounter.com/", 0.06375, "http://sgsta.karaokeparty.com/", 3.8037500000000173, "http://www.google-analytics.com/", 0.08499999999999999 ] ], [ "http://www.lupaworld.com/", [ "http://s95.cnzz.com/", 0.16999999999999998, "http://search.cnzz.com/", 0.16999999999999998, "http://v2.jiathis.com/", 1.6139396249999995, "http://www.google-analytics.com/", 0.35865325, "http://zs4.cnzz.com/", 0.16999999999999998 ] ], [ "http://www.tudou.com/", [ "http://i01.img.tudou.com/", 0.8712499999999999, "http://js.tudouui.com/", 0.435625 ] ], [ "http://zhidao.baidu.com/", [ "http://drmcmm.baidu.com/", 0.33999999999999997, "http://eiv.baidu.com/", 0.255, "http://hiphotos.baidu.com/", 0.08499999999999999, "http://iknow.bdimg.com/", 0.9349999999999997, "http://img.baidu.com/", 1.3599999999999997, "http://nsclick.baidu.com/", 0.42499999999999993, "http://www.baidu.com/", 0.08499999999999999 ] ], [ "https://www.google.com/", [ "https://www.deleak.com/", 0.6337448699999998 ] ] ],
+   "StartupDNSPrefetchList": [ 1, "http://crl.geotrust.com/", "http://da.feedsportal.com/", "http://ocsp.godaddy.com/", "http://ocsp.thawte.com/", "http://res3.feedsportal.com/", "http://solidot.org.feedsportal.com/", "http://www.gstatic.com/", "http://www.lupaworld.com/", "https://mail.google.com/", "https://www.google.com/" ],
+   "browser": {
+      "last_known_google_url": "http://www.google.com.hk/",
+      "last_prompted_google_url": "http://www.google.com.hk/",
+      "last_redirect_origin": "",
+      "window_placement": {
+         "bottom": 758,
+         "left": 4,
+         "maximized": false,
+         "right": 1356,
+         "top": 22,
+         "work_area_bottom": 768,
+         "work_area_left": 0,
+         "work_area_right": 1366,
+         "work_area_top": 0
+      }
+   },
+   "devtools": {
+      "split_location": 487
+   },
+   "options_window": {
+      "last_tab_index": 0
+   },
+   "protocol_handler": {
+      "excluded_schemes": {
+         "afp": true,
+         "data": true,
+         "disk": true,
+         "disks": true,
+         "file": true,
+         "hcp": true,
+         "javascript": true,
+         "mailto": false,
+         "ms-help": true,
+         "news": false,
+         "nntp": true,
+         "shell": true,
+         "snews": false,
+         "vbscript": true,
+         "view-source": true,
+         "vnd": {
+            "ms": {
+               "radio": true
+            }
+         }
+      }
+   },
+   "safe_browsing": {
+      "client_key": "86lv4xeNSExJIJzLHGLwRA==",
+      "wrapped_key": "AKEgNivsXKKhqgXFRCOqgPjzKenBrC0aAjqsxnvI8aR4TKTI7Ex5lAMogb6pTu_sK2hvwNB2QOTa2oIu4GdZnRSOZNmt3gqOxQ=="
+   },
+   "shutdown": {
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1285240142",
+      "launch_count": "520"
+   },
+   "user_experience_metrics": {
+      "session_id": 519,
+      "stability": {
+         "breakpad_registration_fail": 9,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 9,
+         "debugger_present": 0,
+         "exited_cleanly": false,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1298549560",
+         "launch_count": 9,
+         "launch_time_sec": "1298544759",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1298116809",
+         "stats_version": "9.0.597.94-devel"
+      }
+   }
+}

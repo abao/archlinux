@@ -1,0 +1,876 @@
+{
+   "adalreadyblocked": {
+      "description": "on the ad report page, telling a user there is nothing to do",
+      "message": "\uAD11\uACE0\uAC00 \uC774\uBBF8 \uCC28\uB2E8\uB418\uC5C8\uAE30 \uB54C\uBB38\uC5D0 \uC5B4\uB5A0\uD55C \uC870\uCE58\uB3C4 \uD544\uC694\uC5C6\uC2B5\uB2C8\uB2E4."
+   },
+   "adblock_is_disabled_on_domain": {
+      "description": "Message shown in toolbar button on web pages that have been whitelisted.",
+      "message": "\uD5C8\uC6A9\uB41C \uC0AC\uC774\uD2B8 : $domain$.",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "www.google.com"
+         }
+      }
+   },
+   "adblockreportinganad": {
+      "description": "title of ad report page",
+      "message": "AdBlock - \uBBF8\uCC28\uB2E8 \uAD11\uACE0 \uC2E0\uACE0"
+   },
+   "adreport2": {
+      "description": "Instructions on ad reporting page. 'Customize' should be the same text as the 'tabcustomize' message.",
+      "message": "\uADF8\uB798\uC11C \uC6F9 \uD398\uC774\uC9C0\uC758 \uAD11\uACE0\uAC00 \uC874\uC7AC\uD569\uB2C8\uAE4C? \uBBF8\uCC28\uB2E8 \uAD11\uACE0\uB97C \uC2E0\uACE0\uD560 \uC218 \uC788\uB3C4\uB85D \uB3C4\uC640\uB4DC\uB9BD\uB2C8\uB2E4!\u003Cbr/\u003E\uC774 \uC2E0\uACE0\uB294 \uC120\uD0DD\uC0AC\uD56D\uC774\uBBC0\uB85C \uC6D0\uD558\uC9C0 \uC54A\uB294\uB2E4\uBA74 \uC774 \uCC3D\uC744 \uB2EB\uACE0, \uC0AC\uC6A9\uC790 \uD544\uD130\uC5D0\uB9CC \uD544\uD130\uB97C \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624!"
+   },
+   "adstillappear": {
+      "description": "question on ad reporting page",
+      "message": "\uAD11\uACE0\uAC00 \uC5EC\uC804\uD788 \uC874\uC7AC\uD569\uB2C8\uAE4C?"
+   },
+   "advanced": {
+      "description": "Section label for advanced options",
+      "message": "\uACE0\uAE09"
+   },
+   "betalabel": {
+      "description": "Option on first tab page",
+      "message": "\uBCA0\uD0C0"
+   },
+   "blacklistclickmessage": {
+      "description": "Message at the top of the blacklist options tab",
+      "message": "\uAD11\uACE0\uB97C \uCC28\uB2E8\uD558\uAE30 \uC704\uD574 \uBB38\uB9E5 \uBA54\uB274\uB85C \uAD11\uACE0 \uC601\uC5ED\uC744 \uC228\uAE30\uAC70\uB098 \uC0AC\uC6A9\uC790 \uD544\uD130\uB97C \uC9C1\uC811 \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624."
+   },
+   "blacklisterattrwillbe": {
+      "description": "Checkbox label",
+      "message": "$attribute$ : $value$",
+      "placeholders": {
+         "attribute": {
+            "content": "$1",
+            "example": "class"
+         },
+         "value": {
+            "content": "$2",
+            "example": "AdBanner"
+         }
+      }
+   },
+   "blacklisterblockedelement": {
+      "description": "Tells the user what the blocked element is on the slider page",
+      "message": "\u003Cb\u003E\uC228\uAE30\uB824\uB294 \uC694\uC18C :\u003C/b\u003E\u003Cbr/\u003E"
+   },
+   "blacklisterblocksalloftype": {
+      "description": "Warns the user that all elements of type X will be blocked",
+      "message": "\uC8FC\uC758 : \uC774 \uD544\uD130\uB294 $elementtype$ \uC694\uC18C\uB97C \uBAA8\uB450 \uC228\uAE41\uB2C8\uB2E4!",
+      "placeholders": {
+         "elementtype": {
+            "content": "$1",
+            "example": "DIV"
+         }
+      }
+   },
+   "blacklistereditfilter": {
+      "description": "Text if the user wants to manually edit a filter.  'OK' is the standard javascript popup button text.",
+      "message": "\uD544\uD130\uB97C \uC54C\uB9DE\uAC8C \uC785\uB825\uD55C \uD6C4 \uD655\uC778\uC744 \uB204\uB974\uC2ED\uC2DC\uC624."
+   },
+   "blacklistereditinvalid1": {
+      "description": "Messagebox if the manually edited filter is invalid. Error messages are not translated.",
+      "message": "\uD544\uD130\uAC00 \uC62C\uBC14\uB974\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. $exception$",
+      "placeholders": {
+         "exception": {
+            "content": "$1",
+            "example": "This filter is not supported"
+         }
+      }
+   },
+   "blacklistermatches": {
+      "description": "Tells the user multiple matches were found",
+      "message": "\uD604\uC7AC \uD398\uC774\uC9C0\uC5D0\uC11C $matchcount$\uAC1C \uC694\uC18C\uC640 \uC77C\uCE58\uD569\uB2C8\uB2E4.",
+      "placeholders": {
+         "matchcount": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "blacklisternofilter": {
+      "description": "Warning if the user hasn't specified a filter",
+      "message": "\uD544\uD130\uAC00 \uC9C0\uC815\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4!"
+   },
+   "blacklisternotsure": {
+      "description": "Blacklister attribute choosing page message.  'Block it!' must be the same as the text of the 'buttonblockit' message.",
+      "message": "\u003Cb\u003E\uD655\uC2E0\uD558\uC9C0 \uBABB\uD569\uB2C8\uAE4C?\u003C/b\u003E \uADF8\uB807\uB2E4\uBA74 \uC77C\uB2E8 \uC544\uB798\uC758 '\uCD94\uAC00' \uBC84\uD2BC\uC744 \uB20C\uB7EC\uBCF4\uC2ED\uC2DC\uC624.\u003Cbr/\u003E"
+   },
+   "blacklisteroptions1": {
+      "description": "Blacklister attribute choosing page message",
+      "message": "\uC774 \uAD11\uACE0\uB97C \uC228\uAE30\uAE30 \uC704\uD574 \uD544\uC694\uD55C \uC18D\uC131\uC740 \uBB34\uC5C7\uC785\uB2C8\uAE4C?"
+   },
+   "blacklisteroptionstitle": {
+      "description": "Blacklister options page title",
+      "message": "\uB9C8\uC9C0\uB9C9 \uB2E8\uACC4 : \uC18D\uC131 \uC9C0\uC815"
+   },
+   "blacklistersinglematch": {
+      "description": "Tells the user only one match was found",
+      "message": "\uD604\uC7AC \uD398\uC774\uC9C0\uC5D0\uC11C \u003Cb\u003E1\u003C/b\u003E\uAC1C \uC694\uC18C\uC640 \uC77C\uCE58\uD569\uB2C8\uB2E4."
+   },
+   "blacklisterthefilter": {
+      "description": "Blacklister attribute choosing page message",
+      "message": "\uB2E4\uC74C \uD544\uD130\uB294 \uC635\uC158 \uD398\uC774\uC9C0\uC5D0\uC11C \uBCC0\uACBD\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "blacklistertype": {
+      "description": "node name is called 'Type'",
+      "message": "\uD615\uC2DD"
+   },
+   "blacklisterwarningnofilter": {
+      "description": "Warns the user that no filter was specified",
+      "message": "\uACBD\uACE0 : \uD544\uD130\uAC00 \uC9C0\uC815\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4!"
+   },
+   "block_an_ad_on_this_page": {
+      "description": "Toolbar button menu entry and context menu entry",
+      "message": "\uD604\uC7AC \uD398\uC774\uC9C0\uC758 \uAD11\uACE0 \uC228\uAE30\uAE30"
+   },
+   "blockanadtitle": {
+      "description": "Title of the first two dialogs of the blacklister",
+      "message": "\uC694\uC18C \uC228\uAE40 \uB9C8\uBC95\uC0AC"
+   },
+   "blockdomain": {
+      "description": "Message of the url and css -blocking area",
+      "message": "[\uC635\uC158] \uC9C0\uC815\uB41C \uB3C4\uBA54\uC778\uC5D0\uB9CC \uC801\uC6A9"
+   },
+   "blockmoreads": {
+      "description": "Section header on third tab",
+      "message": "\uCC28\uB2E8 \uD544\uD130 \uCD94\uAC00"
+   },
+   "blockurlwithtext": {
+      "description": "Message of the url-blocking area",
+      "message": "\uB2E4\uC74C \uD14D\uC2A4\uD2B8\uB97C \uD3EC\uD568\uD558\uB294 URL \uCC28\uB2E8"
+   },
+   "buttonback": {
+      "description": "Back to previous wizard page button",
+      "message": "\uB4A4\uB85C"
+   },
+   "buttonblockit": {
+      "description": "Block button",
+      "message": "\uCD94\uAC00"
+   },
+   "buttoncancel": {
+      "description": "Cancel button",
+      "message": "\uCDE8\uC18C"
+   },
+   "buttonedit": {
+      "description": "Edit filter manually button",
+      "message": "\uD3B8\uC9D1"
+   },
+   "buttonexclude": {
+      "description": "Button for excluding a domain in the whitelister dialog (see 'whitelistertitle' message)",
+      "message": "\uD5C8\uC6A9"
+   },
+   "buttonlooksgood": {
+      "description": "Looks good button",
+      "message": "\uC120\uD0DD"
+   },
+   "buttonok": {
+      "description": "OK button",
+      "message": "\uD655\uC778"
+   },
+   "cantblockflash": {
+      "description": "Result of the final ad report question",
+      "message": "\uD50C\uB798\uC2DC\uB098 \uB2E4\uB978 \uD50C\uB7EC\uADF8\uC778\uC758 \uB0B4\uBD80 \uAD11\uACE0 \uCC28\uB2E8 \uAE30\uB2A5\uC740 \uC544\uC9C1 \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4. \uBE0C\uB77C\uC6B0\uC800\uC640 \uC6F9\uD0A4\uD2B8\uC5D0\uC11C \uADF8 \uAE30\uB2A5\uC744 \uC9C0\uC6D0\uD558\uAE30\uB97C \uAE30\uB2E4\uB9AC\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "cantblockflashwarning": {
+      "description": "Text of the final ad report question",
+      "message": "\uC601\uD654\uC758 \uB0B4\uBD80\uC640 \uC2DC\uC791\uD558\uAE30 \uC804\uC758 \uAD11\uACE0 \uB610\uB294 \uD50C\uB798\uC2DC \uAC8C\uC784\uACFC \uAC19\uC774 \uB2E4\uB978 \uD50C\uB7EC\uADF8\uC778\uC5D0 \uAD11\uACE0\uAC00 \uC874\uC7AC\uD569\uB2C8\uAE4C?"
+   },
+   "checkinfirefox": {
+      "description": "tell a user to see if a reported ad also appears in firefox",
+      "message": "\uD30C\uC774\uC5B4\uD3ED\uC2A4 \uD655\uC778"
+   },
+   "checkinfirefox1": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "\uD30C\uC774\uC5B4\uD3ED\uC2A4\uB97C \uC124\uCE58\uD558\uC9C0 \uC54A\uC558\uB2E4\uBA74 \uC124\uCE58\uD558\uC2ED\uC2DC\uC624."
+   },
+   "checkinfirefox2": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "\uC560\uB4DC\uBE14\uB85D \uD50C\uB7EC\uC2A4\uB97C \uC124\uCE58\uD558\uC9C0 \uC54A\uC558\uB2E4\uBA74 \uC124\uCE58\uD558\uC2ED\uC2DC\uC624."
+   },
+   "checkinfirefox3": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "\uD30C\uC774\uC5B4\uD3ED\uC2A4\uC5D0\uC11C \uAC19\uC740 \uAD6C\uB3C5 \uD544\uD130\uB97C \uAD6C\uB3C5\uD558\uC2ED\uC2DC\uC624.(AdBlock Custom filters\uB294 \uC81C\uC678)"
+   },
+   "checkinfirefox4": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "\uD30C\uC774\uC5B4\uD3ED\uC2A4\uB85C \uAD11\uACE0\uAC00 \uC788\uB294 \uC6F9 \uD398\uC774\uC9C0\uB97C \uC5F4\uC5B4\uBCF4\uC2ED\uC2DC\uC624."
+   },
+   "checkinfirefox5": {
+      "description": "instruction for how to check Firefox for a reported ad",
+      "message": "\uD30C\uC774\uC5B4\uD3ED\uC2A4\uB85C \uC6F9 \uD398\uC774\uC9C0\uB97C \uC5F4\uBA74 \uAD11\uACE0\uAC00 \uC874\uC7AC\uD569\uB2C8\uAE4C?"
+   },
+   "chromebutton_how_to_hide": {
+      "description": "Message explaining how to hide the AdBlock toolbar button.  'Hide Button' should match the text that Chrome displays when you right click a toolbar button.",
+      "message": "\uD234\uBC14 \uBC84\uD2BC\uC744 \uC228\uAE30\uB824\uBA74 \uC624\uB978\uCABD \uB9C8\uC6B0\uC2A4 \uBA54\uB274\uC5D0\uC11C \uD234\uBC14 \uBC84\uD2BC \uC228\uAE30\uAE30 \uD56D\uBAA9\uC744 \uC120\uD0DD\uD558\uC2ED\uC2DC\uC624. \uD234\uBC14 \uBC84\uD2BC\uC744 \uB2E4\uC2DC \uC0AC\uC6A9\uD558\uB824\uBA74 \uB80C\uCE58 \uC544\uC774\uCF58 \u003E \uB3C4\uAD6C \u003E \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC5D0\uC11C \uC124\uC815\uD558\uC2DC\uC2DC\uC624."
+   },
+   "chromebutton_showoption": {
+      "description": "Message on installation success page",
+      "message": "\uB80C\uCE58 \uC544\uC774\uCF58 \uC606\uC5D0 \uD234\uBC14 \uBC84\uD2BC \uBCF4\uC774\uAE30"
+   },
+   "cleanuplist": {
+      "description": "Option at the bottom of the third options tab",
+      "message": "\uD544\uD130 \uAD6C\uBB38 \uCD5C\uC801\uD654"
+   },
+   "clickthead": {
+      "description": "When you have to click the ad to continue",
+      "message": "\uAD11\uACE0\uB97C \uD074\uB9AD\uD55C \uD6C4 \uC228\uAE30\uAE30 \uC704\uD55C \uC808\uCC28\uB97C \u003Cbr/\u003E\uB530\uB974\uC2ED\uC2DC\uC624."
+   },
+   "clickupdatefilters": {
+      "description": "instruction on ad report page",
+      "message": "\uCD5C\uC2E0\uC758 \uAD6C\uB3C5 \uD544\uD130\uB85C \uC5C5\uB370\uC774\uD2B8\uD569\uB2C8\uB2E4. \u003Ca\u003E\uC5C5\uB370\uC774\uD2B8\u003C/a\u003E"
+   },
+   "contextmenuexcludedomain": {
+      "description": "Context menu entry",
+      "message": "\uD604\uC7AC \uC0AC\uC774\uD2B8\uC758 \uAD11\uACE0 \uD5C8\uC6A9"
+   },
+   "contextmenuhidethis": {
+      "description": "Context menu entry",
+      "message": "\uAD11\uACE0 \uC228\uAE30\uAE30"
+   },
+   "correctfilters": {
+      "description": "on the ad report page, label describing having the right set of filters",
+      "message": "\uAD6C\uB3C5 \uD544\uD130"
+   },
+   "csstomatch": {
+      "description": "Message of the css-hiding area",
+      "message": "CSS\uC640 \uC77C\uCE58\uD558\uB294 \uC694\uC18C \uC228\uAE40"
+   },
+   "debuginlogoption": {
+      "description": "Option on first tab page",
+      "message": "\uCF58\uC194 \uB85C\uADF8\uC5D0 \uCC28\uB2E8/\uC694\uC18C \uC228\uAE40 \uC0C1\uD0DC \uAE30\uB85D (\uC560\uB4DC\uBE14\uB85D\uC758 \uD544\uD130 \uCC98\uB9AC \uC18D\uB3C4\uAC00 \uB290\uB824\uC9D0)"
+   },
+   "description1": {
+      "description": "Extension description in manifest",
+      "message": "200\uB9CC\uBA85 \uC774\uC0C1\uC758 \uC0AC\uC6A9\uC790\uC640 \uD568\uAED8 \uD558\uB294 \uAC00\uC7A5 \uC778\uAE30 \uC788\uB294 \uD06C\uB86C \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8. \uC778\uD130\uB137 \uAD11\uACE0 \uCC28\uB2E8!"
+   },
+   "did_you_know_this_is_my_full_time_job": {
+      "description": "Text of a donation link on toolbar button",
+      "message": "\uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8\uC758 \uAC1C\uBC1C\uC774\u003Cbr/\u003E\uC800\uC758 \uC804\uC5C5\uC784\uC744 \uC54C\uACE0 \uC788\uC2B5\uB2C8\uAE4C?"
+   },
+   "disabled_by_filter_lists": {
+      "description": "Message shown when a user tries to unwhitelist a web page that has been whitelisted by a rule in a subscribed filter list.",
+      "message": "\uC8C4\uC1A1\uD569\uB2C8\uB2E4. \uAD6C\uB3C5 \uD544\uD130\uC5D0 \uC758\uD574 \uD5C8\uC6A9\uB41C \uD398\uC774\uC9C0\uC785\uB2C8\uB2E4."
+   },
+   "donaterequest2": {
+      "description": "Donation request on installation success page",
+      "message": "\uC800\uB294 \uC560\uB4DC\uBE14\uB85D \uAC1C\uBC1C\uC5D0 \uC804\uB150\uD558\uAE30 \uC704\uD574 \uCD5C\uADFC\uC5D0 \uC9C1\uC7A5\uC744 \uADF8\uB9CC \uB450\uC5C8\uC2B5\uB2C8\uB2E4.\u003Cbr/\u003E\uD604\uC7AC \uAC00\uC871\uC744 \uBD80\uC591\uD558\uAE30 \uC704\uD574 \uC624\uC9C1 \uAE30\uBD80\uC5D0\uB9CC \uC758\uC874\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uB3C8\uC5D0 \uC9D1\uCC29\uD558\uC9C0\uB294 \uC54A\uC9C0\uB9CC \u003Cbr/\u003E\uAE30\uBCF8 \uC0DD\uD65C\uBE44\uB97C \uCDA9\uB2F9\uD560 \uC218 \uC788\uB3C4\uB85D \u003Cb\u003E\u003Ca\u003E\uAE30\uBD80\u003C/a\u003E\u003C/b\u003E\uB97C \uBD80\uD0C1\uD569\uB2C8\uB2E4.  - \uB9C8\uC774\uD074 \uAC74\uB77D"
+   },
+   "dont_run_on_domain": {
+      "description": "Menu entry whitelisting the domain of the current tab.",
+      "message": "\uC0AC\uC774\uD2B8 \uD5C8\uC6A9 : $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "www.google.com"
+         }
+      }
+   },
+   "dont_run_on_this_page": {
+      "description": "Menu entry to whitelist a page",
+      "message": "\uD604\uC7AC \uD398\uC774\uC9C0 \uD5C8\uC6A9"
+   },
+   "enable": {
+      "description": "Link text to un-whitelist a page, displayed immediately after 'adblock_is_disabled_on_domain'.",
+      "message": "\u003Cbr/\u003E\uB2E4\uC2DC \uCC28\uB2E8"
+   },
+   "enterurloflist": {
+      "description": "Error messagebox",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uC758 URL\uC744 \uC785\uB825\uD558\uC2ED\uC2DC\uC624."
+   },
+   "excludedomainorurl": {
+      "description": "Message of the exclude area",
+      "message": "\uAD11\uACE0\uB97C \uCC28\uB2E8\uD558\uC9C0 \uC54A\uC744 \uB3C4\uBA54\uC778 \uB610\uB294 \uC6F9 \uD398\uC774\uC9C0\uC758 URL\uC744 \uC785\uB825\uD558\uC2ED\uC2DC\uC624."
+   },
+   "failedtofetchfilter": {
+      "description": "Error messagebox",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB97C \uAC00\uC838\uC624\uB294\uB370 \uC2E4\uD328\uD588\uC2B5\uB2C8\uB2E4!"
+   },
+   "fetchinglabel": {
+      "description": "Status label",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB97C \uAC00\uC838\uC624\uB294 \uC911\uC774\uB2C8 \uC7A0\uC2DC\uB9CC \uAE30\uB2E4\uB824\uC8FC\uC2ED\uC2DC\uC624..."
+   },
+   "filecleanerwarning": {
+      "description": "Help for users who use hyperactive file cleaners",
+      "message": "\uC560\uB4DC\uBE14\uB85D\uC744 \uC2DC\uC791\uD560 \uB54C\uB9C8\uB2E4 \uD604\uC7AC \uD398\uC774\uC9C0\uAC00 \uB098\uD0C0\uB098\uBA74 'localStorage' \uD30C\uC77C\uC744 \uC0AD\uC81C\uD558\uB294 \uD30C\uC77C \uD074\uB9AC\uB108\uB97C \uC0AC\uC6A9\uD558\uC9C0 \uB9C8\uC2ED\uC2DC\uC624."
+   },
+   "filteradblock_custom": {
+      "description": "A filter list. Don't translate 'AdBlock'",
+      "message": "AdBlock custom filters (AdBlock \uAD6C\uB3C5 \uD544\uD130)"
+   },
+   "filterchinese": {
+      "description": "A filter list",
+      "message": "\uC911\uAD6D \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterczech": {
+      "description": "A filter list",
+      "message": "\uCCB4\uCF54 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterdanish": {
+      "description": "A filter list",
+      "message": "\uB374\uB9C8\uD06C \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterdutch": {
+      "description": "A filter list",
+      "message": " - \uB124\uB35C\uB780\uB4DC \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist": {
+      "description": "A filter list. Don't translate 'EasyList'",
+      "message": "EasyList (\uC601\uC5B4\uAD8C \uAE30\uBCF8 \uAD6C\uB3C5 \uD544\uD130)"
+   },
+   "filtereasylist_plun_korean": {
+      "description": "A filter list",
+      "message": "\uD55C\uAD6D \uAD6C\uB3C5 \uD544\uD130 (Corset)"
+   },
+   "filtereasylist_plus_bulgarian": {
+      "description": "A filter list",
+      "message": " - \uBD88\uAC00\uB9AC\uC544 \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_finnish": {
+      "description": "A filter list",
+      "message": " - \uD540\uB780\uB4DC \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_french": {
+      "description": "A filter list",
+      "message": " - \uD504\uB791\uC2A4 \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_german": {
+      "description": "A filter list",
+      "message": " - \uB3C5\uC77C \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_norwegian": {
+      "description": "A filter list",
+      "message": " - \uB178\uB974\uC6E8\uC774 \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_polish": {
+      "description": "A filter list",
+      "message": " - \uD3F4\uB780\uB4DC \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_romanian": {
+      "description": "A filter list",
+      "message": " - \uB8E8\uB9C8\uB2C8\uC544 \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_spanish": {
+      "description": "A filter list",
+      "message": "\uC2A4\uD398\uC778 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtereasylist_plus_vietnamese": {
+      "description": "A filter list",
+      "message": " - \uBCA0\uD2B8\uB0A8 \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterhungarian": {
+      "description": "A filter list",
+      "message": "\uD5DD\uAC00\uB9AC \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterisraeli": {
+      "description": "A filter list",
+      "message": "\uC774\uC2A4\uB77C\uC5D8 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filteritalian": {
+      "description": "A filter list",
+      "message": "\uC774\uD0C8\uB9AC\uC544 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterjapanese": {
+      "description": "A filter list",
+      "message": "\uC77C\uBCF8 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterlistlink": {
+      "description": "Explanation of the filter lists",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB97C \uAD6C\uB3C5\uD55C \uD6C4 \u003Cb\u003E\uBBF8\uCC28\uB2E8 \uAD11\uACE0\u003C/b\u003E\uB098 \u003Cb\u003E\uCC28\uB2E8 \uC624\uB958\u003C/b\u003E\uAC00 \uC788\uC73C\uBA74 \uD574\uB2F9 \uAD6D\uAC00\uBCC4 \uD544\uD130 \uC720\uC9C0\uC790\uC5D0\uAC8C \uC2E0\uACE0\uD558\uC2ED\uC2DC\uC624.\u003Cbr/\u003E\uD544\uD130 \uC720\uC9C0\uC790 \uC5F0\uB77D\uCC98 \uBC0F \uC804\uCCB4 \uAD6C\uB3C5 \uD544\uD130 \uBAA9\uB85D : \u003Cb\u003E\u003Ca\u003E\uBC14\uB85C\uAC00\uAE30\u003C/a\u003E\u003C/b\u003E\u003Cbr/\u003E\uBE44\uC2B7\uD55C \uAE30\uB2A5\uC744 \uD558\uB294 \uAD6C\uB3C5 \uD544\uD130\uAC00 \uB9CE\uC73C\uBA74 \uB290\uB824\uC9C8 \uC218 \uC788\uC73C\uB2C8 \uD544\uC694\uD55C \uAD6C\uB3C5 \uD544\uD130\uB9CC \uAD6C\uB3C5\uD558\uC2ED\uC2DC\uC624."
+   },
+   "filterlistsrock": {
+      "description": "Header text on the Customize tab.  'Filter lists' should be the same text as the tabfilterlists message.",
+      "message": "\uC0AC\uC6A9\uC790\uAC00 \uC791\uC131\uD55C \uD544\uD130\uB85C \uAD11\uACE0\uB97C \uCC28\uB2E8\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+   },
+   "filterpolish": {
+      "description": "A filter list",
+      "message": "\uD3F4\uB780\uB4DC \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filterrussian": {
+      "description": "A filter list",
+      "message": " - \uB7EC\uC2DC\uC544 \uBD80\uAC00 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "filtersavewarning": {
+      "description": "Warning when blacklisting manually",
+      "message": "\uC8FC\uC758 : \uD544\uD130\uB97C \uC798\uBABB \uC791\uC131\uD558\uBA74 \uC6F9 \uD398\uC774\uC9C0\uC5D0 \uC774\uC0C1 \uC99D\uC0C1\uC774 \uBC1C\uC0DD\uD558\uAC70\uB098 \uD398\uC774\uC9C0\uB97C \uBD88\uB7EC\uC624\uB294 \uC18D\uB3C4\uAC00 \uB290\uB824\uC9C8 \uC218 \uC788\uC2B5\uB2C8\uB2E4!\u003Cbr/\u003E\uD544\uD130 \uC791\uC131 \uBC29\uBC95\uC740 \uD45C\uC900\uD654\uB41C \uD544\uD130 \uC815\uBCF4\uB97C \uC81C\uACF5\uD558\uB294 \uC560\uB4DC\uBE14\uB85D \uD50C\uB7EC\uC2A4 \uD648\uD398\uC774\uC9C0\uB97C \uCC38\uACE0\uD558\uC2ED\uC2DC\uC624 : \u003Ca\u003E\uBC14\uB85C\uAC00\uAE30\u003C/a\u003E"
+   },
+   "filterstabtitle": {
+      "description": "Title of the filter list tab",
+      "message": "\uAD6C\uB3C5 \uD544\uD130 \uBAA9\uB85D"
+   },
+   "filterukranian": {
+      "description": "A filter list",
+      "message": "\uC6B0\uD06C\uB77C\uC774\uB098 \uAD6C\uB3C5 \uD544\uD130"
+   },
+   "findingads": {
+      "description": "When you press ctrl-shift-K the blacklister searches for ads",
+      "message": "\uAD11\uACE0\uB97C \uCC3E\uB294 \uC911...\u003Cbr/\u003E\u003Cbr/\u003E\u003Ci\u003E\uC7A0\uC2DC\uB9CC \uAE30\uB2E4\uB824\uC8FC\uC2ED\uC2DC\uC624.\u003C/i\u003E"
+   },
+   "fixityourself": {
+      "description": "telling a user who won't report an ad to us how to handle it for herself",
+      "message": "\uC635\uC158 \uD398\uC774\uC9C0\uC5D0 \uC774 \uAD11\uACE0\uB97C \uCC28\uB2E8\uD560 \uC218 \uC788\uB294 \uD544\uD130\uB97C \uCD94\uAC00\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uACE0\uB9D9\uC2B5\uB2C8\uB2E4!"
+   },
+   "flashads": {
+      "description": "Title of the final ad report question if the ad didn't appear in FF",
+      "message": "\uBE44\uB514\uC624\uC640 \uD50C\uB798\uC2DC"
+   },
+   "free_description": {
+      "description": "Extension description used in free version manifest",
+      "message": "\uAC00\uC7A5 \uC778\uAE30 \uC788\uB294 \uD06C\uB86C \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8 -- AdBlock\uC744 \uC124\uCE58\uD558\uB294 \uB300\uC2E0\uC5D0 1.99\uB2EC\uB7EC\uB97C \uC9C0\uBD88\uD574\uC8FC\uC2ED\uC2DC\uC624."
+   },
+   "generaloptions": {
+      "description": "Title of first tab page",
+      "message": "\uC77C\uBC18 \uC635\uC158"
+   },
+   "googletextads": {
+      "description": "Option on first tab page",
+      "message": "\uAD6C\uAE00 \uAC80\uC0C9 \uACB0\uACFC\uC5D0 \uD14D\uC2A4\uD2B8 \uAD11\uACE0 \uBCF4\uC774\uAE30"
+   },
+   "hide_this_button": {
+      "description": "Toolbar button menu entry to hide the AdBlock button",
+      "message": "\uD234\uBC14 \uBC84\uD2BC \uC228\uAE30\uAE30"
+   },
+   "installedtitle": {
+      "description": "Title for the installation success page",
+      "message": "\uC560\uB4DC\uBE14\uB85D \uC124\uCE58 \uC644\uB8CC!"
+   },
+   "installisdone": {
+      "description": "Message on the installation success page",
+      "message": "\uC774\uC6A9\uC790\uC5D0\uAC8C \uBD88\uD3B8\uC744 \uC8FC\uB294 \uAD11\uACE0\uB97C \uCC28\uB2E8\uD558\uC5EC \uCF8C\uC801\uD55C \uC778\uD130\uB137\uC744 \uC774\uC6A9\uD558\uC2ED\uC2DC\uC624."
+   },
+   "labelshow": {
+      "description": "The label when you click the 'show links to filter lists' option",
+      "message": "\uBCF4\uAE30"
+   },
+   "lang_bulgarian": {
+      "description": "language",
+      "message": "\uBD88\uAC00\uB9AC\uC544\uC5B4"
+   },
+   "lang_chinese": {
+      "description": "language",
+      "message": "\uC911\uAD6D\uC5B4"
+   },
+   "lang_czech": {
+      "description": "language",
+      "message": "\uCCB4\uCF54\uC5B4"
+   },
+   "lang_danish": {
+      "description": "language",
+      "message": "\uB374\uB9C8\uD06C\uC5B4"
+   },
+   "lang_dutch": {
+      "description": "language",
+      "message": "\uB124\uB35C\uB780\uB4DC\uC5B4"
+   },
+   "lang_english": {
+      "description": "language",
+      "message": "\uC601\uC5B4"
+   },
+   "lang_finnish": {
+      "description": "language",
+      "message": "\uD540\uB780\uB4DC\uC5B4"
+   },
+   "lang_french": {
+      "description": "language",
+      "message": "\uD504\uB791\uC2A4\uC5B4"
+   },
+   "lang_german": {
+      "description": "language",
+      "message": "\uB3C5\uC77C\uC5B4"
+   },
+   "lang_hungarian": {
+      "description": "language",
+      "message": "\uD5DD\uAC00\uB9AC\uC5B4"
+   },
+   "lang_israeli": {
+      "description": "language",
+      "message": "\uC774\uC2A4\uB77C\uC5D8\uC5B4"
+   },
+   "lang_italian": {
+      "description": "language",
+      "message": "\uC774\uD0C8\uB9AC\uC544\uC5B4"
+   },
+   "lang_japanese": {
+      "description": "language",
+      "message": "\uC77C\uBCF8\uC5B4"
+   },
+   "lang_korean": {
+      "description": "language",
+      "message": "\uD55C\uAD6D\uC5B4"
+   },
+   "lang_norwegian": {
+      "description": "language",
+      "message": "\uB178\uB974\uC6E8\uC774\uC5B4"
+   },
+   "lang_polish": {
+      "description": "language",
+      "message": "\uD3F4\uB780\uB4DC\uC5B4"
+   },
+   "lang_romanian": {
+      "description": "language",
+      "message": "\uB8E8\uB9C8\uB2C8\uC544\uC5B4"
+   },
+   "lang_russian": {
+      "description": "language",
+      "message": "\uB7EC\uC2DC\uC544\uC5B4"
+   },
+   "lang_spanish": {
+      "description": "language",
+      "message": "\uC2A4\uD398\uC778\uC5B4"
+   },
+   "lang_ukranian": {
+      "description": "language",
+      "message": "\uC6B0\uD06C\uB77C\uC774\uB098\uC5B4"
+   },
+   "lang_vietnamese": {
+      "description": "language",
+      "message": "\uBCA0\uD2B8\uB0A8\uC5B4"
+   },
+   "linkblockadbyurl": {
+      "description": "Link on the third tab",
+      "message": "\uCC28\uB2E8 \uD544\uD130 \uCD94\uAC00"
+   },
+   "linkhidesection": {
+      "description": "Link on the third tab",
+      "message": "\uC694\uC18C \uC228\uAE40 \uD544\uD130 \uCD94\uAC00"
+   },
+   "linkunblock": {
+      "description": "Link on the third tab",
+      "message": "\uD398\uC774\uC9C0/\uB3C4\uBA54\uC778 \uB2E8\uC704\uC758 \uD5C8\uC6A9 \uD544\uD130 \uCD94\uAC00"
+   },
+   "manualfilteredit": {
+      "description": "Subtitle on the third tab",
+      "message": "\uC0AC\uC6A9\uC790 \uD544\uD130 \uBAA9\uB85D"
+   },
+   "new_version": {
+      "description": "Tooltip on toolbar button when a significant new version is released",
+      "message": "\uC0C8\uB85C\uC6B4 \uBC84\uC804!"
+   },
+   "newtitle": {
+      "description": "Message in popup button telling users about new features",
+      "message": "$version$ \uBC84\uC804\uC758 \uC0C8\uB85C\uC6B4 \uAE30\uB2A5 :",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.3.0"
+         }
+      }
+   },
+   "no": {
+      "description": "A negative response to a question",
+      "message": "\uC544\uB2C8\uC624"
+   },
+   "nodefaultfilter1": {
+      "description": "instructions on ad report page pointing users to EasyList subscriptions list. 'Customize' should be the same message as 'tabcustomize'.",
+      "message": "\uC774 \uC5B8\uC5B4\uC5D0 \uB300\uD55C \uAE30\uBCF8\uC801\uC778 \uAD6C\uB3C5 \uD544\uD130\uB97C \uD604\uC7AC \uC9C0\uC6D0\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.\u003Cbr/\u003E\uC774 \uC5B8\uC5B4\uB97C \uC9C0\uC6D0\uD558\uB294 \uC801\uC808\uD55C \uAD6C\uB3C5 \uD544\uD130\uB97C \uCC3E\uC544\uBCF4\uC2ED\uC2DC\uC624 : $link$\u003Cbr/\u003E\uADF8\uB807\uC9C0 \uC54A\uC73C\uBA74 \uC0AC\uC6A9\uC790 \uD544\uD130\uB97C \uCD94\uAC00\uD558\uC2ED\uC2DC\uC624.",
+      "placeholders": {
+         "link": {
+            "content": "$1\uBC14\uB85C\uAC00\uAE30$2",
+            "example": "\u003Ca href='http://abp.org'\u003Ehere\u003C/a\u003E"
+         }
+      }
+   },
+   "nolisturllabel": {
+      "description": "Status label",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uC758 URL\uC774 \uC544\uB2D9\uB2C8\uB2E4."
+   },
+   "options": {
+      "description": "The text of the link on chrome://extensions that gets you to the Options page for an extension",
+      "message": "\uC635\uC158"
+   },
+   "optionschangelog": {
+      "description": "changelog link",
+      "message": "\uBCC0\uACBD\uB0B4\uC5ED"
+   },
+   "optionstitle": {
+      "description": "Title for the options page",
+      "message": "AdBlock - \uC560\uB4DC\uBE14\uB85D \uC635\uC158"
+   },
+   "optionsversion": {
+      "description": "Version number",
+      "message": "$version$ \uBC84\uC804",
+      "placeholders": {
+         "version": {
+            "content": "$1",
+            "example": "2.0.9"
+         }
+      }
+   },
+   "orenteraurl": {
+      "description": "link for custom subscription",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uC758 URL \uC785\uB825 : "
+   },
+   "other": {
+      "description": "multiple choice option",
+      "message": "\uAE30\uD0C0"
+   },
+   "pagelanguagecheck": {
+      "description": "question on ad report page",
+      "message": "\uC6F9 \uD398\uC774\uC9C0\uAC00 \uC5B4\uB5A4 \uC5B8\uC5B4\uB85C \uC791\uC131\uB418\uC5C8\uC2B5\uB2C8\uAE4C?"
+   },
+   "pause_adblock": {
+      "description": "Menu entry to pause AdBlock.",
+      "message": "\uC560\uB4DC\uBE14\uB85D \uC0AC\uC6A9 \uC911\uC9C0"
+   },
+   "refusetocheck": {
+      "description": "user is telling us they don't wish to investigate something for us",
+      "message": "\uCCB4\uD06C\uD558\uC9C0 \uC54A\uC74C"
+   },
+   "reloadadpage": {
+      "description": "instruction on ad report page",
+      "message": "\uAD11\uACE0\uAC00 \uC788\uB294 \uC6F9 \uD398\uC774\uC9C0\uB97C \uC0C8\uB85C \uACE0\uCE58\uC2ED\uC2DC\uC624."
+   },
+   "removedlabel": {
+      "description": "Status label",
+      "message": "\uC81C\uAC70\uB428"
+   },
+   "removefromlist": {
+      "description": "Label to remove a custom filter",
+      "message": "\uC81C\uAC70"
+   },
+   "reportanad": {
+      "description": "A link for users who found an ad somewhere and want to report it",
+      "message": "AdBlock \uB610\uB294 \uAD6C\uB3C5 \uD544\uD130 \uC720\uC9C0\uC790\uC5D0\uAC8C \u003Ca\u003E\uBBF8\uCC28\uB2E8 \uAD11\uACE0 \uC2E0\uACE0\u003C/a\u003E"
+   },
+   "reportfilterlistproblem": {
+      "description": "telling the user to report an ad to a filter list maintainer",
+      "message": "\uC774\uAC83\uC740 \uAD6C\uB3C5 \uD544\uD130\uC758 \uBB38\uC81C\uC774\uBA70, \uADF8\uAC83\uC744 \uC2E0\uACE0\uD574\uC8FC\uC2ED\uC2DC\uC624 : $link$",
+      "placeholders": {
+         "link": {
+            "content": "$1",
+            "example": "EXAMPLE 1: \u003Ca href='mailto:someguy@list.com'\u003EJohn Doe\u003C/a\u003E  EXAMPLE 2: \u003Ca href='http://easylist.org'\u003EEasyList forums\u003C/a\u003E"
+         }
+      }
+   },
+   "reporttous1": {
+      "description": "NOTE: non-English translations should replace the first sentence and instead say 'If you can speak English, you can report the ad to us $in_the_issue_tracker_link$.'",
+      "message": "AdBlock\uC758 $in_the_issue_tracker_link$\uC5D0 \uAD11\uACE0\uB97C \uC2E0\uACE0\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4.",
+      "placeholders": {
+         "in_the_issue_tracker_link": {
+            "content": "$1\uC774\uC288 \uCD94\uC801\uAE30$2",
+            "example": "\u003Ca href='issuetracker.html'\u003Ein the issue tracker\u003C/a\u003E"
+         }
+      }
+   },
+   "retryaftersubscribe": {
+      "description": "instructions on ad report page telling users to subscribe to a filter list and then check again to see whether the ad exists",
+      "message": "$list_title$\uB97C \uAD6C\uB3C5\uD55C \uD6C4 \uC6F9 \uD398\uC774\uC9C0\uB97C \uB2E4\uC2DC \uC5F4\uC5B4\uBCF4\uC2ED\uC2DC\uC624.",
+      "placeholders": {
+         "list_title": {
+            "content": "$1",
+            "example": "French filters"
+         }
+      }
+   },
+   "savebutton": {
+      "description": "Save button",
+      "message": "\uC800\uC7A5"
+   },
+   "savereminder": {
+      "description": "Reminder to press save",
+      "message": "\uC800\uC7A5\uD558\uB294 \uAC83\uC744 \uC78A\uC9C0\uB9C8\uC2ED\uC2DC\uC624!"
+   },
+   "setotheroptions": {
+      "description": "Message on installation success page",
+      "message": "\uC635\uC158\uACFC \uAD6D\uAC00\uBCC4 \uAD6C\uB3C5 \uD544\uD130 \uC124\uC815 : \uB80C\uCE58 \uC544\uC774\uCF58 \u003E \uB3C4\uAD6C \u003E \uD655\uC7A5 \uD504\uB85C\uADF8\uB7A8 \u003E \uC560\uB4DC\uBE14\uB85D \uC635\uC158"
+   },
+   "showcontextmenus": {
+      "description": "Option on first tab page",
+      "message": "\uBB38\uB9E5 \uBA54\uB274\uC5D0 \uD56D\uBAA9 \uCD94\uAC00"
+   },
+   "showlinkstolists": {
+      "description": "Option on second tab page",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB97C \uBCF4\uAE30 \uC704\uD55C \uB9C1\uD06C \uD45C\uC2DC : "
+   },
+   "sliderexplanation": {
+      "description": "Blacklister slider page message",
+      "message": "\uC6F9 \uD398\uC774\uC9C0\uC758 \uAD11\uACE0\uAC00 \uC228\uACA8\uC9C8 \uB54C\uAE4C\uC9C0 \uC2AC\uB77C\uC774\uB354\uB97C \uC6C0\uC9C1\uC774\uC2ED\uC2DC\uC624.\u003Cbr/\u003E"
+   },
+   "slidertitle": {
+      "description": "Blacklister slider page title",
+      "message": "1\uB2E8\uACC4 : \uC228\uAE30\uB824\uB294 \uC694\uC18C \uC120\uD0DD"
+   },
+   "somequicksetup": {
+      "description": "Title of the options on the installation succes page",
+      "message": "\uBE60\uB978 \uC124\uC815"
+   },
+   "status_disabled": {
+      "description": "Message shown in toolbar button on web pages that disallow extensions, such as the Extensions Gallery or about:blank.",
+      "message": "\uC560\uB4DC\uBE14\uB85D\uC740 \uD604\uC7AC \uD398\uC774\uC9C0\uC5D0\uC11C \uC0AC\uC6A9 \uC911\uC9C0\uB428."
+   },
+   "status_paused": {
+      "description": "Message shown in toolbar button when AdBlock is paused.",
+      "message": "\uC0AC\uC6A9 \uC911\uC9C0\uB428."
+   },
+   "subscribebutton": {
+      "description": "subscribe to a list button",
+      "message": "\uCD94\uAC00"
+   },
+   "subscribedlabel": {
+      "description": "Status label",
+      "message": "\uAD6C\uB3C5\uB428"
+   },
+   "subscribetoall": {
+      "description": "option on second tab page",
+      "message": "\uBAA8\uB4E0 \uAD6C\uB3C5 \uD544\uD130\uB97C \uAD6C\uB3C5 : "
+   },
+   "subscribetonone": {
+      "description": "option on second tab page",
+      "message": "\uBAA8\uB4E0 \uAD6C\uB3C5 \uD544\uD130\uB97C \uAD6C\uB3C5 \uC911\uC9C0 : "
+   },
+   "subscribingfailed": {
+      "description": "abp: link subscriber result",
+      "message": "\uC2E4\uD328\uD568"
+   },
+   "subscribingfinished": {
+      "description": "abp: link subscriber result",
+      "message": "\uC644\uB8CC\uB428!"
+   },
+   "subscribingtitle": {
+      "description": "abp: link subscriber title",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB97C \uAD6C\uB3C5\uD558\uB294 \uC911..."
+   },
+   "tabcustomize": {
+      "description": "A tab on the options page",
+      "message": "\u003Cb\u003E\uC0AC\uC6A9\uC790 \uD544\uD130\u003C/b\u003E"
+   },
+   "tabcustomizetitle": {
+      "description": "Title of the third tab",
+      "message": "\uC0AC\uC6A9\uC790 \uD544\uD130 \uAD00\uB9AC"
+   },
+   "tabfilterlists": {
+      "description": "A tab on the options page",
+      "message": "\u003Cb\u003E\uAD6C\uB3C5 \uD544\uD130\u003C/b\u003E"
+   },
+   "tabgeneral": {
+      "description": "A tab on the options page",
+      "message": "\u003Cb\u003E\uC77C\uBC18\u003C/b\u003E"
+   },
+   "this_toolbar_button": {
+      "description": "The description of what is new in version 2.3.0: a toolbar button was added to the extension",
+      "message": "\uD234\uBC14 \uBC84\uD2BC *^^*"
+   },
+   "unblocktitle": {
+      "description": "Section header on third tab",
+      "message": "\uD5C8\uC6A9 \uD544\uD130 \uCD94\uAC00"
+   },
+   "unpause": {
+      "description": "Link text to unpause AdBlock, displayed immediately after 'status_paused'.",
+      "message": "\uC560\uB4DC\uBE14\uB85D \uC0AC\uC6A9"
+   },
+   "unsubscribedlabel": {
+      "description": "Status label",
+      "message": "\uAD6C\uB3C5 \uC911\uC9C0"
+   },
+   "updateddayago": {
+      "description": "Label for subscription",
+      "message": "1\uC77C \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428"
+   },
+   "updateddaysago": {
+      "description": "Label for subscription",
+      "message": "$days$\uC77C \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428",
+      "placeholders": {
+         "days": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedhourago": {
+      "description": "Label for subscription",
+      "message": "1\uC2DC\uAC04 \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428"
+   },
+   "updatedhoursago": {
+      "description": "Label for subscription",
+      "message": "$hours$\uC2DC\uAC04 \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428",
+      "placeholders": {
+         "hours": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedminuteago": {
+      "description": "Label for subscription",
+      "message": "1\uBD84 \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428"
+   },
+   "updatedminutesago": {
+      "description": "Label for subscription",
+      "message": "$minutes$\uBD84 \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428",
+      "placeholders": {
+         "minutes": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatedrightnow": {
+      "description": "Label for subscription",
+      "message": "\uC9C0\uAE08 \uC5C5\uB370\uC774\uD2B8\uB428"
+   },
+   "updatedsecondsago": {
+      "description": "Label for subscription",
+      "message": "$seconds$\uCD08 \uC804\uC5D0 \uC5C5\uB370\uC774\uD2B8\uB428",
+      "placeholders": {
+         "seconds": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "updatefromoldversion": {
+      "description": "ad report page instruction",
+      "message": "\uAD6C\uBC84\uC804 AdBlock\uC744 \uC0AC\uC6A9\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \uBA3C\uC800 Adblock\uC744 \uCD5C\uC2E0 \uBC84\uC804\uC73C\uB85C $updatelink$\uD558\uC2ED\uC2DC\uC624.",
+      "placeholders": {
+         "updatelink": {
+            "content": "$1\uC5C5\uB370\uC774\uD2B8$2",
+            "example": "\u003Ca href='http://chrome.com/update_here.ctx'\u003Eupdate\u003C/a\u003E"
+         }
+      }
+   },
+   "updatenowmessage": {
+      "description": "update filters text + button",
+      "message": "\uAD6C\uB3C5 \uD544\uD130\uB294 5\uC77C \uC8FC\uAE30\uB85C \uC790\uB3D9 \uC5C5\uB370\uC774\uD2B8\uB418\uBA70, \uD544\uC694\uD558\uBA74 \u003Ca\u003E\uC9C0\uAE08 \uC5C5\uB370\uC774\uD2B8\u003C/a\u003E"
+   },
+   "updateyourlists": {
+      "description": "instruction on ad report page",
+      "message": "\uAD6C\uB3C5 \uD544\uD130 \uC5C5\uB370\uC774\uD2B8"
+   },
+   "whitelistertext": {
+      "description": "The message of the whitelister dialog, putting the domain name on a separate line",
+      "message": "\uB3C4\uBA54\uC778\uC774 $domain$\uB85C\u003Cbr/\u003E\uB05D\uB098\uBA74 \uAD11\uACE0\uB97C \uCC28\uB2E8\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4.",
+      "placeholders": {
+         "domain": {
+            "content": "'\u003Ci\u003E$1\u003C/i\u003E'",
+            "example": "'\u003Ci\u003Elive.msn.com\u003C/i\u003E'"
+         }
+      }
+   },
+   "whitelistertitle": {
+      "description": "The title of the whitelister dialog",
+      "message": "\uD604\uC7AC \uC0AC\uC774\uD2B8\uC758 \uAD11\uACE0\uB97C \uD5C8\uC6A9\uD558\uC2DC\uACA0\uB2C8\uAE4C?"
+   },
+   "yes": {
+      "description": "A positive response to a question",
+      "message": "\uC608"
+   },
+   "yes_toolbar_button": {
+      "description": "Description of what is new in version 2.3.0, which is shown to users who have the 'Browser Button For AdBlock' extension installed instead of the 'this_toolbar_button' message.  You should not translate the words 'Browser Button For AdBlock'.",
+      "message": "\uD234\uBC14 \uBC84\uD2BC\uACFC \uC560\uB4DC\uBE14\uB85D\uC774 \uD1B5\uD569\uB418\uC5C8\uC2B5\uB2C8\uB2E4. 'Browser Button For AdBlock'\uC744 \uBCC4\uB3C4\uB85C \uC124\uCE58\uD560 \uD544\uC694\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4."
+   },
+   "youtubeads": {
+      "description": "Option on first tab page",
+      "message": "\uC720\uD29C\uBE0C \uBE44\uB514\uC624 \uB0B4\uBD80\uC758 \uAD11\uACE0 \uCC28\uB2E8"
+   },
+   "youtubevideomessage": {
+      "description": "Message on the YouTube video page that tells you that it might be the option that blocks the video.  $link$'s text is the title of the AdBlock Options page.",
+      "message": "\uBE44\uB514\uC624\uAC00 \uBCF4\uC774\uC9C0 \uC54A\uC2B5\uB2C8\uAE4C? \uC6F9 \uD398\uC774\uC9C0\uB97C \uC0C8\uB85C \uACE0\uCE58\uC2ED\uC2DC\uC624. \uB9CC\uC57D \uC774\uC640 \uAC19\uC740 \uC0C1\uD669\uC774 \uC790\uC8FC \uBC1C\uC0DD\uD558\uBA74 $link$\uC5D0\uC11C '\uC720\uD29C\uBE0C \uBE44\uB514\uC624 \uB0B4\uBD80\uC758 \uAD11\uACE0 \uCC28\uB2E8' \uC635\uC158\uC744 \uC0AC\uC6A9\uD558\uC9C0 \uB9C8\uC2ED\uC2DC\uC624.",
+      "placeholders": {
+         "link": {
+            "content": "$1",
+            "example": "AdBlock Options"
+         }
+      }
+   }
+}

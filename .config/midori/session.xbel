@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML" "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">
+<xbel version="1.0" xmlns:midori="http://www.twotoasts.de">
+<info>
+<metadata midori:current="0" owner="http://www.twotoasts.de"/>
+</info>
+<bookmark href="http://www.google.com.hk/images?hl=zh-CN&amp;newwindow=1&amp;safe=strict&amp;ie=GB2312&amp;tbs=isch%3A1&amp;sa=1&amp;q=youku&amp;aq=f&amp;aqi=&amp;aql=&amp;oq=">
+<title>‪youku - Google 搜索</title>
+<info>
+<metadata midori:history-step="2" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+<bookmark href="http://www.youku.com/">
+<title>‪优酷网-中国第一视频网站,提供视频播放,视频发布,视频搜索 - 优酷视频</title>
+<info>
+<metadata midori:history-step="2" owner="http://www.twotoasts.de"/>
+</info>
+</bookmark>
+</xbel>

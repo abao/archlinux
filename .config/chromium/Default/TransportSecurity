@@ -1,0 +1,38 @@
+{
+   "7pgIwoXUOO4yXAv8MK8IjZMBieCCFohVKq9JIuDrMuc=": {
+      "created": 1296716827.825936,
+      "expiry": 1328252827.825934,
+      "include_subdomains": false,
+      "mode": "strict"
+   },
+   "Bdxh+Bfct++E17qtbcM3jzTcMqgY2PdzmTY1K08VpdA=": {
+      "created": 1291440448.049024,
+      "expiry": 1327937935.757956,
+      "include_subdomains": false,
+      "mode": "strict"
+   },
+   "DgJLCgwvkhiG9w8Xys+hBplrzB5T7jbEpsNb+49ukHg=": {
+      "created": 1296401927.91491,
+      "expiry": 1328254105.869935,
+      "include_subdomains": false,
+      "mode": "strict"
+   },
+   "cTT+tHuV5TCCC5Q5L3v1K0HGXLoxf7b6rrcem+c6oGA=": {
+      "created": 1296716602.86922,
+      "expiry": 1328252628.903399,
+      "include_subdomains": false,
+      "mode": "strict"
+   },
+   "rbagXQ/1oc926Vf5hN/RzlY2avjJob78TzO/UioFqBM=": {
+      "created": 1296716639.363246,
+      "expiry": 1328252749.51167,
+      "include_subdomains": false,
+      "mode": "strict"
+   },
+   "scCuiMZghDlDUg8QCghBIDLjw1qVvNAVxJa9uUwQKGw=": {
+      "created": 1296286763.689018,
+      "expiry": 1328767518.752183,
+      "include_subdomains": false,
+      "mode": "strict"
+   }
+}

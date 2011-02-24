@@ -1,0 +1,12 @@
+
+[settings]
+default-encoding=UTF-8
+last-window-width=1362
+last-window-height=720
+last-panel-position=132
+download-manager=transmission-gtk %F
+text-editor=leafpad %f
+location-entry-search=http://search.yahoo.com/search?p=
+preferred-encoding=MIDORI_ENCODING_UNICODE
+enable-html5-database=true
+user-agent=Midori/0.2 (X11; Linux; U; zh-cn) WebKit/531.2+

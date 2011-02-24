@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "convert.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Remove unnecessary js code of Thunder links to enable it to be recognized by chrome. \u4FEE\u6539\u8FC5\u96F7\u4E0B\u8F7D\u94FE\u63A5\uFF0C\u4F7F\u4E4B\u80FD\u88ABchrome\u8BC6\u522B\u5E76\u542F\u52A8\u8FC5\u96F7\u3002",
+   "icons": {
+      "128": "thunderprotocol.png",
+      "16": "thunderprotocol.png",
+      "48": "thunderprotocol.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjL1/2AITgvyDFQJM4wIW4yc7AfYZlyHi+njUpQVu7Xu1JHD6vMEvAVBbjnR/aEd0WKqKuMLSAVl3zJpFrvWY6hO3BP0KDDqdAIl16it71UKgN4J/Tu90b6+Wb7oIkPdQb3BDxMbRGeSh6gsjXVXfYPMLuVOsZmnHOks12sjWceQIDAQAB",
+   "name": "ThunderProtocol",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

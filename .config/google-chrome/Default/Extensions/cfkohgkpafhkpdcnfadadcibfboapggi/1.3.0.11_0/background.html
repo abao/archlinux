@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="scripts/extend.js"></script>
+    <script type="text/javascript" src="scripts/timer.js"></script>
+    <script type="text/javascript" src="scripts/gmail.js"></script>
+    <script type="text/javascript" src="scripts/googlereader.js"></script>
+    <script type="text/javascript" src="scripts/googlevoice.js"></script>
+    <script type="text/javascript" src="scripts/googlewave.js"></script>
+    <script type="text/javascript" src="scripts/updater.js"></script>
+    <script type="text/javascript">
+      var debug = false;
+    
+      var errortypes = {
+        ok: 0,
+        timeout: 1,
+        responsenotfound: 2,
+        responsenotparsable: 3
+      };
+			
+      function log() {
+        if (debug) {
+          console.log.apply(console, arguments);
+        }
+      }
+      
+      this.gm = new Gmail();
+      this.gr = new GoogleReader();
+      this.gv = new GoogleVoice();
+      this.gw = new GoogleWave();
+      
+      this.updater = new Updater([ this.gm, this.gr, this.gv, this.gw ]);
+      this.updater.start();
+    </script>
+  </head>
+  <body></body>
+</html>

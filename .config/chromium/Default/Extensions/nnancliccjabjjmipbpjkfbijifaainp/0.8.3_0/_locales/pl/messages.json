@@ -1,0 +1,192 @@
+{
+   "accessibility": {
+      "message": "Dost\u0119pno\u015B\u0107"
+   },
+   "advancedOptions": {
+      "message": "Opcje zaawansowane"
+   },
+   "confirmDeleteFolderBookmarks": {
+      "message": "Czy jeste\u015B pewien, \u017Ce chcesz usun\u0105\u0107 folder $folderName$ i $bookmarkCount$ zak\u0142adek zawartych w tym folderze?",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$2"
+         },
+         "folderName": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfolders": {
+      "message": "Czy jeste\u015B pewien, \u017Ce chcesz usun\u0105\u0107 folder $folderName$ i $subFolderCount$ podfolder\u00F3w?",
+      "placeholders": {
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmDeleteFolderSubfoldersBookmarks": {
+      "message": "Czy jeste\u015B pewien, \u017Ce chcesz usun\u0105\u0107 folder $folderName$, $subFolderCount$ podfolder\u00F3w i $bookmarkCount$ zak\u0142adek w nich zawartych?",
+      "placeholders": {
+         "bookmarkCount": {
+            "content": "$3"
+         },
+         "folderName": {
+            "content": "$1"
+         },
+         "subFolderCount": {
+            "content": "$2"
+         }
+      }
+   },
+   "confirmOpenBookmarks": {
+      "description": "Komunikat potwierdzenia otwarcia wszystkich zak\u0142adek",
+      "message": "Czy jeste\u015B pewien, \u017Ce chcesz otworzy\u0107 wszystkie ($count$) zak\u0142adki?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewIncognitoWindow": {
+      "description": "Komunikat potwierdzenia otwarcia wszystkich zak\u0142adek w nowym oknie incognito",
+      "message": "Czy jeste\u015B pewien, \u017Ce chcesz otworzy\u0107 wszystkie ($count$) zak\u0142adki w nowym oknie incognito?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "confirmOpenBookmarksNewWindow": {
+      "description": "Komunikat potwierdzenia otwarcia wszystkich zak\u0142adek w nowym oknie",
+      "message": "Czy jeste\u015B pewien, \u017Ce chcesz otworzy\u0107 wszystkie ($count$) zak\u0142adki w nowym oknie?",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "delete": {
+      "message": "Usu\u0144"
+   },
+   "deleteEllipsis": {
+      "message": "Usu\u0144..."
+   },
+   "edit": {
+      "message": "Edytuj..."
+   },
+   "editBookmark": {
+      "message": "Edytuj zak\u0142adk\u0119"
+   },
+   "editFolder": {
+      "message": "Edytuj folder"
+   },
+   "errorOccured": {
+      "message": "Ups, wyst\u0105pi\u0142 b\u0142\u0105d."
+   },
+   "extDesc": {
+      "description": "Opis rozszerzenia",
+      "message": "Okienko z drzewkiem zgrabnych zak\u0142adek"
+   },
+   "extName": {
+      "description": "Nazwa rozszerzenia",
+      "message": "Zgrabne zak\u0142adki"
+   },
+   "general": {
+      "message": "Og\u00F3lne"
+   },
+   "ignore": {
+      "message": "Ignoruj"
+   },
+   "name": {
+      "description": "Nazwa zak\u0142adki lub folderu.",
+      "message": "Nazwa"
+   },
+   "noTitle": {
+      "description": "Tytu\u0142 dla zak\u0142adek bez tytu\u0142u bez adres\u00F3w URL lub folder\u00F3w bez tytu\u0142u",
+      "message": "(bez tytu\u0142u)"
+   },
+   "nope": {
+      "message": "Nie"
+   },
+   "open": {
+      "description": "Akcja otwierania zak\u0142adek",
+      "message": "Otw\u00F3rz"
+   },
+   "openBookmarks": {
+      "message": "Otw\u00F3rz wszystkie zak\u0142adki"
+   },
+   "openBookmarksIncognitoWindow": {
+      "message": "Otw\u00F3rz wszystkie zak\u0142adki w oknie incognito"
+   },
+   "openBookmarksNewWindow": {
+      "message": "Otw\u00F3rz wszystkie zak\u0142adki w nowym oknie"
+   },
+   "openIncognitoWindow": {
+      "message": "Otw\u00F3rz w oknie incognito"
+   },
+   "openNewTab": {
+      "message": "Otw\u00F3rz w nowej karcie"
+   },
+   "openNewWindow": {
+      "message": "Otw\u00F3rz w nowym oknie"
+   },
+   "optionClickNewTab": {
+      "message": "Klikni\u0119cie lewym przyciskiem myszy otwiera zak\u0142adk\u0119 w nowej karcie"
+   },
+   "optionCloseUnusedFolders": {
+      "message": "Zamknij nieu\u017Cywane foldery, podczas otwierania folderu"
+   },
+   "optionConfirmOpenFolder": {
+      "message": "Wy\u015Bwietl potwierdzenie podczas otwierania du\u017Cej ilo\u015Bci zak\u0142adek z folderu"
+   },
+   "optionOpenNewTab": {
+      "message": "Klikni\u0119cie \u015Brodkowym przyciskiem myszy lub wci\u015Bni\u0119cie CTRL na klawiaturze i klikni\u0119cie otwiera zak\u0142adk\u0119 na nowej karcie w tle (zamiast na pierwszym planie)"
+   },
+   "optionPopupStays": {
+      "message": "Okienko pozostaje otwarte podczas otwierania (lewy przycisk myszy) zak\u0142adek"
+   },
+   "optionRememberPrevState": {
+      "message": "Pami\u0119taj poprzedni stan (pozycja przewijania i otwarte foldery)"
+   },
+   "optionZoom": {
+      "message": "Przybli\u017Canie"
+   },
+   "options": {
+      "message": "Opcje"
+   },
+   "optionsFooterText": {
+      "description": "Tekst stopki dla strony z opcjami",
+      "message": "Stworzone przez $authorName$",
+      "placeholders": {
+         "authorName": {
+            "content": "$1"
+         }
+      }
+   },
+   "parentFolder": {
+      "description": "Informacje o folderze nadrz\u0119dnym wy\u015Bwietlane w dymku zak\u0142adek w wynikach wyszukiwania.",
+      "message": "Folder nadrz\u0119dny: \"$folderName$\"",
+      "placeholders": {
+         "folderName": {
+            "content": "$1",
+            "example": "Pasek zak\u0142adek"
+         }
+      }
+   },
+   "reportError": {
+      "message": "Zg\u0142o\u015B b\u0142\u0105d"
+   },
+   "save": {
+      "message": "Zapisz"
+   },
+   "searchBookmarks": {
+      "description": "Tekst zast\u0119pczy w polu wyszukiwania",
+      "message": "Przeszukaj zak\u0142adki"
+   },
+   "url": {
+      "message": "URL"
+   }
+}

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html i18n-values="style:textdirection;">
+  <!-- Some HTML/JS source and images borrowed from Chrome for UI consistancy.
+		-->
+  <head>
+    <title id="title" i18n-content="name">One Number</title>
+    <meta charset="utf-8" /> 
+    <link rel="icon" type="image/png" href="images/pages/favicon.png" />
+		<link rel="stylesheet" href="styles/common.css" type="text/css" />
+		<style type="text/css">
+			p {
+				margin: 0px;
+			}
+			.para {
+				margin-top: 1em;
+			}
+		</style>
+		<script type="text/javascript" src="scripts/pages.js"></script>
+		<script type="text/javascript">
+			function fixHeader() {
+			  var xhr = new XMLHttpRequest();  
+				xhr.onreadystatechange = function() {
+					if (xhr.readyState != 4) {
+						return;
+					}
+					if (!xhr.responseText) {
+						return;
+					}
+					
+					var manifest = JSON.parse(xhr.responseText);
+					if (!manifest) {
+						return;
+					}
+
+					var name = chrome.i18n.getMessage("name");
+					var version = manifest.version;
+					
+					var text = chrome.i18n.getMessage("changelog_title", [
+						name,
+						version
+					]);
+					
+					document.getElementById("title").textContent = text;
+					document.getElementById("headertitle").textContent = text;
+					document.getElementById("name").textContent = text;
+				}
+				xhr.open("GET", "/manifest.json", true);
+				xhr.send();
+			}
+		</script>
+	</head>
+  <body onload="i18nTemplate.process(document); fixHeader(); updateNav();">
+		<div id="nav">
+			<div id="nav_fade"></div>
+			<span id="nav_noopen" i18n-content="nav_noopen">No unread</span>
+			<a href="javascript:null;" id="nav_open" onclick="return unread();"
+				i18n-content="nav_open">Open unread</a>
+			|
+			<a href="options.html" i18n-content="nav_options">Options</a>
+			|
+			<span id="nav_selected" i18n-content="nav_changelog">Changelog</span>
+			|
+			<a href="legal.html" i18n-content="nav_legalinfo">Legal info</a>
+			<span id="nav_log">
+			|
+			<a href="https://www.google.com/accounts/Login" id="nav_login"
+				onclick="return login();" i18n-content="nav_login">Log in</a>
+			<span id="nav_logboth">|</span>
+			<a href="https://www.google.com/accounts/Logout" id="nav_logout"
+				onclick="return logout();" i18n-content="nav_logout">Log out</a>
+			</span>
+		</div>
+    <div id="header">
+      <h1 id="headertitle" i18n-content="name">One Number</h1>
+    </div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('authorinfo');">
+      <img src="images/pages/collapse.png" id="authorinfoutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="author_info">Extension and Author Info</span>
+    </a>
+		<div class="section" id="authorinfo">
+			<p id="name" i18n-content="name">One Number</p>
+			<p i18n-content="by">by Dan Bugglin</p>
+			<p><a href="http://www.mzzt.net/">http://www.mzzt.net/</a></p>
+			<p><a href="mailto:megazzt@gmail.com">megazzt@gmail.com</a></p>
+			<p class="para" i18n-content="description"></p>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_3R2');">
+      <img src="images/pages/collapse.png" id="v1_3R2button" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.3 R2</span>
+    </a>
+		<div class="section" id="v1_3R2">
+			<ul>
+				<li>Workaround for chrome.i18n.getMessage silent failure if you pass it
+					numbers for parameters instead of strings.</li>
+			</ul>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_3');">
+      <img src="images/pages/collapse.png" id="v1_3button" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.3</span>
+    </a>
+		<div class="section" id="v1_3">
+			<ul>
+				<li>I was spelling "Gmail" as "GMail".  Fixed all instances.</li>
+				<li>Gmail Compose tabs will no longer be wiped out when opening Gmail
+					when you have "strict" recycle tabs mode on.</li>
+				<li>Error/login colors will now be suppressed altogether from the
+					toolbar button if you choose to hide the error/login text from
+					it.</li>
+				<li>Services will now tell you when they are refreshing.</li>
+				<li>When an error occurs with a service, most of the time it can be
+					worked around by opening the service in the browser and refreshing.
+					Help text now directs you to do this.</li>
+				<li>Implemented
+					<a href="http://code.google.com/chrome/extensions/i18n.html">i18n
+					API</a>.  Anyone interested in translating One Number to another
+					language, <a
+					href="mailto:megazzt@gmail.com?subject=I%20would%20like%20to%20translate%20One%20Number.">shoot
+					me an e-mail</a>.</li>
+				<li>Fixed case where Log in | Log out separator might not show.</li>
+				<li>Options page now prompts you to save settings if you close it
+					without saving them.</li>
+				<li>Added Google-style nav bar to options page (and new pages) for
+					quick navigation.</li>
+				<li>Moved changelog from background.html source to its own page to make
+					it easier to view.</li>
+				<li>Moved legal info from background.html source to its own page to make
+					it easier to view.</li>
+			</ul>
+		</div>
+		<a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('knownbugs');">
+      <img src="images/pages/collapse.png" id="knownbugsbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="known_bugs">Known Bugs</span>
+    </a>
+		<div class="section" id="knownbugs">
+			<p>Most of the service error-related bugs seem to be caused by the
+				services or Chrome and I have been unable to work around them.  If you
+				know how to work around any of these please <a
+				href="mailto:megazzt@gmail.com">contact me</a>.</p>
+			<ul>
+				<li><a href="http://crbug.com/27487">GMail cannot detect when it is
+					logged out (it times out instead).</a></li>
+				<li>When logging into Google, you need to visit GMail, Google Voice,
+					and Google Wave before each of these services can be checked using
+					this extension.  If you keep logged on between browser sessions this
+					shouldn't be more than a minor annoyance.</li>
+				<li>Log off doesn't always work for Google Wave.  You may need to try
+					again or visit the Google Wave service and use that log off
+					link.</li>
+				<li>You may need to visit GMail once in the browsing session before the
+					Compose link will work (otherwise it may just open GMail).</li>
+				<li><a href="http://crbug.com/27487">Google Voice may show an error
+					condition if you haven't visited it during the current browsing
+					session.</a></li>
+				<li><a href="http://crbug.com/31434">Tab recycling is limited to the
+					current window.</a></li>
+				<li>There are reports of memory leaks, which I can reproduce, but cannot
+					find the cause, and the heap snapshot tool does not show any obvious
+					culprit.  I am not sure my scripts are the cause since even
+					opening/closing the popup appears to "leak" memory!  My guesses:
+					<ol>
+						<li>V8's garbage collection is exceptionally lazy or</li>
+						<li>Chrome/V8 is leaking memory.</li>
+					</ol>
+					Unless you have details that could help me resolve this please
+				don't contact me about it.</li>
+			</ul>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('futureplans');">
+      <img src="images/pages/collapse.png" id="futureplansbutton" alt="Collapse"
+        title="Collapse" i18n-values="alt:collapse; title:collapse;" />
+      <span i18n-content="future_plans">Future Plans</span>
+    </a>
+		<div class="section" id="futureplans">
+			<ul>
+				<li>Redo options page to allow for more modularity with services.
+					Adding/removing by dragging and dropping, reordering, and adding
+					multiple instances of one service.  This will pave the way for more
+					services, hopefully.</li>
+				<li>More options for customizing the appearance of the popup and toolbar
+					button.</li>
+				<li>Select specific folder/feed for Google Reader service to
+					monitor.</li>
+				<li>Audio notification for new unread items using HTML5.</li>
+				<li>Modify services to allow for explicitly defined username/password
+					to override browser's stored one (I'll need to see if the
+					XMLHttpRequest method for this is supported by the services).</li>
+				<li>Give each service its own refresh interval.</li>
+				<li>Add option to allow "Open unread", when recycling tabs, to switch
+					to an existing tab without refreshing it.</li>
+				<li>New logo to replace the existing icons of Google services used in
+					the page headers and extension icon and toolbar button.  I will
+					accept submissions and give proper credit if anyone has any good
+					ideas. :)</li>
+				<li>More services.  Possible candidates:
+					<ul>
+						<li>Google Calendar</li>
+						<li>Google Buzz</li>
+						<li>Twitter</li>
+						<li>Simple links to other services where "unread items" doesn't
+							apply such as Google Docs etc.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_2R3');">
+      <img src="images/pages/expand.png" id="v1_2R3button" alt="Expand"
+        title="Expand" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.2 R3</span>
+    </a>
+    <div class="section" id="v1_2R3" style="display: none;">
+			<ul>
+				<li>Fixed small bug in googlewave.js parser.</li>
+				<li>Work around <a href="http://crbug.com/31444">a bug in
+					chrome.tabs.onUpdated never sending the url of the tab to
+					callback</a>.</li>
+			</ul>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_2R2');">
+      <img src="images/pages/expand.png" id="v1_2R2button" alt="Expand"
+        title="Expand" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.2 R2</span>
+    </a>
+    <div class="section" id="v1_2R2" style="display: none;">
+			<ul>
+				<li>Moved the changelog and bugs into background.html, my description
+					was getting too long on chrome.google.com/extensions.</li>
+				<li>Turned off console logging.  Might help memory "leak"?</li>
+			</ul>
+		</div>
+    <a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_2');">
+      <img src="images/pages/expand.png" id="v1_2button" alt="Expand"
+        title="Expand" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.2</span>
+    </a>
+    <div class="section" id="v1_2" style="display: none;">
+			<ul>
+				<li>Rewote classes to better use .prototype.</li>
+				<li>Counts will no longer be updated each time you navigate in a
+					supported service, only when you navigate away or close the tab.</li>
+				<li>Updated permissions, Google Wave Apps Domain and "Check all items"
+					should really work now, if they didn't before.</li>
+				<li>Uses proper APIs for opening tabs now.  Extenions should work in
+					pages now and tabs will not be under the One Number process and will
+					be properly sandboxed against crashing from each other as designed by
+					the Chrome team.</li>
+				<li>Added compose link for GMail.</li>
+				<li>Now when you choose to show all unread messages, not just those in
+					the inbox, opening the service will also show all messages.</li>
+				<li>Option added to make clicking on the toolbar button open services
+					with unread items immediately, at the cost of not having a popup when
+					there are unread items.</li>
+				<li>You can open just the services shown, or also services you've
+					hidden from the toolbar button.</li>
+				<li>Option added to use HTTP instead of HTTPS.</li>
+				<li>Option added to open services in a new window.</li>
+				<li>Options added to reuse existing tabs when opening service, as well
+					as a level of agressiveness (by default it won't reuse a tab when it
+					doesn't know what you're doing with it, such as composing a new
+					e-mail).</li>
+				<li>Tweaked options page so clicking anywhere on a header
+					expands/collapses a section.</li>
+				<li>Fixed bug with garbage in color strings.</li>
+				<li>Options added to control whether or not error or logged out status
+					is reflected in the toolbar button.</li>
+				<li>If XMLHTTPRequest returns a HTTP status of 0 it is now treated as
+					an error.  Previously the unread count would simply not be
+					changed.</li>
+			</ul>
+		</div>
+		<a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_1');">
+      <img src="images/pages/expand.png" id="v1_1button" alt="Expand"
+        title="Expand" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.1</span>
+    </a>
+    <div class="section" id="v1_1" style="display: none;">
+			<ul>
+				<li>Hopefully fixed Google App Domain support for GMail, added for
+					GWave.  Still "Not tested" quality, please give feedback.</li>
+				<li>Already read messages will no longer be shown in Google Voice
+					preview.</li>
+				<li>GMail and Google Voice options to check for unread messages in all
+					folders/labels, not just the Inbox.</li>
+				<li>You can now hide individual services' unread counts from the main
+					toolbar button.</li>
+				<li>Fixed bug where services could stop updating.</li>
+			</ul>
+		</div>
+		<a class="section-header" href="javascript:null;"
+      onclick="expandCollapse('v1_0');">
+      <img src="images/pages/expand.png" id="v1_0button" alt="Expand"
+        title="Expand" i18n-values="alt:collapse; title:collapse;" />
+      <span>v1.0</span>
+    </a>
+    <div class="section" id="v1_0" style="display: none;">
+			<ul>
+				<li>Initial release.</li>
+			</ul>
+		</div>
+  </body>
+</html>

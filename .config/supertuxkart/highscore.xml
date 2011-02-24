@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<highscores version="1">
+  <highscore track-name    ="farm"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="4">
+             <entry time    ="212.917"
+                    name    ="Guest"
+                    kartname="adiumy"/>
+             <entry time    ="215.59"
+                    name    ="Guest"
+                    kartname="adiumy"/>
+             <entry time    ="217.813"
+                    name    ="Guest"
+                    kartname="adiumy"/>
+  </highscore>
+  <highscore track-name    ="farm"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="9">
+             <entry time    ="503.032"
+                    name    ="Guest"
+                    kartname="adiumy"/>
+  </highscore>
+  <highscore track-name    ="secretgarden"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="4">
+             <entry time    ="241.246"
+                    name    ="Guest"
+                    kartname="mozilla"/>
+  </highscore>
+  <highscore track-name    ="jungle"
+             number-karts  ="4"
+             difficulty    ="0"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="4">
+             <entry time    ="429.942"
+                    name    ="Guest"
+                    kartname="adiumy"/>
+  </highscore>
+</highscores>

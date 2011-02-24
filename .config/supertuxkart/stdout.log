@@ -1,0 +1,7 @@
+startMusic : m_normal_filename=</usr/share/supertuxkart//data//music/MayDayMayhem.ogg>, gain=0.7
+[Irrlicht Warning] Could not find win32 key for x11 key.: 65515
+startMusic : m_normal_filename=</usr/share/supertuxkart//data/tracks/jungle/amazon_jungle.ogg>, gain=0.7
+-- switching to screen race
+startMusic : m_normal_filename=</usr/share/supertuxkart//data//music/MayDayMayhem.ogg>, gain=0.7
+-- switching to screen racesetup.stkgui
+-- switching to screen main.stkgui

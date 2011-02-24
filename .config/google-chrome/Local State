@@ -1,0 +1,56 @@
+{
+   "HostReferralList": [ 2, [ "http://bbs.jumpcn.com/", [ "http://i.imgur.com/", 0.7649999999999998, "http://imgur.com/", 0.6374999999999998, "http://picbbs.xingrao.com/", 0.9349999999999997 ] ], [ "http://bbs.xizi.com/", [ "http://a.xizi.com/", 0.16999999999999998, "http://api.xizi.com/", 0.08499999999999999, "http://init.phpwind.net/", 0.08499999999999999, "http://tj.phpwind.net/", 0.08499999999999999, "http://uc.xizi.com/", 0.33999999999999997, "http://v4.cnzz.com/", 0.16999999999999998, "http://www.xizi.com/", 0.08499999999999999, "http://www.yesdianying.com/", 0.255, "http://zs15.cnzz.com/", 0.08499999999999999, "http://zvs1.cnzz.com/", 0.08499999999999999 ] ], [ "http://city.xizi.com/", [ "http://a.xizi.com/", 0.11304999999999998, "http://bbs.hz0752.com/", 0.11304999999999998, "http://bbs.xizi.com/", 0.6221999999999999, "http://image.xizi.com/", 0.2261, "http://s59.cnzz.com/", 0.11304999999999998, "http://www.xizi.com/", 0.45304999999999995, "http://zs6.cnzz.com/", 0.11304999999999998 ] ], [ "http://douban.fm/", [ "http://img3.douban.com/", 0.6374999999999998, "http://www.google-analytics.com/", 0.08499999999999999 ] ], [ "http://img.ifeng.com/", [ "http://view.mediav.com/", 0.16999999999999998 ] ], [ "http://www.amazon.cn/", [ "http://ec4.images-amazon.com/", 1.4024999999999996, "http://g-ec4.images-amazon.com/", 1.5724999999999996 ] ], [ "http://www.hao123.com/", [ "http://a.baidu.com/", 0.33999999999999997, "http://app.hao123.com/", 0.16999999999999998, "http://drmcmm.baidu.com/", 0.16999999999999998, "http://nsclick.baidu.com/", 0.16999999999999998 ] ], [ "http://www.ifeng.com/", [ "http://img.ifeng.com/", 14.959999999999996, "http://loc.news.ifeng.com/", 0.16999999999999998, "http://news.ifeng.com/", 0.16999999999999998, "http://res.news.ifeng.com/", 0.8499999999999999, "http://res.phtv.ifeng.com/", 0.16999999999999998, "http://res.v.ifeng.com/", 0.51, "http://show.mediav.com/", 0.16999999999999998, "http://stadig.ifeng.com/", 0.33999999999999997, "http://static.mediav.com/", 0.16999999999999998, "http://t2.wrating.com/", 0.16999999999999998 ] ], [ "http://www.verycd.com/", [ "http://image-1.verycd.com/", 0.255, "http://image-2.verycd.com/", 0.08499999999999999, "http://image-3.verycd.com/", 0.08499999999999999, "http://image-7.verycd.com/", 17.59500000000009, "http://sp.vcimg.com/", 0.255, "http://stat.verycd.com/", 0.16999999999999998, "http://statics.verycd.com/", 9.35000000000001, "http://ucimg.vcimg.com/", 2.6349999999999993, "http://www.google-analytics.com/", 0.9349999999999997, "http://zs4.cnzz.com/", 0.255 ] ], [ "http://www.xizi.com/", [ "http://a.xizi.com/", 0.8499999999999998, "http://auto.xizi.com/", 0.08499999999999999, "http://bbs.xizi.com/", 0.8499999999999998, "http://food.hz0752.com/", 0.08499999999999999, "http://food.xizi.com/", 0.08499999999999999, "http://house.xizi.com/", 0.08499999999999999, "http://plus.xizi.com/", 0.33999999999999997, "http://s29.cnzz.com/", 0.11304999999999998, "http://so.xizi.com/", 0.11304999999999998, "http://zs1.cnzz.com/", 0.11304999999999998 ] ] ],
+   "StartupDNSPrefetchList": [ 1, "http://a.baidu.com/", "http://app.hao123.com/", "http://crl.geotrust.com/", "http://drmcmm.baidu.com/", "http://ocsp.thawte.com/", "http://www.gstatic.com/", "http://www.hao123.com/", "https://mail.google.com/", "https://wave.google.com/", "https://www.google.com/" ],
+   "browser": {
+      "last_redirect_origin": "",
+      "window_placement": {
+         "bottom": 768,
+         "left": 683,
+         "maximized": false,
+         "right": 1366,
+         "top": 12,
+         "work_area_bottom": 768,
+         "work_area_left": 0,
+         "work_area_right": 1366,
+         "work_area_top": 0
+      }
+   },
+   "options_window": {
+      "last_tab_index": 2
+   },
+   "safe_browsing": {
+      "client_key": "dogLV6YzrR1pz2CuNMub6w==",
+      "wrapped_key": "AKEgNivAiiyTB0leY-Z1ZrHF0qOrg3_ROGTrZC0K-KvvO4FbmvG4KaXSoJG2xVuGXDyPA5wxYTC15vOu1bpkNg9Ly1TKXfgp_g=="
+   },
+   "show-minimal-first-run-bubble": true,
+   "shutdown": {
+      "num_processes": 5,
+      "num_processes_slow": 0,
+      "type": 1
+   },
+   "uninstall_metrics": {
+      "installation_date2": "1291133547",
+      "launch_count": "5"
+   },
+   "user_experience_metrics": {
+      "session_id": 4,
+      "stability": {
+         "breakpad_registration_fail": 1,
+         "breakpad_registration_ok": 0,
+         "crash_count": 0,
+         "debugger_not_present": 1,
+         "debugger_present": 0,
+         "exited_cleanly": true,
+         "incomplete_session_end_count": 0,
+         "last_timestamp_sec": "1291431392",
+         "launch_count": 1,
+         "launch_time_sec": "1291429564",
+         "page_load_count": 0,
+         "renderer_crash_count": 0,
+         "renderer_hang_count": 0,
+         "session_end_completed": true,
+         "stats_buildtime": "1291073356",
+         "stats_version": "9.0.597.0"
+      }
+   }
+}
